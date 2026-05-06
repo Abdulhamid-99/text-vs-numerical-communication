@@ -22,21 +22,21 @@ tasks:
     num_episodes: 30
     max_communication_rounds: 8
 
-# Communication channels
+# Communication channels.
+# Vector channel uses the per-model `vector_channel` config (projected dim, bits,
+# projection seed). Primary setting is d=128, b=4, seed=42 -> 544 bits/message.
 channels:
   - type: text
   - type: vector
-    pooling: mean
-    bits_per_component: 8
 
-# Budget levels.
-# baseline_bits is determined empirically per task by running the High condition first
-# with no cap, then setting Low = 0.25 × observed_mean.
+# Budget levels (anchored to absolute bits per the bit_budget_research_memo).
+# High ~ saturation point of the text channel observed in the 10-episode pilot
+# smoke (~8 messages, ~3.7K bits). Low gives ~2-3 messages on either channel.
 budgets:
   - name: high
-    fraction_of_baseline: 1.0
+    bits_per_episode: 8000
   - name: low
-    fraction_of_baseline: 0.25
+    bits_per_episode: 2000
 
 # Network conditions
 networks:

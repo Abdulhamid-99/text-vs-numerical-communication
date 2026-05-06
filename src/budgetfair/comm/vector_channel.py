@@ -1,33 +1,43 @@
 """Vector channel: a fixed-dimension hidden state extracted from a chosen transformer layer,
-symmetrically quantized to b bits per component, transmitted to a receiver that injects it
-via activation addition / KV-cache splice / adapter (receiver-side injection is left to
-the model integration layer; this module owns just the wire format).
+optionally projected to a lower dimension via a fixed random Gaussian projection,
+symmetrically quantized to b bits per component, and transmitted. Receiver-side
+injection (how the receiver model consumes the dequantized vector) is left to the
+model integration layer; this module owns just the wire format.
 
 Cost formula (from thesis), per message:
-    C_vector_payload = d * b
+    C_vector_payload = d_t * b
     C_vector_metadata = 32 bits (fp32 scale; required to dequantize)
     C_vector = C_vector_payload + C_vector_metadata
-              = d * b + 32
+              = d_t * b + 32
 
-For d = 4096 (Llama-3.1-8B and Qwen2.5-7B both have hidden_size = 4096), b = 8:
-    C_vector = 4096 * 8 + 32 = 32,800 bits/message
+where d_t is the *transmitted* dimension (after projection if any).
+
+Examples (Llama-3.1-8B and Qwen2.5-7B both have hidden_size = 4096):
+    No projection, b=8:    4096 * 8 + 32 = 32,800 bits/message  (alternative ablation)
+    Project 128, b=4:       128 *  4 + 32 =     544 bits/message  (PRIMARY config)
+    Project 256, b=4:       256 *  4 + 32 =   1,056 bits/message  (mid ablation)
+    Project 512, b=4:       512 *  4 + 32 =   2,080 bits/message  (rich ablation)
 
 Quantization is symmetric per-tensor linear:
     scale = max(|v_min|, |v_max|) / (2^(b-1) - 1)   # so values in [-127..127] for b=8
     q     = clip(round(v / scale), -2^(b-1) + 1, 2^(b-1) - 1).astype(int_b)
 
-Design references: KVComm [ref:3] (selective KV sharing, Llama-3.1) and
-Cache-to-Cache [ref:17] (direct semantic communication, Qwen2.5). Both transmit
-quantized internal representations between LLMs without retraining.
+Design references: C2C [ref:17] uses a learnable projection at 128 per head;
+MLT [ref:9] projects 4096 -> 512; Q-KVComm uses adaptive 4-8 bit quantization.
+The d=128 / b=4 primary setting is closest to C2C's effective per-head dim.
+See ../../../06_Notes_Prompts_GapAnalysis/bit_budget_research_memo_2026-05-06.md
+for the literature review and design rationale.
 """
 from __future__ import annotations
 
 import struct
 import time
+from typing import Optional
 
 import numpy as np
 
 from .base import Channel, TransmittedMessage
+from .projection import GaussianProjection
 
 
 class VectorChannel(Channel):
@@ -38,15 +48,29 @@ class VectorChannel(Channel):
         dim: int,
         bits_per_component: int = 8,
         layer_index: int = 18,
+        projection: Optional[GaussianProjection] = None,
     ) -> None:
+        """`dim` is the *transmitted* dimension — the quantization happens at this
+        size. If `projection` is provided, the encoder projects the input
+        (shape (projection.source_dim,)) down to `dim` first; the decoder
+        returns the projected (low-dim) vector.
+
+        If `projection` is None, the encoder expects input already at shape (dim,).
+        """
         if bits_per_component not in (8, 4):
             raise ValueError(
                 f"bits_per_component must be 8 or 4, got {bits_per_component}. "
                 "Other widths require non-trivial bit-packing not yet implemented."
             )
+        if projection is not None and projection.target_dim != dim:
+            raise ValueError(
+                f"projection.target_dim ({projection.target_dim}) must equal "
+                f"channel dim ({dim})"
+            )
         self.dim = dim
         self.bits_per_component = bits_per_component
         self.layer_index = layer_index
+        self.projection = projection
 
     @property
     def _qmax(self) -> int:
@@ -65,12 +89,17 @@ class VectorChannel(Channel):
     ) -> TransmittedMessage:
         """Quantize a hidden-state vector to int8/int4 + scale, package as bytes.
 
-        `content` must be shape (self.dim,) and a real-valued numpy array.
-        Returns a TransmittedMessage whose `payload` is bytes of the form:
-            int8 quantized array (self.dim bytes) || float32 scale (4 bytes)
-        and whose `bit_cost` equals `bit_cost_for_message()`.
+        Input shape:
+          - If `projection` is set: (projection.source_dim,)  -- typically (4096,)
+          - If `projection` is None: (self.dim,)              -- transmitted directly
+
+        Output payload:
+            quantized int8/int4 (size depends on bits) || fp32 scale (4 bytes)
+        bit_cost equals `bit_cost_for_message()` regardless of source dim.
         """
         v = np.asarray(content, dtype=np.float32)
+        if self.projection is not None:
+            v = self.projection.project(v)  # shape (target_dim,) == (self.dim,)
         if v.shape != (self.dim,):
             raise ValueError(f"expected shape ({self.dim},), got {v.shape}")
 
@@ -106,6 +135,12 @@ class VectorChannel(Channel):
                 "dim": self.dim,
                 "bits_per_component": self.bits_per_component,
                 "layer_index": self.layer_index,
+                "projection_source_dim": (
+                    self.projection.source_dim if self.projection is not None else None
+                ),
+                "projection_seed": (
+                    self.projection.seed if self.projection is not None else None
+                ),
             },
         )
 

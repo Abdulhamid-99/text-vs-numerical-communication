@@ -14,9 +14,16 @@ tokenizer:
 # Hidden-state extraction for the vector channel.
 # Will be tuned by notebooks/01_layer_selection_pilot.ipynb. KVComm reports
 # layer 18 as a strong default for Llama-3.1-8B; we will validate.
+#
+# Primary config (per bit_budget_research_memo_2026-05-06):
+#   project hidden_dim=4096 -> projected_dim=128 via random Gaussian (seed=42),
+#   then quantize to 4 bits/component. Per-message cost: 128*4 + 32 = 544 bits.
 vector_channel:
   layer_index: 18
-  bits_per_component: 8  # 8 default; 4-bit ablation planned
+  hidden_dim: 4096
+  projected_dim: 128
+  bits_per_component: 4
+  projection_seed: 42
   pooling: mean          # mean | last_token | cls
 
 generation:

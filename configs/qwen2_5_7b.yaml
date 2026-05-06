@@ -13,9 +13,16 @@ tokenizer:
 
 # Cache-to-Cache used Qwen2.5; their layer choices are a strong starting point.
 # Will be re-validated by notebooks/01_layer_selection_pilot.ipynb.
+#
+# Primary config (per bit_budget_research_memo_2026-05-06):
+#   project 4096 -> 128 via random Gaussian (seed=42), 4-bit quantization.
+#   Per-message cost: 544 bits.
 vector_channel:
   layer_index: 16
-  bits_per_component: 8
+  hidden_dim: 4096
+  projected_dim: 128
+  bits_per_component: 4
+  projection_seed: 42
   pooling: mean
 
 generation:

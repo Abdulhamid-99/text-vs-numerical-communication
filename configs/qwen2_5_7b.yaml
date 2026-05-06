@@ -11,14 +11,16 @@ tokenizer:
   name: Qwen/Qwen2.5-7B-Instruct
   revision: a09a35458c702b33eeacc393d103063234e8bc28
 
-# Cache-to-Cache used Qwen2.5; their layer choices are a strong starting point.
-# Will be re-validated by notebooks/01_layer_selection_pilot.ipynb.
+# Vector channel config.
 #
-# Primary config (per bit_budget_research_memo_2026-05-06):
-#   project 4096 -> 128 via random Gaussian (seed=42), 4-bit quantization.
-#   Per-message cost: 544 bits.
+# layer_index = 0 (input embedding mean): same rationale as Llama config —
+# receiver-side inputs_embeds injection lives at layer 0, so same-space
+# extraction at sender side avoids any untrained cross-layer projection.
+# (STS-B pilot for Qwen pending; result will be added to layer_selection_qwen.csv.)
+#
+# Projection: 4096 -> 128, random Gaussian seed=42, 4-bit. Cost: 544 bits/msg.
 vector_channel:
-  layer_index: 16
+  layer_index: 0
   hidden_dim: 4096
   projected_dim: 128
   bits_per_component: 4

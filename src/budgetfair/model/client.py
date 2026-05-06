@@ -144,6 +144,93 @@ class LLMClient:
         return self.tokenizer.decode(new_tokens, skip_special_tokens=True)
 
     @torch.inference_mode()
+    def embed_text(self, text: str, pooling: str = "mean") -> torch.Tensor:
+        """Mean-pool the input embeddings (layer-0 hidden state) of `text`.
+
+        This is the *sender's* extraction step in the vector channel: the agent's
+        message text -> mean of its token embeddings -> a single (hidden_dim,)
+        vector that gets projected and transmitted.
+
+        Why layer 0: the receiver injects a virtual token via `inputs_embeds`,
+        which lives in input-embedding space. Extracting at layer 0 keeps the
+        sender's vector in the same space the receiver injects into, avoiding
+        a layer-mismatch when no learned cross-layer projection is available.
+        """
+        embed_layer = self.model.get_input_embeddings()
+        ids = self.tokenizer(
+            text, return_tensors="pt", truncation=True, max_length=self.max_context_len
+        ).to(self.model.device)
+        token_embeds = embed_layer(ids.input_ids)  # (1, T, hidden_dim)
+        mask = ids.attention_mask.unsqueeze(-1).to(token_embeds.dtype)
+
+        if pooling == "mean":
+            pooled = (token_embeds * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1)
+        elif pooling == "last_token":
+            lengths = ids.attention_mask.sum(dim=1) - 1
+            pooled = token_embeds[torch.arange(token_embeds.size(0)), lengths]
+        elif pooling == "cls":
+            pooled = token_embeds[:, 0]
+        else:
+            raise ValueError(f"Unknown pooling: {pooling!r}")
+        return pooled.squeeze(0).float()  # (hidden_dim,)
+
+    @torch.inference_mode()
+    def generate_with_prefix_embeds(
+        self,
+        messages: list[dict[str, str]],
+        prefix_embeds: torch.Tensor,
+    ) -> str:
+        """Chat-format generate, but prepend `prefix_embeds` as virtual tokens.
+
+        `prefix_embeds` shape: (n_prefix_tokens, hidden_dim) — N >= 1 virtual
+        token embeddings (e.g., from receiver-side projection lifts of incoming
+        vector messages). These are concatenated *before* the prompt's embedded
+        token sequence and the model generates from the combined input via
+        `inputs_embeds=...`.
+
+        Returns the assistant's newly-generated string only (prompt + prefix
+        tokens stripped from the output).
+        """
+        prompt = self.tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True
+        )
+        ids = self.tokenizer(
+            prompt,
+            return_tensors="pt",
+            truncation=True,
+            max_length=self.max_context_len,
+        ).to(self.model.device)
+        prompt_embeds = self.model.get_input_embeddings()(ids.input_ids)  # (1, T, d)
+
+        if prefix_embeds.dim() == 1:
+            prefix_embeds = prefix_embeds.unsqueeze(0)  # (1, d)
+        prefix_embeds = prefix_embeds.unsqueeze(0).to(prompt_embeds.dtype).to(prompt_embeds.device)
+        # (1, n_prefix, d) || (1, T, d) -> (1, n_prefix + T, d)
+        full_embeds = torch.cat([prefix_embeds, prompt_embeds], dim=1)
+        # Build attention mask: ones for prefix and prompt
+        n_prefix = prefix_embeds.shape[1]
+        attn_mask = torch.cat(
+            [
+                torch.ones(1, n_prefix, dtype=ids.attention_mask.dtype, device=self.model.device),
+                ids.attention_mask,
+            ],
+            dim=1,
+        )
+
+        out = self.model.generate(
+            inputs_embeds=full_embeds,
+            attention_mask=attn_mask,
+            max_new_tokens=self.generation.max_new_tokens,
+            temperature=self.generation.temperature if self.generation.do_sample else 1.0,
+            top_p=self.generation.top_p,
+            do_sample=self.generation.do_sample,
+            pad_token_id=self.tokenizer.pad_token_id,
+        )
+        # When using inputs_embeds, generate() returns ONLY the newly-generated tokens
+        # (it does not echo the prompt). So we decode the whole output.
+        return self.tokenizer.decode(out[0], skip_special_tokens=True)
+
+    @torch.inference_mode()
     def hidden_state(self, text: str, layer_index: int, pooling: str = "mean") -> torch.Tensor:
         """Run a single forward pass and return one pooled vector at a given layer.
 

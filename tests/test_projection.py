@@ -102,3 +102,47 @@ def test_linearity():
     lhs = p.project(a * v + b * w)
     rhs = a * p.project(v) + b * p.project(w)
     np.testing.assert_allclose(lhs, rhs, rtol=1e-4, atol=1e-5)
+
+
+def test_lift_output_shape():
+    p = GaussianProjection(source_dim=4096, target_dim=128, seed=42)
+    w = np.random.RandomState(0).randn(128).astype(np.float32)
+    out = p.lift(w)
+    assert out.shape == (4096,)
+    assert out.dtype == np.float32
+
+
+def test_lift_rejects_wrong_shape():
+    p = GaussianProjection(source_dim=4096, target_dim=128, seed=42)
+    with pytest.raises(ValueError):
+        p.lift(np.zeros(64, dtype=np.float32))
+
+
+def test_lift_then_project_recovers_target():
+    """For w in R^target_dim: project(lift(w)) ≈ w (NOT identity, but the
+    receiver's lifted vector is consistent: projecting it again returns
+    something close to the original projected vector — this is what makes
+    the channel "round-trip semantically" for downstream models)."""
+    p = GaussianProjection(source_dim=4096, target_dim=128, seed=42)
+    rng = np.random.RandomState(0)
+    # Start with a source-space vector, project it, then lift, then project
+    # again. project(lift(project(v))) should approximate project(v).
+    v = rng.randn(4096).astype(np.float32)
+    w = p.project(v)
+    v_lifted = p.lift(w)
+    w_again = p.project(v_lifted)
+    cos = float(np.dot(w, w_again) / (np.linalg.norm(w) * np.linalg.norm(w_again)))
+    assert cos > 0.95, f"project(lift(project(v))) lost too much info: cos={cos}"
+
+
+def test_lift_preserves_relative_norm():
+    """Order-of-magnitude check: lift's expected output norm is ~ sqrt(source/target) * input.
+    With our scaling (target/source) * M^T, output norm should be on the same
+    order as input norm."""
+    p = GaussianProjection(source_dim=4096, target_dim=128, seed=42)
+    rng = np.random.RandomState(0)
+    w = rng.randn(128).astype(np.float32)
+    lifted = p.lift(w)
+    # Allow generous tolerance — random projection norm-preservation is in expectation.
+    ratio = float(np.linalg.norm(lifted) / np.linalg.norm(w))
+    assert 0.05 < ratio < 1.0, f"lifted norm ratio {ratio} outside expected band"

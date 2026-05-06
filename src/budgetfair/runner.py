@@ -15,8 +15,11 @@ import yaml
 
 from .agents.base import AgentObservation
 from .agents.knowledge_holder import KnowledgeHolderAgent
+from .agents.vector_knowledge_holder import VectorKnowledgeHolderAgent
 from .budget.controller import BudgetController, OverbudgetPolicy
+from .comm.projection import GaussianProjection
 from .comm.text_channel import TextChannel
+from .comm.vector_channel import VectorChannel
 from .logging_utils.logger import EpisodeLogger
 from .model.client import LLMClient
 from .network.simulator import NetworkProfile, NetworkSimulator
@@ -67,9 +70,36 @@ def run(config: Path, project_root: Path) -> None:
     click.echo(f"      {len(episodes)} episodes ready.")
 
     channel_cfg = cfg["channel"]
-    if channel_cfg["type"] != "text":
-        raise NotImplementedError("Pilot supports text channel only.")
-    channel = TextChannel()
+    channel_type = channel_cfg["type"]
+    if channel_type == "text":
+        channel = TextChannel()
+        projection = None
+    elif channel_type == "vector":
+        # Pull projection / quantization params from the model config's
+        # vector_channel block (filled by configs/<model>.yaml).
+        model_cfg = yaml.safe_load(model_cfg_path.read_text(encoding="utf-8"))
+        vc_cfg = model_cfg.get("vector_channel", {})
+        hidden_dim = int(vc_cfg.get("hidden_dim", 4096))
+        projected_dim = int(vc_cfg.get("projected_dim", 128))
+        bits_per_component = int(vc_cfg.get("bits_per_component", 4))
+        projection_seed = int(vc_cfg.get("projection_seed", 42))
+        projection = GaussianProjection(
+            source_dim=hidden_dim,
+            target_dim=projected_dim,
+            seed=projection_seed,
+        )
+        channel = VectorChannel(
+            dim=projected_dim,
+            bits_per_component=bits_per_component,
+            layer_index=int(vc_cfg.get("layer_index", 0)),
+            projection=projection,
+        )
+        click.echo(
+            f"      vector channel: {hidden_dim}->{projected_dim}, "
+            f"{bits_per_component}-bit, {channel.bit_cost_for_message()} bits/msg"
+        )
+    else:
+        raise NotImplementedError(f"Channel type {channel_type!r} not supported.")
     budget = BudgetController(
         cap_bits=channel_cfg.get("budget_bits"),
         policy=OverbudgetPolicy.BLOCK,
@@ -91,8 +121,14 @@ def run(config: Path, project_root: Path) -> None:
     logger = EpisodeLogger(output_dir.parent, output_dir.name)
     click.echo(f"[3/4] Logging to {logger.output_dir}")
 
-    agent_a = KnowledgeHolderAgent("agent_a", "agent_b", client)
-    agent_b = KnowledgeHolderAgent("agent_b", "agent_a", client)
+    if channel_type == "text":
+        agent_a = KnowledgeHolderAgent("agent_a", "agent_b", client)
+        agent_b = KnowledgeHolderAgent("agent_b", "agent_a", client)
+    else:  # vector
+        assert projection is not None
+        agent_a = VectorKnowledgeHolderAgent("agent_a", "agent_b", client, projection)
+        agent_b = VectorKnowledgeHolderAgent("agent_b", "agent_a", client, projection)
+    agents_by_id = {agent_a.agent_id: agent_a, agent_b.agent_id: agent_b}
 
     # === Run metadata =====================================================
     run_metadata = {
@@ -144,11 +180,19 @@ def run(config: Path, project_root: Path) -> None:
                     },
                 )
                 action = agent.act(obs)
-                msg = channel.encode(
-                    action.message or "",
-                    sender_id=agent.agent_id,
-                    receiver_id=_other(agent.agent_id),
-                )
+                # Encode the appropriate payload per channel type.
+                if channel_type == "text":
+                    msg = channel.encode(
+                        action.message or "",
+                        sender_id=agent.agent_id,
+                        receiver_id=_other(agent.agent_id),
+                    )
+                else:  # vector
+                    msg = channel.encode(
+                        action.vector,
+                        sender_id=agent.agent_id,
+                        receiver_id=_other(agent.agent_id),
+                    )
                 allowed = budget.attempt_spend(msg.bit_cost)
                 delivered = network.transmit(msg) if allowed else None
 
@@ -161,7 +205,7 @@ def run(config: Path, project_root: Path) -> None:
                     bit_cost=msg.bit_cost,
                     allowed=allowed,
                     dropped=(delivered is None),
-                    payload_text=action.message,
+                    payload_text=action.message,  # logged for both channels (debugging)
                     is_final=is_final,
                 )
 
@@ -173,9 +217,14 @@ def run(config: Path, project_root: Path) -> None:
                     continue
 
                 n_messages += 1
-                transcript.append(
-                    {"sender": agent.agent_id, "text": channel.decode(delivered)}
-                )
+                if channel_type == "text":
+                    transcript.append(
+                        {"sender": agent.agent_id, "text": channel.decode(delivered)}
+                    )
+                else:  # vector
+                    decoded_vec = channel.decode(delivered)  # (target_dim,)
+                    receiver_agent = agents_by_id[_other(agent.agent_id)]
+                    receiver_agent.process_received_vector(decoded_vec)
                 if is_final and action.task_action is not None:
                     # Tie-break: take the longer final answer. Rationale: in pilot
                     # smoke testing both agents emit a final answer; the longer one

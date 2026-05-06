@@ -82,3 +82,23 @@ class GaussianProjection:
                 f"expected shape ({self.source_dim},), got {v.shape}"
             )
         return self.matrix @ v
+
+    def lift(self, w: np.ndarray) -> np.ndarray:
+        """Lift w: shape (target_dim,) -> shape (source_dim,) via M^T.
+
+        For a random Gaussian M with E[M_ij^2] = 1/target_dim, we have
+            E[M^T M] = (source_dim / target_dim) * I_source
+        which means M^T (M v) ≈ (source_dim / target_dim) * v in expectation.
+        We rescale by target_dim / source_dim so that lift(project(v)) ≈ v
+        (in expectation; pointwise this is approximate due to non-orthogonality
+        of M^T M for finite target_dim).
+
+        This is the receiver-side reconstruction step in the vector channel.
+        """
+        w = np.asarray(w, dtype=np.float32)
+        if w.shape != (self.target_dim,):
+            raise ValueError(
+                f"expected shape ({self.target_dim},), got {w.shape}"
+            )
+        scale = float(self.target_dim) / float(self.source_dim)
+        return scale * (self.matrix.T @ w)

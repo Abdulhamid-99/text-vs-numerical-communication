@@ -64,7 +64,17 @@ class KnowledgeHolderAgent(Agent):
             messages.append(
                 {
                     "role": "user",
-                    "content": "Final round. Output ONLY your best final answer to the question. No explanation, no preamble — just the answer.",
+                    "content": (
+                        "Final round. Output the SHORTEST EXACT phrase that answers the question — "
+                        "typically 1 to 5 words.\n"
+                        "Rules:\n"
+                        "- No explanation, no preamble, no period at the end.\n"
+                        "- Match the granularity the question expects (a person's name, an entity, "
+                        "a year, a country — not a sentence).\n"
+                        "- If only ONE entity answers the question, output ONLY that entity. "
+                        "Do not list alternatives or add hedging.\n"
+                        "- If the answer appears verbatim in the discussion or a passage, quote it exactly."
+                    ),
                 }
             )
 

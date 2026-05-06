@@ -16,11 +16,16 @@ RUN ln -sf /usr/bin/python3.11 /usr/bin/python && \
 
 WORKDIR /app
 
-COPY pyproject.toml /app/
+# Editable install needs src/ + README.md present at install time.
+# Copy these first so the pip-install layer is cacheable when only deps change.
+COPY pyproject.toml README.md /app/
+COPY src/ /app/src/
+
 RUN python -m pip install --upgrade pip && \
     python -m pip install --no-cache-dir -e ".[dev]"
 
-COPY src/ /app/src/
+# Configs/scripts/tests change more often. They are also volume-mounted in
+# docker-compose.yml for dev iteration, so this COPY is mainly for `docker run`.
 COPY configs/ /app/configs/
 COPY scripts/ /app/scripts/
 COPY tests/ /app/tests/

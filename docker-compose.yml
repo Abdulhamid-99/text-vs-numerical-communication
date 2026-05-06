@@ -18,8 +18,13 @@ services:
       - ./data:/app/data
       - ./logs:/app/logs
       - ./notebooks:/app/notebooks
-      # HuggingFace cache outside the image so downloads survive rebuilds
-      - hf_cache:/root/.cache/huggingface
+      # Bind-mount the host HuggingFace cache so:
+      #  (a) the auth token written by `huggingface-cli login` on the host
+      #      is visible inside the container,
+      #  (b) downloads survive `docker compose down`, and
+      #  (c) you can manage the cache (du, prune) from the host.
+      # The ${USERPROFILE} substitution works on Windows under Docker Desktop.
+      - ${USERPROFILE:-${HOME}}/.cache/huggingface:/root/.cache/huggingface
     environment:
       - HF_HOME=/root/.cache/huggingface
       - PYTHONPATH=/app/src
@@ -27,6 +32,3 @@ services:
     working_dir: /app
     stdin_open: true
     tty: true
-
-volumes:
-  hf_cache:

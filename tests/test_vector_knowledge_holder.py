@@ -74,7 +74,8 @@ def test_act_no_received_vectors_uses_plain_generate():
     assert len(client.generate_with_prefix_calls) == 0
     assert action.message == "some answer"
     assert action.vector is not None
-    assert action.vector.shape == (128,)
+    # Agent returns raw hidden-dim embed; channel applies projection.
+    assert action.vector.shape == (HIDDEN_DIM,)
     assert action.vector.dtype == np.float32
     assert action.is_final is False
 

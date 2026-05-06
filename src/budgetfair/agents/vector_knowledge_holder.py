@@ -133,16 +133,15 @@ class VectorKnowledgeHolderAgent(Agent):
         # Clear the queue — vectors are consumed exactly once.
         self._pending_lifted_vectors = []
 
-        # Extract sender-side projection of the response for transmission.
-        # We embed the RESPONSE text (what we just produced); that's what the
-        # partner receives an encoding of.
+        # Extract the mean input-embedding of the response. Return it RAW
+        # (source_dim, no projection here). The VectorChannel will apply the
+        # same projection at encode() time — keeping projection in one place.
         embed_t = self.client.embed_text(response)  # torch tensor (hidden_dim,)
         embed_np = embed_t.detach().cpu().numpy().astype(np.float32)
-        projected_np = self.projection.project(embed_np)  # (target_dim,)
 
         return AgentAction(
             message=response,
-            vector=projected_np,
+            vector=embed_np,            # shape (hidden_dim,)
             task_action=response if is_final else None,
             is_final=is_final,
         )

@@ -1,0 +1,38 @@
+# 2-episode smoke test of the VECTOR channel pipeline.
+# Same shape as experiment_pilot_smoke.yaml but channel.type=vector.
+#
+# Validates: VectorChannel + GaussianProjection + LLMClient.embed_text +
+# LLMClient.generate_with_prefix_embeds + VectorKnowledgeHolderAgent + runner
+# dispatch — all wired correctly with real model weights.
+
+experiment:
+  name: smoke_vector
+  description: "2-episode end-to-end smoke test of the vector channel"
+  seed: 42
+
+model_config: configs/llama_3_1_8b.yaml
+
+agents:
+  count: 2
+  roles: [vector_knowledge_holder_a, vector_knowledge_holder_b]
+
+task:
+  name: multidoc_qa
+  dataset: hotpotqa_dev
+  num_episodes: 2
+  max_communication_rounds: 4
+
+channel:
+  type: vector
+  budget_bits: null  # no cap during smoke
+
+network:
+  bandwidth_bps: null
+  latency_ms: 0
+  packet_loss: 0.0
+
+logging:
+  output_dir: data/results/smoke_vector
+  log_level: INFO
+  store_messages: true
+  store_vectors: false

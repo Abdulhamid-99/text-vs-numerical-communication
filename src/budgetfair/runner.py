@@ -74,7 +74,7 @@ def run(config: Path, project_root: Path) -> None:
     if channel_type == "text":
         channel = TextChannel()
         projection = None
-    elif channel_type == "vector":
+    elif channel_type in ("vector", "hybrid"):
         # Pull projection / quantization params from the model config's
         # vector_channel block (filled by configs/<model>.yaml).
         model_cfg = yaml.safe_load(model_cfg_path.read_text(encoding="utf-8"))
@@ -124,10 +124,12 @@ def run(config: Path, project_root: Path) -> None:
     if channel_type == "text":
         agent_a = KnowledgeHolderAgent("agent_a", "agent_b", client)
         agent_b = KnowledgeHolderAgent("agent_b", "agent_a", client)
-    else:  # vector
+    else:  # vector or hybrid — both use the vector agent (it produces both message+vector)
         assert projection is not None
         agent_a = VectorKnowledgeHolderAgent("agent_a", "agent_b", client, projection)
         agent_b = VectorKnowledgeHolderAgent("agent_b", "agent_a", client, projection)
+    # For hybrid, build a fallback text channel too.
+    fallback_text_channel = TextChannel() if channel_type == "hybrid" else None
     agents_by_id = {agent_a.agent_id: agent_a, agent_b.agent_id: agent_b}
 
     # === Run metadata =====================================================
@@ -181,18 +183,35 @@ def run(config: Path, project_root: Path) -> None:
                 )
                 action = agent.act(obs)
                 # Encode the appropriate payload per channel type.
+                used_text_fallback = False
                 if channel_type == "text":
                     msg = channel.encode(
                         action.message or "",
                         sender_id=agent.agent_id,
                         receiver_id=_other(agent.agent_id),
                     )
-                else:  # vector
+                elif channel_type == "vector":
                     msg = channel.encode(
                         action.vector,
                         sender_id=agent.agent_id,
                         receiver_id=_other(agent.agent_id),
                     )
+                else:  # hybrid: vector if budget allows, else text
+                    vector_cost = channel.bit_cost_for_message()
+                    if budget.remaining_bits() >= vector_cost:
+                        msg = channel.encode(
+                            action.vector,
+                            sender_id=agent.agent_id,
+                            receiver_id=_other(agent.agent_id),
+                        )
+                    else:
+                        # Fall back to text — a 1-byte message fits any positive budget.
+                        msg = fallback_text_channel.encode(
+                            action.message or "",
+                            sender_id=agent.agent_id,
+                            receiver_id=_other(agent.agent_id),
+                        )
+                        used_text_fallback = True
                 allowed = budget.attempt_spend(msg.bit_cost)
                 delivered = network.transmit(msg) if allowed else None
 
@@ -201,7 +220,7 @@ def run(config: Path, project_root: Path) -> None:
                     round=round_idx,
                     sender=agent.agent_id,
                     receiver=_other(agent.agent_id),
-                    channel=channel.name,
+                    channel=channel.name if not used_text_fallback else "text_fallback",
                     bit_cost=msg.bit_cost,
                     allowed=allowed,
                     dropped=(delivered is None),
@@ -217,10 +236,9 @@ def run(config: Path, project_root: Path) -> None:
                     continue
 
                 n_messages += 1
-                if channel_type == "text":
-                    transcript.append(
-                        {"sender": agent.agent_id, "text": channel.decode(delivered)}
-                    )
+                if channel_type == "text" or used_text_fallback:
+                    text = (channel if channel_type == "text" else fallback_text_channel).decode(delivered)
+                    transcript.append({"sender": agent.agent_id, "text": text})
                 else:  # vector
                     decoded_vec = channel.decode(delivered)  # (target_dim,)
                     receiver_agent = agents_by_id[_other(agent.agent_id)]

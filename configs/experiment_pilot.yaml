@@ -1,0 +1,34 @@
+# Pilot experiment — confirms tooling end-to-end before scaling up.
+# See docs/pilot_study.md for the rationale.
+
+experiment:
+  name: pilot_2026-05-15
+  description: "First end-to-end run: Multi-Doc QA, text channel, Llama-3.1-8B, no budget cap"
+  seed: 42
+
+model_config: configs/llama_3_1_8b.yaml
+
+agents:
+  count: 2
+  roles: [knowledge_holder_a, knowledge_holder_b]
+
+task:
+  name: multidoc_qa
+  dataset: hotpotqa_dev
+  num_episodes: 50
+  max_communication_rounds: 4
+
+channel:
+  type: text
+  budget_bits: null  # no cap during pilot
+
+network:
+  bandwidth_bps: null
+  latency_ms: 0
+  packet_loss: 0.0
+
+logging:
+  output_dir: data/results/pilot_2026-05-15
+  log_level: INFO
+  store_messages: true
+  store_vectors: false  # text-only pilot

@@ -1,0 +1,24 @@
+model:
+  name: Qwen/Qwen2.5-7B-Instruct
+  revision: null  # PIN to a specific commit hash before first pilot run
+  torch_dtype: bfloat16
+  quantization: int8
+  device: cuda:0
+  max_context_len: 8192
+
+tokenizer:
+  name: Qwen/Qwen2.5-7B-Instruct
+  revision: null
+
+# Cache-to-Cache used Qwen2.5; their layer choices are a strong starting point.
+# Will be re-validated by notebooks/01_layer_selection_pilot.ipynb.
+vector_channel:
+  layer_index: 16
+  bits_per_component: 8
+  pooling: mean
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.0
+  top_p: 1.0
+  do_sample: false

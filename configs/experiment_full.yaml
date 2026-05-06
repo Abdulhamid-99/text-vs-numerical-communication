@@ -1,0 +1,56 @@
+# Full experiment matrix — 48 cells.
+# This file specifies the *grid*; the runner expands it into concrete jobs.
+
+experiment:
+  name: full_matrix
+  description: "Cross-family channel comparison: Llama-3.1-8B + Qwen2.5-7B × 2 tasks × 2 budgets × 2 channels × 3 network conditions"
+  base_seed: 1000
+
+# Models — full matrix runs both
+models:
+  - configs/llama_3_1_8b.yaml
+  - configs/qwen2_5_7b.yaml
+
+# Tasks
+tasks:
+  - name: multidoc_qa
+    dataset: hotpotqa_dev
+    num_episodes: 30
+    max_communication_rounds: 4
+  - name: coop_navigation
+    dataset: synthetic_grid
+    num_episodes: 30
+    max_communication_rounds: 8
+
+# Communication channels
+channels:
+  - type: text
+  - type: vector
+    pooling: mean
+    bits_per_component: 8
+
+# Budget levels.
+# baseline_bits is determined empirically per task by running the High condition first
+# with no cap, then setting Low = 0.25 × observed_mean.
+budgets:
+  - name: high
+    fraction_of_baseline: 1.0
+  - name: low
+    fraction_of_baseline: 0.25
+
+# Network conditions
+networks:
+  - name: clean
+    packet_loss: 0.0
+  - name: lossy_5
+    packet_loss: 0.05
+  - name: lossy_10
+    packet_loss: 0.10
+
+# Per-cell replication
+replicates_per_cell: 30  # → 30 episodes × 48 cells = 1440 episodes total
+
+logging:
+  output_dir: data/results/full_matrix
+  store_messages: true
+  store_vectors: true

@@ -1,0 +1,25 @@
+model:
+  name: meta-llama/Llama-3.1-8B-Instruct
+  revision: null  # PIN to a specific commit hash before first pilot run
+  torch_dtype: bfloat16
+  quantization: int8  # int8 | int4 | none
+  device: cuda:0
+  max_context_len: 8192
+
+tokenizer:
+  name: meta-llama/Llama-3.1-8B-Instruct
+  revision: null
+
+# Hidden-state extraction for the vector channel.
+# Will be tuned by notebooks/01_layer_selection_pilot.ipynb. KVComm reports
+# layer 18 as a strong default for Llama-3.1-8B; we will validate.
+vector_channel:
+  layer_index: 18
+  bits_per_component: 8  # 8 default; 4-bit ablation planned
+  pooling: mean          # mean | last_token | cls
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.0       # deterministic for reproducibility in baselines
+  top_p: 1.0
+  do_sample: false

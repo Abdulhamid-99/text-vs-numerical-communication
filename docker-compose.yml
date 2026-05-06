@@ -1,0 +1,32 @@
+services:
+  budgetfair:
+    build: .
+    image: budgetfair:dev
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - ./src:/app/src
+      - ./configs:/app/configs
+      - ./scripts:/app/scripts
+      - ./tests:/app/tests
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./notebooks:/app/notebooks
+      # HuggingFace cache outside the image so downloads survive rebuilds
+      - hf_cache:/root/.cache/huggingface
+    environment:
+      - HF_HOME=/root/.cache/huggingface
+      - PYTHONPATH=/app/src
+      - CUDA_VISIBLE_DEVICES=0
+    working_dir: /app
+    stdin_open: true
+    tty: true
+
+volumes:
+  hf_cache:

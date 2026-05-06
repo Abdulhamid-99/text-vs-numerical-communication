@@ -1,0 +1,10 @@
+experiment:
+  name: h1_vector_low
+  description: "H1/H2 cell: vector channel @ 2000 bits/episode (Low budget)"
+  seed: 42
+model_config: configs/llama_3_1_8b.yaml
+agents: { count: 2, roles: [vector_knowledge_holder_a, vector_knowledge_holder_b] }
+task: { name: multidoc_qa, dataset: hotpotqa_dev, num_episodes: 30, max_communication_rounds: 4 }
+channel: { type: vector, budget_bits: 2000 }
+network: { bandwidth_bps: null, latency_ms: 0, packet_loss: 0.0 }
+logging: { output_dir: data/results/h1_vector_low, log_level: INFO, store_messages: true, store_vectors: false }

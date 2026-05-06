@@ -177,8 +177,14 @@ def run(config: Path, project_root: Path) -> None:
                     {"sender": agent.agent_id, "text": channel.decode(delivered)}
                 )
                 if is_final and action.task_action is not None:
-                    # Tie-break: take the LAST agent's answer (agent_b speaks second)
-                    final_answer = action.task_action
+                    # Tie-break: take the longer final answer. Rationale: in pilot
+                    # smoke testing both agents emit a final answer; the longer one
+                    # tends to carry more synthesis (e.g. "The Yoruba and the Itsekiri"
+                    # from agent_a vs "Itsekiri" from agent_b). Length is a noisy proxy
+                    # for informativeness but defensibly better than just-take-agent_b.
+                    candidate = action.task_action.strip()
+                    if final_answer is None or len(candidate) > len(final_answer):
+                        final_answer = candidate
 
         success, score = task.score(ep, final_answer)
         n_correct += int(success)

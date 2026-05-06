@@ -11,6 +11,7 @@ model and run them sequentially or on different GPUs.
 """
 from __future__ import annotations
 
+import warnings
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
@@ -18,6 +19,12 @@ from typing import Optional
 import torch
 import yaml
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+
+# bitsandbytes prints this on every int8 matmul. It's expected behavior.
+warnings.filterwarnings(
+    "ignore",
+    message=r"MatMul8bitLt: inputs will be cast from .* to float16 during quantization",
+)
 
 
 _DTYPE_MAP = {
@@ -72,13 +79,19 @@ class LLMClient:
         dtype = _DTYPE_MAP.get(torch_dtype, torch.bfloat16)
         # When quantized, device_map="auto" is required by bitsandbytes; without
         # quantization we explicitly place on the configured device.
-        self.model = AutoModelForCausalLM.from_pretrained(
-            name,
-            revision=revision,
-            torch_dtype=dtype,
-            quantization_config=bnb_config,
-            device_map="auto" if bnb_config is not None else device,
-        )
+        # NB: transformers >=4.50 renamed `torch_dtype` to `dtype`. We pin to
+        # transformers>=4.45 in pyproject.toml; in our docker image (4.57.6) the
+        # new kwarg is canonical, in older 4.45-4.49 it is `torch_dtype`. Accept
+        # both via a runtime probe.
+        from inspect import signature
+        from_pretrained_kwargs = {
+            "revision": revision,
+            "quantization_config": bnb_config,
+            "device_map": "auto" if bnb_config is not None else device,
+        }
+        params = signature(AutoModelForCausalLM.from_pretrained).parameters
+        from_pretrained_kwargs["dtype" if "dtype" in params else "torch_dtype"] = dtype
+        self.model = AutoModelForCausalLM.from_pretrained(name, **from_pretrained_kwargs)
         self.model.eval()
 
     @classmethod

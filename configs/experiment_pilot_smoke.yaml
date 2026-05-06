@@ -1,0 +1,38 @@
+# 10-episode smoke test of the pilot pipeline.
+# Separate from experiment_pilot.yaml (50 episodes, the real Phase 2 baseline).
+#
+# Purpose: validate the LLMClient + agents + MultiDocQA + runner + logger
+# pipeline against real model weights. 10 episodes is enough to estimate
+# accuracy band (with noise ±15%) before committing to the full 50-episode run.
+
+experiment:
+  name: pilot_smoke_10
+  description: "10-episode end-to-end smoke test"
+  seed: 42
+
+model_config: configs/llama_3_1_8b.yaml
+
+agents:
+  count: 2
+  roles: [knowledge_holder_a, knowledge_holder_b]
+
+task:
+  name: multidoc_qa
+  dataset: hotpotqa_dev
+  num_episodes: 10
+  max_communication_rounds: 4
+
+channel:
+  type: text
+  budget_bits: null
+
+network:
+  bandwidth_bps: null
+  latency_ms: 0
+  packet_loss: 0.0
+
+logging:
+  output_dir: data/results/smoke_test
+  log_level: INFO
+  store_messages: true
+  store_vectors: false

@@ -21,12 +21,19 @@ htmlcov/
 # Notebooks
 .ipynb_checkpoints/
 
-# Data, models, logs (do not commit raw artifacts; results metadata is committed)
+# Data, models, logs (do not commit raw artifacts).
+# Note: a one-time snapshot of data/results/smoke_test/ is committed to record
+# the 2026-05-06 pipeline validation; the patterns below stop NEW experiment
+# runs from polluting the repo. To explicitly track a future run, use
+# `git add -f data/results/<run>/`.
 data/raw/
 data/processed/
-data/results/*.jsonl
-data/results/*.npy
-data/results/*.npz
+data/results/**/*.jsonl
+data/results/**/*.npy
+data/results/**/*.npz
+data/results/**/*.csv
+data/results/**/*.json
+data/results/**/vectors/
 logs/
 models/
 

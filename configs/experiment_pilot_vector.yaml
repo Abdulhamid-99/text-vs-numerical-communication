@@ -1,0 +1,35 @@
+# 50-episode VECTOR-channel pilot. Mirror of experiment_pilot.yaml but with
+# channel.type=vector. Runs in parallel sequence to the text pilot to give the
+# first real data point on H1 (vector vs text under equal budgets / per bit).
+
+experiment:
+  name: pilot_vector_2026-05-06
+  description: "50-episode vector channel pilot (Llama-3.1-8B, no budget cap)"
+  seed: 42
+
+model_config: configs/llama_3_1_8b.yaml
+
+agents:
+  count: 2
+  roles: [vector_knowledge_holder_a, vector_knowledge_holder_b]
+
+task:
+  name: multidoc_qa
+  dataset: hotpotqa_dev
+  num_episodes: 50
+  max_communication_rounds: 4
+
+channel:
+  type: vector
+  budget_bits: null  # no cap during pilot — establishes baseline cost
+
+network:
+  bandwidth_bps: null
+  latency_ms: 0
+  packet_loss: 0.0
+
+logging:
+  output_dir: data/results/pilot_vector_2026-05-06
+  log_level: INFO
+  store_messages: true
+  store_vectors: false

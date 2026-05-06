@@ -2,8 +2,8 @@
 # See docs/pilot_study.md for the rationale.
 
 experiment:
-  name: pilot_2026-05-15
-  description: "First end-to-end run: Multi-Doc QA, text channel, Llama-3.1-8B, no budget cap"
+  name: pilot_text_2026-05-06
+  description: "50-episode text channel pilot (Llama-3.1-8B, no budget cap) — text baseline"
   seed: 42
 
 model_config: configs/llama_3_1_8b.yaml
@@ -28,7 +28,7 @@ network:
   packet_loss: 0.0
 
 logging:
-  output_dir: data/results/pilot_2026-05-15
+  output_dir: data/results/pilot_text_2026-05-06
   log_level: INFO
   store_messages: true
   store_vectors: false  # text-only pilot

@@ -1,6 +1,7 @@
 model:
   name: Qwen/Qwen2.5-7B-Instruct
-  revision: null  # PIN to a specific commit hash before first pilot run
+  # Pinned 2026-05-06 from huggingface_hub.HfApi().model_info(...).sha
+  revision: a09a35458c702b33eeacc393d103063234e8bc28
   torch_dtype: bfloat16
   quantization: int8
   device: cuda:0
@@ -8,7 +9,7 @@ model:
 
 tokenizer:
   name: Qwen/Qwen2.5-7B-Instruct
-  revision: null
+  revision: a09a35458c702b33eeacc393d103063234e8bc28
 
 # Cache-to-Cache used Qwen2.5; their layer choices are a strong starting point.
 # Will be re-validated by notebooks/01_layer_selection_pilot.ipynb.

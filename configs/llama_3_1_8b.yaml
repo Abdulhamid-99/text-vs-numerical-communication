@@ -1,6 +1,7 @@
 model:
   name: meta-llama/Llama-3.1-8B-Instruct
-  revision: null  # PIN to a specific commit hash before first pilot run
+  # Pinned 2026-05-06 from huggingface_hub.HfApi().model_info(...).sha
+  revision: 0e9e39f249a16976918f6564b8830bc894c89659
   torch_dtype: bfloat16
   quantization: int8  # int8 | int4 | none
   device: cuda:0
@@ -8,7 +9,7 @@ model:
 
 tokenizer:
   name: meta-llama/Llama-3.1-8B-Instruct
-  revision: null
+  revision: 0e9e39f249a16976918f6564b8830bc894c89659
 
 # Hidden-state extraction for the vector channel.
 # Will be tuned by notebooks/01_layer_selection_pilot.ipynb. KVComm reports

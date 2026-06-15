@@ -29,8 +29,14 @@ def normalize_answer(s: str) -> str:
 class MultiDocQA(Task):
     name = "multidoc_qa"
 
-    def __init__(self, dataset: str = "hotpotqa_dev") -> None:
+    def __init__(self, dataset: str = "hotpotqa_dev", question_type: str | None = None) -> None:
+        """`question_type` filters HotpotQA by its `type` field:
+          - None: no filter (default).
+          - "bridge": multi-hop reasoning questions (H3 predicts vector wins).
+          - "comparison": symbolic-comparison questions (H3 predicts text wins).
+        """
         self.dataset_id = dataset
+        self.question_type = question_type
 
     def episodes(self, n: int, seed: int) -> list[Episode]:
         # Lazy import: unit tests for normalize_answer don't need the datasets package.
@@ -41,6 +47,8 @@ class MultiDocQA(Task):
 
         ds = load_dataset("hotpotqa/hotpot_qa", "distractor", split="validation")
         sorted_entries = sorted(ds, key=lambda e: e["id"])
+        if self.question_type is not None:
+            sorted_entries = [e for e in sorted_entries if e.get("type") == self.question_type]
 
         out: list[Episode] = []
         for entry in sorted_entries:

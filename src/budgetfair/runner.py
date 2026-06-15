@@ -61,7 +61,7 @@ def run(config: Path, project_root: Path) -> None:
     task_cfg = cfg["task"]
     if task_cfg["name"] != "multidoc_qa":
         raise NotImplementedError(f"Task {task_cfg['name']!r} not supported in pilot.")
-    task = MultiDocQA(dataset=task_cfg["dataset"])
+    task = MultiDocQA(dataset=task_cfg["dataset"], question_type=task_cfg.get("question_type"))
 
     n_episodes = int(task_cfg["num_episodes"])
     seed = int(cfg["experiment"].get("seed", 42))

@@ -1,0 +1,15 @@
+experiment:
+  name: h3_text_comparison_high
+  description: "H2/H3 cell: h3_text_comparison_high"
+  seed: 42
+model_config: configs/llama_3_1_8b.yaml
+agents: { count: 2, roles: [knowledge_holder_a, knowledge_holder_b] }
+task:
+  name: multidoc_qa
+  dataset: hotpotqa_dev
+  num_episodes: 30
+  max_communication_rounds: 4
+  question_type: comparison
+channel: { type: text, budget_bits: 8000 }
+network: { bandwidth_bps: null, latency_ms: 0, packet_loss: 0.0 }
+logging: { output_dir: data/results/h2h3_h3_text_comparison_high, log_level: INFO, store_messages: true, store_vectors: false }

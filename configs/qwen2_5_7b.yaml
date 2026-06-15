@@ -18,10 +18,12 @@ tokenizer:
 # extraction at sender side avoids any untrained cross-layer projection.
 # (STS-B pilot for Qwen pending; result will be added to layer_selection_qwen.csv.)
 #
-# Projection: 4096 -> 128, random Gaussian seed=42, 4-bit. Cost: 544 bits/msg.
+# Projection: 3584 -> 128, random Gaussian seed=42, 4-bit. Cost: 544 bits/msg.
+# NB: Qwen2.5-7B hidden_size = 3584 (NOT 4096 like Llama). Discovered 2026-05-07
+# after initial sweep failed with ValueError(projection.source_dim mismatch).
 vector_channel:
   layer_index: 0
-  hidden_dim: 4096
+  hidden_dim: 3584
   projected_dim: 128
   bits_per_component: 4
   projection_seed: 42

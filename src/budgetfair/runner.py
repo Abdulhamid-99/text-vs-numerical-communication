@@ -126,8 +126,17 @@ def run(config: Path, project_root: Path) -> None:
         agent_b = KnowledgeHolderAgent("agent_b", "agent_a", client)
     else:  # vector or hybrid — both use the vector agent (it produces both message+vector)
         assert projection is not None
-        agent_a = VectorKnowledgeHolderAgent("agent_a", "agent_b", client, projection)
-        agent_b = VectorKnowledgeHolderAgent("agent_b", "agent_a", client, projection)
+        random_injection = bool(channel_cfg.get("random_injection", False))
+        if random_injection:
+            click.echo("      ABLATION: random-vector injection ON (content destroyed, norm matched)")
+        agent_a = VectorKnowledgeHolderAgent(
+            "agent_a", "agent_b", client, projection,
+            random_injection=random_injection, random_seed=seed,
+        )
+        agent_b = VectorKnowledgeHolderAgent(
+            "agent_b", "agent_a", client, projection,
+            random_injection=random_injection, random_seed=seed,
+        )
     # For hybrid, build a fallback text channel too.
     fallback_text_channel = TextChannel() if channel_type == "hybrid" else None
     agents_by_id = {agent_a.agent_id: agent_a, agent_b.agent_id: agent_b}

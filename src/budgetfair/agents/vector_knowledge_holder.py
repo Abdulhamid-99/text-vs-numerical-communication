@@ -47,6 +47,8 @@ class VectorKnowledgeHolderAgent(Agent):
         partner_id: str,
         client: LLMClient,
         projection: GaussianProjection,
+        random_injection: bool = False,
+        random_seed: int = 0,
     ) -> None:
         if projection.source_dim != client.model.config.hidden_size:
             raise ValueError(
@@ -57,6 +59,13 @@ class VectorKnowledgeHolderAgent(Agent):
         self.partner_id = partner_id
         self.client = client
         self.projection = projection
+        # ABLATION: when True, the received vector's CONTENT is replaced with a
+        # random Gaussian of matched norm before lifting. Everything else in the
+        # pipeline is identical (same bit cost, same budget, same lift, same
+        # injection). If accuracy is unchanged vs the real channel, the channel
+        # transmits no usable information. See vector_failure_decision doc.
+        self.random_injection = random_injection
+        self._rng = np.random.RandomState(random_seed + (1 if agent_id.endswith("b") else 0))
         # Lifted, source-dim representations of vectors received from partner.
         # Held until consumed (cleared at the start of each act()).
         self._pending_lifted_vectors: list[np.ndarray] = []
@@ -64,12 +73,19 @@ class VectorKnowledgeHolderAgent(Agent):
     def process_received_vector(self, low_dim_vec: np.ndarray) -> None:
         """Called by the runner when the partner's vector is delivered.
 
-        Lifts via P^T and queues for use on the next act() call.
+        Lifts via P^T and queues for use on the next act() call. Under the
+        random_injection ablation, the delivered vector is replaced by a random
+        Gaussian of matched L2 norm (content destroyed, magnitude preserved).
         """
         if low_dim_vec.shape != (self.projection.target_dim,):
             raise ValueError(
                 f"expected ({self.projection.target_dim},), got {low_dim_vec.shape}"
             )
+        if self.random_injection:
+            norm = float(np.linalg.norm(low_dim_vec))
+            rand = self._rng.randn(self.projection.target_dim).astype(np.float32)
+            rn = float(np.linalg.norm(rand))
+            low_dim_vec = (rand / rn * norm) if rn > 0 else rand
         lifted = self.projection.lift(low_dim_vec)
         self._pending_lifted_vectors.append(lifted.astype(np.float32))
 

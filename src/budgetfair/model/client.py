@@ -351,7 +351,9 @@ class LLMClient:
             pooled = (hidden * mask).sum(dim=1) / mask.sum(dim=1).clamp(min=1)
         elif pooling == "last_token":
             lengths = inputs.attention_mask.sum(dim=1) - 1
-            pooled = hidden[torch.arange(hidden.size(0)), lengths]
+            # arange must be on hidden's device — lengths lives on cuda; a CPU
+            # arange here triggers "cuda:0 and cpu" device-mismatch indexing.
+            pooled = hidden[torch.arange(hidden.size(0), device=hidden.device), lengths]
         elif pooling == "cls":
             pooled = hidden[:, 0]
         else:

@@ -392,11 +392,12 @@ class LLMClient:
         block = layers[layer_index]
 
         # Sum the injected vectors into a single (d,) injection (multiple received
-        # messages combine additively in the residual stream).
+        # messages combine additively in the residual stream). Kept on its source
+        # device here; moved to the residual stream's device inside the hook
+        # (with device_map="auto" the two can differ — CPU vs cuda:0).
         if injected_vectors.dim() == 1:
             injected_vectors = injected_vectors.unsqueeze(0)  # (1, d)
         inj = injected_vectors.sum(dim=0).float()  # (d,)
-        inj_norm = torch.linalg.vector_norm(inj)
 
         def hook(_module, _inputs, output):  # noqa: ANN001
             # transformers >=4.54 decoder blocks return a bare tensor; older
@@ -410,12 +411,16 @@ class LLMClient:
             # hidden: (batch, seq, d). Only inject on the prefill (seq > 1).
             if hidden.dim() != 3 or hidden.shape[1] <= 1:
                 return output
+            # Align the injection with the residual stream's device.
+            inj_dev = inj.to(hidden.device)
+            inj_norm = torch.linalg.vector_norm(inj_dev)
             if inj_norm <= 0:
                 return output
-            # Per-token residual norm at this layer (mean over batch+seq).
-            tok_norm = torch.linalg.vector_norm(hidden, dim=-1).mean()
+            # Per-token residual norm at this layer (mean over batch+seq); compute
+            # in fp32 for numerical stability under int8/bf16 activations.
+            tok_norm = torch.linalg.vector_norm(hidden.float(), dim=-1).mean()
             target_mag = tok_norm * float(injection_strength)
-            add = (inj / inj_norm * target_mag).to(hidden.dtype).to(hidden.device)
+            add = (inj_dev / inj_norm * target_mag).to(hidden.dtype)
             # Broadcast-add to every position.
             hidden = hidden + add.view(1, 1, -1)
             if rest is None:

@@ -86,7 +86,10 @@ def run(config: Path, project_root: Path) -> None:
         # Activation-injection params (ref:1). Default to a middle layer if a
         # legacy config omits injection_layer.
         injection_layer = int(vc_cfg.get("injection_layer", vc_cfg.get("layer_index", 16)))
-        injection_strength = float(vc_cfg.get("injection_strength", 1.0))
+        # Experiment channel block can override the model-config default (for sweeps).
+        injection_strength = float(
+            channel_cfg.get("injection_strength", vc_cfg.get("injection_strength", 1.0))
+        )
         projection = GaussianProjection(
             source_dim=hidden_dim,
             target_dim=projected_dim,

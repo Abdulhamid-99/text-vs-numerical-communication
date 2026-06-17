@@ -83,6 +83,10 @@ def run(config: Path, project_root: Path) -> None:
         projected_dim = int(vc_cfg.get("projected_dim", 128))
         bits_per_component = int(vc_cfg.get("bits_per_component", 4))
         projection_seed = int(vc_cfg.get("projection_seed", 42))
+        # Activation-injection params (ref:1). Default to a middle layer if a
+        # legacy config omits injection_layer.
+        injection_layer = int(vc_cfg.get("injection_layer", vc_cfg.get("layer_index", 16)))
+        injection_strength = float(vc_cfg.get("injection_strength", 1.0))
         projection = GaussianProjection(
             source_dim=hidden_dim,
             target_dim=projected_dim,
@@ -97,6 +101,10 @@ def run(config: Path, project_root: Path) -> None:
         click.echo(
             f"      vector channel: {hidden_dim}->{projected_dim}, "
             f"{bits_per_component}-bit, {channel.bit_cost_for_message()} bits/msg"
+        )
+        click.echo(
+            f"      activation injection: layer {injection_layer}, "
+            f"strength {injection_strength}"
         )
     else:
         raise NotImplementedError(f"Channel type {channel_type!r} not supported.")
@@ -131,10 +139,12 @@ def run(config: Path, project_root: Path) -> None:
             click.echo("      ABLATION: random-vector injection ON (content destroyed, norm matched)")
         agent_a = VectorKnowledgeHolderAgent(
             "agent_a", "agent_b", client, projection,
+            injection_layer=injection_layer, injection_strength=injection_strength,
             random_injection=random_injection, random_seed=seed,
         )
         agent_b = VectorKnowledgeHolderAgent(
             "agent_b", "agent_a", client, projection,
+            injection_layer=injection_layer, injection_strength=injection_strength,
             random_injection=random_injection, random_seed=seed,
         )
     # For hybrid, build a fallback text channel too.

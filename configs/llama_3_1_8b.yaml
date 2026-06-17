@@ -11,25 +11,33 @@ tokenizer:
   name: meta-llama/Llama-3.1-8B-Instruct
   revision: 0e9e39f249a16976918f6564b8830bc894c89659
 
-# Vector channel config (per bit_budget_research_memo + layer_selection pilot).
+# Vector channel config.
 #
-# layer_index = 0 (input embedding mean): chosen because (a) the receiver injects
-# via inputs_embeds which lives at layer 0, so same-space extraction avoids any
-# untrained cross-layer projection; (b) the STS-B layer-selection pilot
-# (data/results/layer_selection_llama.csv) found layer 0 has the highest Spearman
-# correlation with human similarity (0.6415, vs 0.5276 at layer 32 — the second
-# peak). Mid layers all score < 0.32. So layer 0 is both the only architecturally
-# clean choice and the empirically-best one.
+# ACTIVATION INJECTION (2026-06-17, per ref:1 "Communicating Activations Between
+# LM Agents"). The earlier single-prefix-token-at-layer-0 mechanism failed a
+# random-vector ablation (real activations == norm-matched noise -> zero info).
+# We now extract the sender's LAST-TOKEN activation at a MIDDLE layer and inject
+# it into the receiver's residual stream at the SAME layer.
+#
+# injection_layer = 16: middle of Llama-3.1-8B's 32 decoder layers, where the
+# residual stream carries rich semantic (not lexical or output-logit) state.
+# injection_strength = 1.0: injected vector is scaled to ~one token's residual
+# norm at that layer (commensurate magnitude; see client._injection_hook).
+#
+# NOTE: layer_index below is the legacy field used only for the wire-format
+# metadata tag on VectorChannel; it no longer drives extraction/injection.
 #
 # Projection: hidden_dim=4096 -> projected_dim=128 via random Gaussian (seed=42).
 # Quantization: 4 bits/component. Per-message cost: 128*4 + 32 = 544 bits.
 vector_channel:
-  layer_index: 0
+  injection_layer: 16
+  injection_strength: 1.0
+  layer_index: 16        # metadata tag only (kept == injection_layer for clarity)
   hidden_dim: 4096
   projected_dim: 128
   bits_per_component: 4
   projection_seed: 42
-  pooling: mean          # mean | last_token | cls
+  pooling: last_token    # mean | last_token | cls
 
 generation:
   max_new_tokens: 512

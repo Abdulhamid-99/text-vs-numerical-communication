@@ -13,21 +13,26 @@ tokenizer:
 
 # Vector channel config.
 #
-# layer_index = 0 (input embedding mean): same rationale as Llama config —
-# receiver-side inputs_embeds injection lives at layer 0, so same-space
-# extraction at sender side avoids any untrained cross-layer projection.
-# (STS-B pilot for Qwen pending; result will be added to layer_selection_qwen.csv.)
+# ACTIVATION INJECTION (2026-06-17, per ref:1). Same mechanism as the Llama
+# config: extract the sender's LAST-TOKEN activation at a middle layer, inject it
+# into the receiver's residual stream at the SAME layer. Replaces the failed
+# single-prefix-token-at-layer-0 mechanism (random-vector ablation -> zero info).
+#
+# injection_layer = 14: middle of Qwen2.5-7B's 28 decoder layers.
+# injection_strength = 1.0: injected vector scaled to ~one token's residual norm.
 #
 # Projection: 3584 -> 128, random Gaussian seed=42, 4-bit. Cost: 544 bits/msg.
 # NB: Qwen2.5-7B hidden_size = 3584 (NOT 4096 like Llama). Discovered 2026-05-07
 # after initial sweep failed with ValueError(projection.source_dim mismatch).
 vector_channel:
-  layer_index: 0
+  injection_layer: 14
+  injection_strength: 1.0
+  layer_index: 14        # metadata tag only (kept == injection_layer for clarity)
   hidden_dim: 3584
   projected_dim: 128
   bits_per_component: 4
   projection_seed: 42
-  pooling: mean
+  pooling: last_token
 
 generation:
   max_new_tokens: 512

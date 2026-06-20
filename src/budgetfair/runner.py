@@ -24,6 +24,7 @@ from .logging_utils.logger import EpisodeLogger
 from .model.client import LLMClient
 from .network.simulator import NetworkProfile, NetworkSimulator
 from .tasks.multidoc_qa import MultiDocQA
+from .tasks.secret_passing import SecretPassingTask
 
 
 def _resolve(path_str: str, project_root: Path) -> Path:
@@ -59,9 +60,12 @@ def run(config: Path, project_root: Path) -> None:
     click.echo(f"      {client.name} loaded.")
 
     task_cfg = cfg["task"]
-    if task_cfg["name"] != "multidoc_qa":
-        raise NotImplementedError(f"Task {task_cfg['name']!r} not supported in pilot.")
-    task = MultiDocQA(dataset=task_cfg["dataset"], question_type=task_cfg.get("question_type"))
+    if task_cfg["name"] == "multidoc_qa":
+        task = MultiDocQA(dataset=task_cfg["dataset"], question_type=task_cfg.get("question_type"))
+    elif task_cfg["name"] == "secret_passing":
+        task = SecretPassingTask(secret_mode=task_cfg.get("secret_mode", "both"))
+    else:
+        raise NotImplementedError(f"Task {task_cfg['name']!r} not supported.")
 
     n_episodes = int(task_cfg["num_episodes"])
     seed = int(cfg["experiment"].get("seed", 42))
@@ -186,11 +190,22 @@ def run(config: Path, project_root: Path) -> None:
         n_dropped = 0
         n_blocked = 0
         final_answer: Optional[str] = None
+        final_answers: dict[str, str] = {}  # per-agent final answers (for directional tasks)
 
-        contexts = {
-            "agent_a": {"passage": ep.initial_state["passage_a"]},
-            "agent_b": {"passage": ep.initial_state["passage_b"]},
-        }
+        if task.name == "secret_passing":
+            # Directional: agent_a is the SENDER (holds the secret), agent_b is the
+            # RECEIVER (no info — must rely entirely on the channel). Only the
+            # receiver's answer is scored.
+            contexts = {
+                "agent_a": {"passage": ep.initial_state["sender_text"]},
+                "agent_b": {"passage": "(You have NO information about the answer. "
+                                       "You can only rely on what your partner transmits to you.)"},
+            }
+        else:
+            contexts = {
+                "agent_a": {"passage": ep.initial_state["passage_a"]},
+                "agent_b": {"passage": ep.initial_state["passage_b"]},
+            }
 
         for round_idx in range(max_rounds):
             is_final = round_idx == max_rounds - 1
@@ -274,8 +289,15 @@ def run(config: Path, project_root: Path) -> None:
                     candidate = action.task_action.strip()
                     if final_answer is None or len(candidate) > len(final_answer):
                         final_answer = candidate
+                    final_answers[agent.agent_id] = candidate
 
-        success, score = task.score(ep, final_answer)
+        # Directional tasks score the RECEIVER (agent_b); others use the tie-break.
+        if task.name == "secret_passing":
+            scored_answer = final_answers.get("agent_b")
+            final_answer = scored_answer  # log/report the scored (receiver) answer
+        else:
+            scored_answer = final_answer
+        success, score = task.score(ep, scored_answer)
         n_correct += int(success)
         wall_time_ms = (time.time() - episode_start) * 1000.0
 

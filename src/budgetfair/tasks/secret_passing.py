@@ -43,6 +43,8 @@ class SecretPassingTask(Task):
             raise ValueError(f"secret_mode must be digit|binding|both, got {secret_mode!r}")
         self.secret_mode = secret_mode
         self.n_digits = n_digits
+        # Runner references task.dataset_id for metadata/logging.
+        self.dataset_id = f"secret_{secret_mode}"
 
     def _rand_token(self, rng: random.Random, length: int = 5) -> str:
         # Made-up uppercase token — un-guessable, not in any vocabulary.

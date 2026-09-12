@@ -1,0 +1,14 @@
+# Preserve the exact audited bytes of the new protocol on Windows checkouts.
+Dockerfile.numeric text eol=lf
+Dockerfile.numeric.dockerignore text eol=lf
+Run-NumericRelayStudy.ps1 text eol=lf
+scripts/run_numeric_relay_study.py text eol=lf
+src/budgetfair/comm/tensor_packet.py text eol=lf
+src/budgetfair/comm/pca_packet.py text eol=lf
+src/budgetfair/model/span_transport.py text eol=lf
+src/budgetfair/model/pca_transport.py text eol=lf
+tests/test_tensor_packet.py text eol=lf
+tests/test_span_transport.py text eol=lf
+tests/test_pca_packet.py text eol=lf
+tests/test_pca_transport.py text eol=lf
+tests/test_numeric_relay_study.py text eol=lf

@@ -1,0 +1,11 @@
+**
+!Dockerfile.numeric
+!pyproject.toml
+!src/
+!src/**
+!scripts/
+!scripts/**
+!tests/
+!tests/**
+**/__pycache__
+**/*.pyc

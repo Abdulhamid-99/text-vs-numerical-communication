@@ -1,0 +1,10 @@
+ARG BASE_IMAGE=budgetfair:corrected
+FROM ${BASE_IMAGE}
+WORKDIR /code
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=/code/src
+ENV HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_DATASETS_OFFLINE=1
+COPY src/ /code/src/
+COPY scripts/ /code/scripts/
+COPY tests/ /code/tests/
+COPY pyproject.toml /code/pyproject.toml
+ENTRYPOINT ["python", "/code/scripts/run_numeric_relay_study.py"]

@@ -1,0 +1,46 @@
+{
+  "dataset": {
+    "url": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/arguana.zip",
+    "files": {
+      "arguana.zip": "cfdf79adce27a401b3cd3ea267903134dbfab2c6afeb95d7fe5724a00bf7557b",
+      "corpus.jsonl": "0627982cec4ee896df6dc98604ef6b499c83fd87a19eaaeb3f23b88bbef6cbce",
+      "queries.jsonl": "f8b7c903f95d9a2d291de3915a8fac25085e9db679f19f59fea4145bfd1df618",
+      "test.tsv": "0c47b481fa8b47fb9ca5e74bc8a017bdea14518c0e4a5d21345291180b3aca76"
+    },
+    "mirror": {
+      "corpus.parquet": [
+        "https://huggingface.co/datasets/BeIR/arguana/resolve/9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f/corpus/corpus-00000-of-00001.parquet?download=true",
+        "18eedd19306ea9adbf83110d74a844dc9501a1bf084def48bfa5a8eab5600b86"
+      ],
+      "queries.parquet": [
+        "https://huggingface.co/datasets/BeIR/arguana/resolve/9bcf8fc0320c4e3860e25b8b85fa205fcdd7078f/queries/queries-00000-of-00001.parquet?download=true",
+        "6c08bf568afae82e10b5e93dcd6b589d55be1d2242c1ead8e5244608c6a1a1e7"
+      ],
+      "test.tsv": [
+        "https://huggingface.co/datasets/BeIR/arguana-qrels/resolve/ae5468c6f1c198109a8af5f0d4dc58bd18b6fea7/test.tsv?download=true",
+        "0c47b481fa8b47fb9ca5e74bc8a017bdea14518c0e4a5d21345291180b3aca76"
+      ]
+    }
+  },
+  "model": {
+    "name": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "files": {
+      "config.json": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+      "config_sentence_transformers.json": "940d5f50db195fa6e5e6a4f122c095f77880de259d74b14a65779ed48bdd7c56",
+      "model.safetensors": "3c9f31665447c8911517620762200d2245a2518d6e7208acc78cd9db317e21ad",
+      "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "README.md": "ddb964361a55c6e5dfca6361615854b260c9c960205d04c7520151aaa1d75837",
+      "sentence_bert_config.json": "84e39fda68ccbff05bfa723ae9c0e70e23e2ec373b76e0f8c6e71af72a693cbf",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "tokenizer_config.json": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "1_Pooling/config.json": "d1caf60c96f5fba2157c0c26b76d80818fad6cf0b8eb5e73ec372ff9818eba5c"
+    }
+  },
+  "split_sha256_canonical": "3da5faaf8d4757020ca95e44f8560642591bdc361619b91aada698a2664a6ecc",
+  "idf_sha256_canonical": "b21d4222c7a181fe8351754596e1a4331b3bf2060f7e6cf1173a9ab72ba55291",
+  "primary_budget": 64,
+  "selection_sha256_canonical": "d775a3a71ed83a09afd8eb6e76a8f4f9e4045ad182ef37be506e2ce22a817c3c"
+}

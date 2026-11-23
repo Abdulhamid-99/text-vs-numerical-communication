@@ -1,0 +1,15 @@
+{
+  "assets": {
+    "llama_private_multidocument_qa_v1_basis.npz": "5661463793fcae9ef14104c5a2848fbad6833b66a2bebdd2a78c157fc038a54d",
+    "llama_private_multidocument_qa_v1_descriptor.json": "a78c6753917684611369e71a349a0fff79bd7f71024db244b269c5ff86f447ce",
+    "llama_private_planned_navigation_v1_basis.npz": "c1908847cf3a98ad6c59cb39b597726029e531495014d3e7192ece0ea548739e",
+    "llama_private_planned_navigation_v1_descriptor.json": "7f2fb5f31202bc96367e993b537cfbb4f7400ed6f8bd56125e7342ab9e12a8ea",
+    "qwen_private_multidocument_qa_v1_basis.npz": "66cf30337e497e74ec40378da8e749b8286ab33dc9870848e2bfeb1148119f0a",
+    "qwen_private_multidocument_qa_v1_descriptor.json": "c070c4e4d59fb8330e3a2bf3ed2d92791b549e669d49535a8eaa461312e1e4fd",
+    "qwen_private_planned_navigation_v1_basis.npz": "2a340d48663e904ddbf98d89abcf1a0d4d8bcd52d166860f697a0f39a4a5a63c",
+    "qwen_private_planned_navigation_v1_descriptor.json": "c7e9688d2cc4a9ef1f473749229d098cacc51894e8b4248005ff0133062a7dec"
+  },
+  "frozen_utc": "2026-09-12T20:43:00.639420+00:00",
+  "heldout_existed_at_freeze": false,
+  "protocol_sha256": "c130f965ebe9a14f95071200657df3789560a4c37120d6ea73c19ae806fd12bb"
+}

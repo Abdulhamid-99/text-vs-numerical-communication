@@ -1,0 +1,13 @@
+# Scientific runtime recorded for the retrieval experiments (Python 3.13.5).
+# Install the appropriate CPU/CUDA build of torch first.
+torch==2.10.0
+numpy==2.3.5
+scipy==1.16.1
+scikit-learn==1.7.1
+transformers==4.56.0
+sentence-transformers==5.1.0
+tokenizers==0.22.0
+huggingface-hub==0.34.4
+safetensors==0.6.2
+threadpoolctl==3.6.0
+pyarrow==26.0.0

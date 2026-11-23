@@ -1,0 +1,2 @@
+# Preserve the exact byte streams pinned by the study protocol.
+calibration/** -text

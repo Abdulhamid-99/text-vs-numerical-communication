@@ -1,0 +1,49 @@
+{
+  "codec": "int4",
+  "config_sha256": "d533d090ebe7de5be04a0ca991ffd7d9a78c3e7b22d36ceb241d83c45dde32e9",
+  "data_manifest_sha256": "0ad19e45485c95982d3d235d4c6637419dfcce9ddc9b4de9175c7d41312d9a5a",
+  "layer": 0,
+  "model": "qwen",
+  "model_config": {
+    "generation": {
+      "do_sample": false,
+      "max_new_tokens": 192,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "model": {
+      "device": "cuda:0",
+      "max_context_len": 8192,
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "quantization": "int8",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "torch_dtype": "bfloat16"
+    },
+    "tokenizer": {
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+    }
+  },
+  "model_load_seconds": 119.2967849150009,
+  "navigation_agent_version": "predicted_map_bfs_v1_preheldout",
+  "prompt_version": "task_prompts_v4_predicted_map_planner_sender_shape",
+  "rank": 512,
+  "source_probe_manifest_sha256": "287efe50ef04cee093732df85d23e951db061faead285d6c328cb5ad81eed37e",
+  "sources": {
+    "analyze_study.py": "8246aecfd8b6d13a8b106c426e6f7f2ae7dc9303a77dd290a9ec916d85f6a026",
+    "build_development_data.py": "16ab3fb05a689a39de5ce02814e775ba079531745ca5af89fea96212800b98b5",
+    "calibrate_probe.py": "471e6f146d77566afb3303a1fb935c684b73503c19997fa48081d0c0e02acd14",
+    "common.py": "87d9246ee23611b562221f0ca1bddb6977c09c4d4df954f06c0091ead997f748",
+    "execute_study.py": "ed70b01f100f319152f304f679fd5dc6e84e31ad60f4c4e01be6c0effbecdf89",
+    "finalize_statistics.py": "1d82bd5bcec139aefe49458482dff19d9a69dfa41f590964faf02b3645668522",
+    "navigation_agent.py": "87f8404992d5762872ea1211a9a57fe7a325c2d46439cfec00af4379e183a706",
+    "paired_analysis.py": "a205f5c2f0982d99722f5f80847c7a56113ba9d862e0dc168a81dee7f810dfe7",
+    "prepare_study.py": "1995801d80a58e02ae9c9409d773b7e4108c8ef50f9f1b0dbef4442ca9249e42",
+    "private_tasks.py": "1d8ded24c7169916939fe1e89ccb5dc5d47c72bd75721254f7e57bfe974ecf83",
+    "probe_navigation_format.py": "03f87d9e88acff85ddbea2b505d7aa440d12cc382e9216510857dc0f86285f4f",
+    "probe_tasks.py": "b9477cfe1c031c6f0752df5bda09fcc4e57d09aff3f9980d9f93c0040017c135",
+    "protocol_contracts.py": "9a0c9d919162bfb1f53105be08c5a8ce423a91f812fb73084f040c1d51ecf3ae",
+    "study_worker.py": "99671f5d485b0c240b4975f644e7e464c3f2c63c3f06971236d46f4d3012e9bb",
+    "task_prompts.py": "f6d91eb8d34075cd0b446fbf68c956055e32ee4df544e483d0eb22a9e599a4d8"
+  }
+}

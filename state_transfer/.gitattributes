@@ -1,0 +1,3 @@
+# The scientific protocol includes byte hashes of these exact files.
+runtime/** -text
+frozen/** -text

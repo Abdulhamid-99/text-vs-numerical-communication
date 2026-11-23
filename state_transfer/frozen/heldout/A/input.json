@@ -1,0 +1,2824 @@
+{
+  "items": [
+    {
+      "family_id": "heldout_qa_00000",
+      "id": "heldout_qa_00000_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "BKZD>CUAY\nCGYL>VURR\nEYEM>DYDF\nZYPS>QZJG",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00000",
+      "id": "heldout_qa_00000_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "BKZD>CUAY\nCGYL>DYDF\nEYEM>VURR\nZYPS>QZJG",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00001",
+      "id": "heldout_qa_00001_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "OLYX>KHQS\nGUAP>XFAI\nQECJ>AJUA\nNQMQ>IDNM\nDTWJ>EMRN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00001",
+      "id": "heldout_qa_00001_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "OLYX>AJUA\nGUAP>XFAI\nQECJ>KHQS\nNQMQ>IDNM\nDTWJ>EMRN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00002",
+      "id": "heldout_qa_00002_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HDDO>YKTF\nIPOI>ONBU\nMUZZ>KEGV\nPOXS>ABCP\nKLYD>PJJQ\nHLYA>UZTF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00002",
+      "id": "heldout_qa_00002_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HDDO>YKTF\nIPOI>ONBU\nMUZZ>KEGV\nPOXS>UZTF\nKLYD>PJJQ\nHLYA>ABCP",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00003",
+      "id": "heldout_qa_00003_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HPUX>OZDZ\nWNUR>CCMS\nHHDJ>ORIN\nECLS>OWRS",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00003",
+      "id": "heldout_qa_00003_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HPUX>OZDZ\nWNUR>OWRS\nHHDJ>ORIN\nECLS>CCMS",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00004",
+      "id": "heldout_qa_00004_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "VHMH>GRGF\nJYIG>PJWP\nVTLQ>QXCH\nZKGX>HFTO\nGFYD>ECFN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00004",
+      "id": "heldout_qa_00004_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "VHMH>PJWP\nJYIG>GRGF\nVTLQ>QXCH\nZKGX>HFTO\nGFYD>ECFN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00005",
+      "id": "heldout_qa_00005_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "BOFL>BLKD\nXFXC>WGZZ\nXVCV>MQJV\nCHFL>CTAY\nEONC>GIHK\nQDBW>ZOOY",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00005",
+      "id": "heldout_qa_00005_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "BOFL>GIHK\nXFXC>WGZZ\nXVCV>MQJV\nCHFL>CTAY\nEONC>BLKD\nQDBW>ZOOY",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00006",
+      "id": "heldout_qa_00006_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "JGXL>SNNC\nQRLY>OMII\nVHSA>ECCP\nTPDR>CHFQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00006",
+      "id": "heldout_qa_00006_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "JGXL>ECCP\nQRLY>OMII\nVHSA>SNNC\nTPDR>CHFQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00007",
+      "id": "heldout_qa_00007_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "OYFC>JAKG\nELVR>MTLI\nKEBP>KPAX\nOUUS>IXFS\nHGJQ>CIJP",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00007",
+      "id": "heldout_qa_00007_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "OYFC>CIJP\nELVR>MTLI\nKEBP>KPAX\nOUUS>IXFS\nHGJQ>JAKG",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00008",
+      "id": "heldout_qa_00008_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "UMOG>EPIV\nYUIE>LVUL\nHVAV>GPZO\nZIHK>CJUX\nDVFG>IQBJ\nLBMG>GLEO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00008",
+      "id": "heldout_qa_00008_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "UMOG>EPIV\nYUIE>LVUL\nHVAV>CJUX\nZIHK>GPZO\nDVFG>IQBJ\nLBMG>GLEO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00009",
+      "id": "heldout_qa_00009_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HKOF>SHAQ\nKPDV>PIVP\nXRWF>MVNK\nXFPF>LGNC",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00009",
+      "id": "heldout_qa_00009_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HKOF>SHAQ\nKPDV>MVNK\nXRWF>PIVP\nXFPF>LGNC",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00010",
+      "id": "heldout_qa_00010_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "DAZP>ZVTX\nAGFE>JSUR\nBWFG>RYXP\nPPXI>EVGE\nLONF>STDP",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00010",
+      "id": "heldout_qa_00010_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "DAZP>ZVTX\nAGFE>JSUR\nBWFG>EVGE\nPPXI>RYXP\nLONF>STDP",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00011",
+      "id": "heldout_qa_00011_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "CGBS>PKXN\nUBHB>DLJN\nWUBS>SAQX\nZOKX>JRVL\nVLYK>DBHR\nIDBD>XHAO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00011",
+      "id": "heldout_qa_00011_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "CGBS>PKXN\nUBHB>DLJN\nWUBS>JRVL\nZOKX>SAQX\nVLYK>DBHR\nIDBD>XHAO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00012",
+      "id": "heldout_qa_00012_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "OAXD>HGVL\nWYKU>YSTB\nGXFY>GKKP\nMPEP>UTNR",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00012",
+      "id": "heldout_qa_00012_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "OAXD>GKKP\nWYKU>YSTB\nGXFY>HGVL\nMPEP>UTNR",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00013",
+      "id": "heldout_qa_00013_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "KRZI>XYRV\nTARK>BAOS\nYEKP>YIES\nMEQU>BFMW\nRYTX>TJTN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00013",
+      "id": "heldout_qa_00013_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "KRZI>XYRV\nTARK>BFMW\nYEKP>YIES\nMEQU>BAOS\nRYTX>TJTN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00014",
+      "id": "heldout_qa_00014_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "JPRW>GSWY\nDXEE>ZHDW\nFCHY>IILD\nLCMZ>CKVG\nNLDB>XKMP\nBKVW>ZBYC",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00014",
+      "id": "heldout_qa_00014_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "JPRW>GSWY\nDXEE>ZHDW\nFCHY>IILD\nLCMZ>XKMP\nNLDB>CKVG\nBKVW>ZBYC",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00015",
+      "id": "heldout_qa_00015_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "TSFI>LBTI\nWXBG>GSEC\nQCIO>KPLR\nBLBL>EXZJ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00015",
+      "id": "heldout_qa_00015_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "TSFI>KPLR\nWXBG>GSEC\nQCIO>LBTI\nBLBL>EXZJ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00016",
+      "id": "heldout_qa_00016_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HFCM>XVMG\nNAWR>HPIN\nWPGS>UOMP\nOADU>YRQR\nNOAZ>GSLV",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00016",
+      "id": "heldout_qa_00016_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HFCM>XVMG\nNAWR>UOMP\nWPGS>HPIN\nOADU>YRQR\nNOAZ>GSLV",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00017",
+      "id": "heldout_qa_00017_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "SXCB>ZLAZ\nKCUW>GEYW\nJXSA>RHPK\nWYPT>JYHU\nMSXX>OTLX\nMVCX>GIRX",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00017",
+      "id": "heldout_qa_00017_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "SXCB>GEYW\nKCUW>ZLAZ\nJXSA>RHPK\nWYPT>JYHU\nMSXX>OTLX\nMVCX>GIRX",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00018",
+      "id": "heldout_qa_00018_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "KOIW>PKKC\nNGTA>TYVU\nNCPU>GXTQ\nUTNL>NTOI",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00018",
+      "id": "heldout_qa_00018_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "KOIW>PKKC\nNGTA>TYVU\nNCPU>NTOI\nUTNL>GXTQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00019",
+      "id": "heldout_qa_00019_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "YODP>UKIS\nAMQT>EMNE\nBVWK>PGLS\nCMAU>AIXS\nWGYQ>LMFE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00019",
+      "id": "heldout_qa_00019_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "YODP>UKIS\nAMQT>PGLS\nBVWK>EMNE\nCMAU>AIXS\nWGYQ>LMFE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00020",
+      "id": "heldout_qa_00020_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "GMDJ>FNOP\nUPYQ>NKJB\nGMHC>DGQQ\nZOLH>PVSD\nOKTU>ZHYF\nJYGM>FDNT",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00020",
+      "id": "heldout_qa_00020_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "GMDJ>FNOP\nUPYQ>DGQQ\nGMHC>NKJB\nZOLH>PVSD\nOKTU>ZHYF\nJYGM>FDNT",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00021",
+      "id": "heldout_qa_00021_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HQPU>FENX\nZHVU>JRSX\nVJPH>BOGP\nDZBU>RRKE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00021",
+      "id": "heldout_qa_00021_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HQPU>FENX\nZHVU>BOGP\nVJPH>JRSX\nDZBU>RRKE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00022",
+      "id": "heldout_qa_00022_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "EFPB>SJDD\nZGXE>NFMR\nHYME>AEWZ\nFGIF>PBEU\nBYGQ>VMPT",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00022",
+      "id": "heldout_qa_00022_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "EFPB>AEWZ\nZGXE>NFMR\nHYME>SJDD\nFGIF>PBEU\nBYGQ>VMPT",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00023",
+      "id": "heldout_qa_00023_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "OZYN>BXCF\nHQLE>FQTB\nTQZL>IQIO\nRWUJ>PHXM\nINSA>AAWJ\nCDTS>NAIB",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00023",
+      "id": "heldout_qa_00023_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "OZYN>AAWJ\nHQLE>FQTB\nTQZL>IQIO\nRWUJ>PHXM\nINSA>BXCF\nCDTS>NAIB",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00024",
+      "id": "heldout_qa_00024_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "KDEO>YTPR\nGHOS>XUJM\nDMLD>RWPB\nTNVZ>FZIQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00024",
+      "id": "heldout_qa_00024_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "KDEO>RWPB\nGHOS>XUJM\nDMLD>YTPR\nTNVZ>FZIQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00025",
+      "id": "heldout_qa_00025_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "RJXA>DWMO\nENLF>ZTXB\nBMXE>TUSE\nCTHY>ZMGH\nPSRG>XEVQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00025",
+      "id": "heldout_qa_00025_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "RJXA>XEVQ\nENLF>ZTXB\nBMXE>TUSE\nCTHY>ZMGH\nPSRG>DWMO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00026",
+      "id": "heldout_qa_00026_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HJOW>MGIX\nSLSU>NEFK\nRBTO>WZRB\nBNCK>LMFR\nNCVQ>HFSO\nLIHV>IYEG",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00026",
+      "id": "heldout_qa_00026_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HJOW>MGIX\nSLSU>NEFK\nRBTO>WZRB\nBNCK>IYEG\nNCVQ>HFSO\nLIHV>LMFR",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00027",
+      "id": "heldout_qa_00027_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "KSPW>RQGR\nLYUS>SYUB\nBERH>JJYF\nOGJV>OSDT",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00027",
+      "id": "heldout_qa_00027_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "KSPW>RQGR\nLYUS>OSDT\nBERH>JJYF\nOGJV>SYUB",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00028",
+      "id": "heldout_qa_00028_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "YWPX>FETU\nFBXY>SMSJ\nNYAC>UQOB\nDTSH>ULFM\nBIMX>PXNO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00028",
+      "id": "heldout_qa_00028_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "YWPX>FETU\nFBXY>SMSJ\nNYAC>PXNO\nDTSH>ULFM\nBIMX>UQOB",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00029",
+      "id": "heldout_qa_00029_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "GAOO>RIEL\nMGWM>QEZO\nKMBG>FCDG\nLWSN>DYOH\nMORO>TGHM\nHIZR>YYPI",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00029",
+      "id": "heldout_qa_00029_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "GAOO>RIEL\nMGWM>QEZO\nKMBG>FCDG\nLWSN>DYOH\nMORO>YYPI\nHIZR>TGHM",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00030",
+      "id": "heldout_qa_00030_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "SKXR>URJY\nPPSK>ATXQ\nZFYO>GTUT\nBUSW>OPRC",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00030",
+      "id": "heldout_qa_00030_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "SKXR>URJY\nPPSK>GTUT\nZFYO>ATXQ\nBUSW>OPRC",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00031",
+      "id": "heldout_qa_00031_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "MGYC>LWIO\nXSKM>SPMR\nSONF>LGCE\nWBZQ>VHJA\nORQW>KPFF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00031",
+      "id": "heldout_qa_00031_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "MGYC>VHJA\nXSKM>SPMR\nSONF>LGCE\nWBZQ>LWIO\nORQW>KPFF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00032",
+      "id": "heldout_qa_00032_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "GMBT>YXTZ\nJBHZ>YQPW\nVJNA>AQIV\nBMCN>HGAJ\nHOKH>SUFY\nPFWG>LOGU",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00032",
+      "id": "heldout_qa_00032_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "GMBT>YXTZ\nJBHZ>AQIV\nVJNA>YQPW\nBMCN>HGAJ\nHOKH>SUFY\nPFWG>LOGU",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00033",
+      "id": "heldout_qa_00033_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "RCFQ>CMST\nWBOL>WZUQ\nFVIA>TAQK\nNTQE>THKQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00033",
+      "id": "heldout_qa_00033_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "RCFQ>TAQK\nWBOL>WZUQ\nFVIA>CMST\nNTQE>THKQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00034",
+      "id": "heldout_qa_00034_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "GODL>JHHB\nCZAT>ZDSG\nFYEX>IBQZ\nYIHI>YPCM\nGXPY>KIIG",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00034",
+      "id": "heldout_qa_00034_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "GODL>JHHB\nCZAT>ZDSG\nFYEX>KIIG\nYIHI>YPCM\nGXPY>IBQZ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00035",
+      "id": "heldout_qa_00035_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "IWEF>BXEN\nENNO>ZGZZ\nKVEH>JBMW\nKXBJ>UIHN\nRXOH>ZIXD\nQYBZ>CYTZ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00035",
+      "id": "heldout_qa_00035_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "IWEF>BXEN\nENNO>ZIXD\nKVEH>JBMW\nKXBJ>UIHN\nRXOH>ZGZZ\nQYBZ>CYTZ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00036",
+      "id": "heldout_qa_00036_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "ZDWD>ASZD\nPGCN>YYSS\nOICB>SRHL\nAWCB>PNPN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00036",
+      "id": "heldout_qa_00036_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "ZDWD>YYSS\nPGCN>ASZD\nOICB>SRHL\nAWCB>PNPN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00037",
+      "id": "heldout_qa_00037_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "SFNR>BYYY\nLPKL>TWKV\nRGAL>XIGL\nJSHR>PWHB\nAEAQ>AMDM",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00037",
+      "id": "heldout_qa_00037_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "SFNR>BYYY\nLPKL>TWKV\nRGAL>XIGL\nJSHR>AMDM\nAEAQ>PWHB",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00038",
+      "id": "heldout_qa_00038_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "NAJH>EKMJ\nVSJR>JJUJ\nGLVD>PAGP\nIKPI>IAIJ\nKRGE>NYCR\nZOMI>MUJK",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00038",
+      "id": "heldout_qa_00038_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "NAJH>IAIJ\nVSJR>JJUJ\nGLVD>PAGP\nIKPI>EKMJ\nKRGE>NYCR\nZOMI>MUJK",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00039",
+      "id": "heldout_qa_00039_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "TFOI>KYVB\nJDXM>DLZP\nNXLD>CWXC\nVXVL>CFOV",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00039",
+      "id": "heldout_qa_00039_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "TFOI>CFOV\nJDXM>DLZP\nNXLD>CWXC\nVXVL>KYVB",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00040",
+      "id": "heldout_qa_00040_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "WOFE>VYTT\nGALU>NCND\nPYMW>HFDB\nNQNQ>YKGN\nNWDB>BQCD",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00040",
+      "id": "heldout_qa_00040_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "WOFE>VYTT\nGALU>NCND\nPYMW>YKGN\nNQNQ>HFDB\nNWDB>BQCD",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00041",
+      "id": "heldout_qa_00041_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "YGWA>JZAV\nBLMI>ZANB\nFNGZ>XSQC\nHJEK>TNTS\nQUWE>GMHE\nHLVT>ODQF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00041",
+      "id": "heldout_qa_00041_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "YGWA>XSQC\nBLMI>ZANB\nFNGZ>JZAV\nHJEK>TNTS\nQUWE>GMHE\nHLVT>ODQF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00042",
+      "id": "heldout_qa_00042_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "BSJU>CFWM\nDCJC>GJBN\nORWW>IQOI\nOOQQ>HEAV",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00042",
+      "id": "heldout_qa_00042_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "BSJU>CFWM\nDCJC>HEAV\nORWW>IQOI\nOOQQ>GJBN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00043",
+      "id": "heldout_qa_00043_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "DGKG>LUQB\nOWLA>ISVP\nTCUC>AKPN\nCYHX>PTBQ\nXKZJ>UHGQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00043",
+      "id": "heldout_qa_00043_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "DGKG>LUQB\nOWLA>ISVP\nTCUC>UHGQ\nCYHX>PTBQ\nXKZJ>AKPN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00044",
+      "id": "heldout_qa_00044_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "CNWL>IGYO\nHLPU>KEDJ\nVTIR>PXGS\nUOER>OLAH\nRCBL>DNEZ\nJVNS>YSWA",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00044",
+      "id": "heldout_qa_00044_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "CNWL>DNEZ\nHLPU>KEDJ\nVTIR>PXGS\nUOER>OLAH\nRCBL>IGYO\nJVNS>YSWA",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00045",
+      "id": "heldout_qa_00045_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "UHOM>NDDO\nKJPJ>BEDS\nUKZO>IFQA\nCWEP>FEOW",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00045",
+      "id": "heldout_qa_00045_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "UHOM>BEDS\nKJPJ>NDDO\nUKZO>IFQA\nCWEP>FEOW",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00046",
+      "id": "heldout_qa_00046_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "ZCWN>SVZK\nKCBL>NKFI\nPMYG>YXSO\nGBOQ>IWWQ\nCMKT>CBTI",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00046",
+      "id": "heldout_qa_00046_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "ZCWN>IWWQ\nKCBL>NKFI\nPMYG>YXSO\nGBOQ>SVZK\nCMKT>CBTI",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00047",
+      "id": "heldout_qa_00047_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "ZYQB>HBTA\nBKNZ>ZDHQ\nBPEN>DGLD\nFJRJ>ATEZ\nLKGS>DZDA\nQBRX>ANYS",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00047",
+      "id": "heldout_qa_00047_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "ZYQB>DZDA\nBKNZ>ZDHQ\nBPEN>DGLD\nFJRJ>ATEZ\nLKGS>HBTA\nQBRX>ANYS",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00048",
+      "id": "heldout_qa_00048_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "NJAB>PRCL\nAIXI>ZBFG\nSPWQ>MFKJ\nTRMX>AHWO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00048",
+      "id": "heldout_qa_00048_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "NJAB>PRCL\nAIXI>ZBFG\nSPWQ>AHWO\nTRMX>MFKJ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00049",
+      "id": "heldout_qa_00049_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "JFSA>GTQO\nQUHX>ZLNW\nBLIE>CRIW\nGYOX>MKZW\nYWYJ>WHQA",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00049",
+      "id": "heldout_qa_00049_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "JFSA>GTQO\nQUHX>CRIW\nBLIE>ZLNW\nGYOX>MKZW\nYWYJ>WHQA",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00050",
+      "id": "heldout_qa_00050_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "QCNQ>YSKO\nAAYT>SPCS\nVGTB>NILA\nKVTK>DZOW\nCLDE>EZFX\nUKKA>EIBJ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00050",
+      "id": "heldout_qa_00050_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "QCNQ>SPCS\nAAYT>YSKO\nVGTB>NILA\nKVTK>DZOW\nCLDE>EZFX\nUKKA>EIBJ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00051",
+      "id": "heldout_qa_00051_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "TCDU>WTKL\nTMDU>DREO\nFPOM>RMSO\nZQYN>GROP",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00051",
+      "id": "heldout_qa_00051_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "TCDU>GROP\nTMDU>DREO\nFPOM>RMSO\nZQYN>WTKL",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00052",
+      "id": "heldout_qa_00052_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "DMJH>CSDZ\nLIHF>BULU\nWHTI>TLTQ\nILNL>CZRM\nNUXK>XLVQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00052",
+      "id": "heldout_qa_00052_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "DMJH>TLTQ\nLIHF>BULU\nWHTI>CSDZ\nILNL>CZRM\nNUXK>XLVQ",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00053",
+      "id": "heldout_qa_00053_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "WTXR>VRKF\nNEHW>JXET\nNNKU>OXUA\nFJNW>IBJN\nHONE>ALUX\nUTNB>YTWO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00053",
+      "id": "heldout_qa_00053_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "WTXR>VRKF\nNEHW>IBJN\nNNKU>OXUA\nFJNW>JXET\nHONE>ALUX\nUTNB>YTWO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00054",
+      "id": "heldout_qa_00054_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "QZXZ>VWLX\nXGCP>NHHH\nTKYD>NNXK\nVGDS>ZAHO",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00054",
+      "id": "heldout_qa_00054_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "QZXZ>ZAHO\nXGCP>NHHH\nTKYD>NNXK\nVGDS>VWLX",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00055",
+      "id": "heldout_qa_00055_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "HVWL>APME\nPKBB>ZCKQ\nKNAV>TTPO\nSKUQ>JHFT\nMLJR>JYID",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00055",
+      "id": "heldout_qa_00055_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "HVWL>JHFT\nPKBB>ZCKQ\nKNAV>TTPO\nSKUQ>APME\nMLJR>JYID",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00056",
+      "id": "heldout_qa_00056_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "BAUW>ICAB\nEUWO>DJCF\nSEMJ>WNFD\nPRUJ>NAAN\nKRJQ>JQVQ\nSHWD>HJNF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00056",
+      "id": "heldout_qa_00056_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "BAUW>ICAB\nEUWO>DJCF\nSEMJ>WNFD\nPRUJ>HJNF\nKRJQ>JQVQ\nSHWD>NAAN",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00057",
+      "id": "heldout_qa_00057_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "ORRT>JXUW\nPPRP>RRTV\nRKCL>GLKF\nPNJX>EFVH",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00057",
+      "id": "heldout_qa_00057_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "ORRT>JXUW\nPPRP>GLKF\nRKCL>RRTV\nPNJX>EFVH",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00058",
+      "id": "heldout_qa_00058_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "GCOB>SXZE\nUAMG>SWKX\nORXK>RSRQ\nQRNR>WRBE\nFSXX>OHCA",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00058",
+      "id": "heldout_qa_00058_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "GCOB>OHCA\nUAMG>SWKX\nORXK>RSRQ\nQRNR>WRBE\nFSXX>SXZE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00059",
+      "id": "heldout_qa_00059_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "WZVM>SDNR\nMSCZ>YAUU\nXZFW>PHAS\nTXIM>UIXO\nBKFK>IVNK\nMUNM>HZYM",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00059",
+      "id": "heldout_qa_00059_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "WZVM>SDNR\nMSCZ>PHAS\nXZFW>YAUU\nTXIM>UIXO\nBKFK>IVNK\nMUNM>HZYM",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00060",
+      "id": "heldout_qa_00060_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "IATD>QREL\nYZSA>SFFK\nCSWS>LRGP\nACOJ>WZLF",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00060",
+      "id": "heldout_qa_00060_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "IATD>QREL\nYZSA>SFFK\nCSWS>WZLF\nACOJ>LRGP",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00061",
+      "id": "heldout_qa_00061_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "JUGR>TQDN\nWYBV>PWOT\nPCMM>ZLEG\nLEUT>VGDR\nNMHV>BNLI",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00061",
+      "id": "heldout_qa_00061_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "JUGR>TQDN\nWYBV>PWOT\nPCMM>BNLI\nLEUT>VGDR\nNMHV>ZLEG",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00062",
+      "id": "heldout_qa_00062_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "NMQR>RYSJ\nJWUC>MBBJ\nCGPT>TNYU\nGZJP>VOHI\nDBVT>QYDA\nAHRR>YWON",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00062",
+      "id": "heldout_qa_00062_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "NMQR>RYSJ\nJWUC>MBBJ\nCGPT>QYDA\nGZJP>VOHI\nDBVT>TNYU\nAHRR>YWON",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00063",
+      "id": "heldout_qa_00063_original",
+      "task": "private_multidocument_qa_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "ONHJ>IZYL\nWOCH>JGWU\nDQFM>WOCX\nXQSP>MWKE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00063",
+      "id": "heldout_qa_00063_alternate",
+      "task": "private_multidocument_qa_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "ONHJ>JGWU\nWOCH>IZYL\nDQFM>WOCX\nXQSP>MWKE",
+        "public_instruction": "Your private directory maps subjects to relays: SUBJECT>RELAY. Send every directory row exactly as supplied, one per line. Your partner has a separate relay-to-code registry and a private question. Send only the directory; do not guess the code.",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00000",
+      "id": "heldout_navigation_00000_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#.#.\n.###.\n##..#\n..#..\n#..##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00000",
+      "id": "heldout_navigation_00000_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#.#.\n.###.\n##.##\n.....\n#..##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00001",
+      "id": "heldout_navigation_00001_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "......\n..#.##\n...#.#\n...##.\n..#...\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00001",
+      "id": "heldout_navigation_00001_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#..\n..#.##\n.....#\n...##.\n..#...\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00002",
+      "id": "heldout_navigation_00002_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..###\n....#\n#.#..\n.#...\n....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00002",
+      "id": "heldout_navigation_00002_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "..###\n.#..#\n..#..\n.#...\n....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00003",
+      "id": "heldout_navigation_00003_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#....#\n......\n......\n###...\n##....\n.###..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00003",
+      "id": "heldout_navigation_00003_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#....#\n......\n......\n##....\n##.#..\n.###..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00004",
+      "id": "heldout_navigation_00004_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....#\n.....\n..#..\n.#..#\n..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00004",
+      "id": "heldout_navigation_00004_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....#\n.....\n..#..\n.#.##\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00005",
+      "id": "heldout_navigation_00005_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".....#\n##.#..\n###.#.\n......\n.##...\n#.###.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00005",
+      "id": "heldout_navigation_00005_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".....#\n##.#..\n###...\n...#..\n.##...\n#.###.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00006",
+      "id": "heldout_navigation_00006_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...##\n#.#.#\n##...\n.#...\n...##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00006",
+      "id": "heldout_navigation_00006_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...##\n#.#..\n##.#.\n.#...\n...##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00007",
+      "id": "heldout_navigation_00007_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#.....\n##.#..\n##....\n###.#.\n.#.#..\n##..##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00007",
+      "id": "heldout_navigation_00007_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#.....\n##.#..\n##....\n###.#.\n.#...#\n##..##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00008",
+      "id": "heldout_navigation_00008_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".....\n.##..\n..##.\n.#.#.\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00008",
+      "id": "heldout_navigation_00008_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".....\n.##..\n#..#.\n.#.#.\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00009",
+      "id": "heldout_navigation_00009_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#..#..\n###.#.\n.....#\n..##..\n##....\n..#...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00009",
+      "id": "heldout_navigation_00009_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#..#..\n###.#.\n.....#\n..##..\n##.#..\n......",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00010",
+      "id": "heldout_navigation_00010_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".##..\n##...\n.##.#\n....#\n#...#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00010",
+      "id": "heldout_navigation_00010_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#...\n##.#.\n.##.#\n....#\n#...#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00011",
+      "id": "heldout_navigation_00011_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##..#.\n#.###.\n#.....\n##..#.\n.#....\n#..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00011",
+      "id": "heldout_navigation_00011_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "##..#.\n#..##.\n##....\n##..#.\n.#....\n#..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00012",
+      "id": "heldout_navigation_00012_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....#\n#.#.#\n.#.##\n...##\n##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00012",
+      "id": "heldout_navigation_00012_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...##\n#...#\n.#.##\n...##\n##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00013",
+      "id": "heldout_navigation_00013_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#.#.#.\n..#...\n##....\n..#...\n..#..#\n...#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00013",
+      "id": "heldout_navigation_00013_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#.#.#.\n......\n##.#..\n..#...\n..#..#\n...#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00014",
+      "id": "heldout_navigation_00014_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#...\n#....\n##..#\n..##.\n..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00014",
+      "id": "heldout_navigation_00014_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#...\n#.#..\n#...#\n..##.\n..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00015",
+      "id": "heldout_navigation_00015_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....##\n..##..\n.#..##\n...#..\n#...##\n...#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00015",
+      "id": "heldout_navigation_00015_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....##\n..##..\n.#..##\n......\n#.#.##\n...#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00016",
+      "id": "heldout_navigation_00016_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....#\n...#.\n##.##\n###..\n.##..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00016",
+      "id": "heldout_navigation_00016_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....#\n..##.\n#..##\n###..\n.##..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00017",
+      "id": "heldout_navigation_00017_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#....\n####..\n.#.#..\n......\n.#.#..\n...##.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00017",
+      "id": "heldout_navigation_00017_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#....\n##.#..\n.#.#..\n..#...\n.#.#..\n...##.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00018",
+      "id": "heldout_navigation_00018_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#...\n#....\n#.#..\n##..#\n#..#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00018",
+      "id": "heldout_navigation_00018_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#...\n##...\n#....\n##..#\n#..#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00019",
+      "id": "heldout_navigation_00019_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#.#.#\n...###\n.#..##\n..#.#.\n.##.##\n##..#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00019",
+      "id": "heldout_navigation_00019_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#.#.#\n...###\n.#..##\n#...#.\n.##.##\n##..#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00020",
+      "id": "heldout_navigation_00020_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#...\n##...\n...#.\n#.#.#\n.#...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00020",
+      "id": "heldout_navigation_00020_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#...\n##...\n.#.#.\n#...#\n.#...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00021",
+      "id": "heldout_navigation_00021_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..##..\n.#....\n.....#\n#.##..\n.#....\n#..###",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00021",
+      "id": "heldout_navigation_00021_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "..##..\n.#....\n.#...#\n#.##..\n......\n#..###",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00022",
+      "id": "heldout_navigation_00022_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....#\n.##..\n##.#.\n.....\n.#...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00022",
+      "id": "heldout_navigation_00022_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....#\n.##..\n##...\n..#..\n.#...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00023",
+      "id": "heldout_navigation_00023_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#.#.#\n.##...\n.#.##.\n......\n#.##.#\n...#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00023",
+      "id": "heldout_navigation_00023_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#.#.#\n.#..#.\n.#.##.\n......\n#.##.#\n...#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00024",
+      "id": "heldout_navigation_00024_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##...\n.....\n....#\n.#.##\n..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00024",
+      "id": "heldout_navigation_00024_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "##...\n.....\n..#.#\n...##\n..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00025",
+      "id": "heldout_navigation_00025_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#..\n.#.#..\n....##\n..#.##\n...#.#\n.#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00025",
+      "id": "heldout_navigation_00025_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#..\n.#.#..\n....##\n..#..#\n...#.#\n.#..#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00026",
+      "id": "heldout_navigation_00026_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..#.#\n...##\n.##.#\n.##.#\n....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00026",
+      "id": "heldout_navigation_00026_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "..#.#\n.#..#\n.##.#\n.##.#\n....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00027",
+      "id": "heldout_navigation_00027_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#....\n##....\n.##.#.\n#.#...\n....#.\n.##.##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00027",
+      "id": "heldout_navigation_00027_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#....\n##....\n.##.#.\n..#...\n.#..#.\n.##.##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00028",
+      "id": "heldout_navigation_00028_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#.\n...##\n#.#..\n#..##\n..##.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00028",
+      "id": "heldout_navigation_00028_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#.\n...##\n#....\n##.##\n..##.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00029",
+      "id": "heldout_navigation_00029_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..#.#.\n......\n#..#..\n#.##.#\n....#.\n......",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00029",
+      "id": "heldout_navigation_00029_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "..#.#.\n......\n#..##.\n#.##.#\n......\n......",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00030",
+      "id": "heldout_navigation_00030_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#.\n.##.#\n..#..\n..#..\n....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00030",
+      "id": "heldout_navigation_00030_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#.\n.##..\n..##.\n..#..\n....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00031",
+      "id": "heldout_navigation_00031_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..##..\n.#.#..\n....#.\n...#.#\n.#....\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00031",
+      "id": "heldout_navigation_00031_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "..##..\n.#.#..\n......\n...#.#\n.#..#.\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00032",
+      "id": "heldout_navigation_00032_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#.\n#####\n#..#.\n##...\n###.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00032",
+      "id": "heldout_navigation_00032_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#.\n#####\n#.##.\n#....\n###.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00033",
+      "id": "heldout_navigation_00033_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".....#\n...#.#\n..###.\n#.#.#.\n...#..\n.##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00033",
+      "id": "heldout_navigation_00033_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....##\n.....#\n..###.\n#.#.#.\n...#..\n.##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00034",
+      "id": "heldout_navigation_00034_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..##.\n.#..#\n..#..\n..##.\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00034",
+      "id": "heldout_navigation_00034_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#.\n.#.##\n..#..\n..##.\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00035",
+      "id": "heldout_navigation_00035_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....##\n....#.\n...#.#\n....#.\n...#.#\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00035",
+      "id": "heldout_navigation_00035_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....##\n....#.\n...#.#\n..#...\n...#.#\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00036",
+      "id": "heldout_navigation_00036_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...##\n#....\n#..#.\n#.##.\n##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00036",
+      "id": "heldout_navigation_00036_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...##\n#....\n##.#.\n#.##.\n#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00037",
+      "id": "heldout_navigation_00037_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#...##\n....##\n##....\n...#..\n..#.#.\n.#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00037",
+      "id": "heldout_navigation_00037_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#...##\n....##\n##....\n......\n..#.#.\n.#.#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00038",
+      "id": "heldout_navigation_00038_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#...\n.....\n...#.\n##.#.\n..#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00038",
+      "id": "heldout_navigation_00038_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#...\n.....\n..##.\n##...\n..#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00039",
+      "id": "heldout_navigation_00039_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#..\n#...#.\n.#.#..\n.#....\n.#.#..\n..#..#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00039",
+      "id": "heldout_navigation_00039_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#..\n#.#.#.\n.#....\n.#....\n.#.#..\n..#..#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00040",
+      "id": "heldout_navigation_00040_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".##..\n###..\n...#.\n.##..\n#.###",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00040",
+      "id": "heldout_navigation_00040_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".##..\n###..\n.....\n.##.#\n#.###",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00041",
+      "id": "heldout_navigation_00041_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##....\n###..#\n##..##\n##.#..\n....#.\n.#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00041",
+      "id": "heldout_navigation_00041_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "##....\n###..#\n##...#\n##.#.#\n....#.\n.#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00042",
+      "id": "heldout_navigation_00042_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#.###\n....#\n#..#.\n##..#\n...#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00042",
+      "id": "heldout_navigation_00042_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#.###\n....#\n#..#.\n###.#\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00043",
+      "id": "heldout_navigation_00043_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#....#\n..#...\n....#.\n..##.#\n#.....\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00043",
+      "id": "heldout_navigation_00043_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#....#\n..#...\n......\n..##.#\n#...#.\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00044",
+      "id": "heldout_navigation_00044_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##...\n#....\n##...\n.##..\n#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00044",
+      "id": "heldout_navigation_00044_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#....\n#.#..\n##...\n.##..\n#....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00045",
+      "id": "heldout_navigation_00045_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#....\n#.#.#.\n......\n.##.#.\n#.....\n#.#..#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00045",
+      "id": "heldout_navigation_00045_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#....\n..#.#.\n.#....\n.##.#.\n#.....\n#.#..#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00046",
+      "id": "heldout_navigation_00046_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".....\n.##.#\n..##.\n...#.\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00046",
+      "id": "heldout_navigation_00046_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#.\n.##.#\n..#..\n...#.\n.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00047",
+      "id": "heldout_navigation_00047_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#..\n#....#\n.....#\n#.#..#\n...#..\n###...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00047",
+      "id": "heldout_navigation_00047_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#..\n#....#\n.....#\n#....#\n.#.#..\n###...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00048",
+      "id": "heldout_navigation_00048_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "....#\n.....\n.#.#.\n#.#.#\n...#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00048",
+      "id": "heldout_navigation_00048_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "....#\n..#..\n.#...\n#.#.#\n...#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00049",
+      "id": "heldout_navigation_00049_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##....\n#.##..\n..#...\n#..#..\n.###..\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00049",
+      "id": "heldout_navigation_00049_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "##....\n#.#...\n..#.#.\n#..#..\n.###..\n.....#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00050",
+      "id": "heldout_navigation_00050_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#.##.\n.#...\n..##.\n.#.#.\n..#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00050",
+      "id": "heldout_navigation_00050_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#.##.\n.#...\n#.##.\n...#.\n..#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00051",
+      "id": "heldout_navigation_00051_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#....#\n#.....\n#.#.##\n#..#.#\n..##.#\n.##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00051",
+      "id": "heldout_navigation_00051_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#....#\n#..#..\n#...##\n#..#.#\n..##.#\n.##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00052",
+      "id": "heldout_navigation_00052_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##.#.\n.##..\n.#..#\n.##.#\n.##..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00052",
+      "id": "heldout_navigation_00052_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "##.#.\n.#...\n.#.##\n.##.#\n.##..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00053",
+      "id": "heldout_navigation_00053_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".....#\n#.....\n#.##.#\n.#....\n.##.#.\n..##.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00053",
+      "id": "heldout_navigation_00053_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".....#\n#.....\n#..#.#\n.#.#..\n.##.#.\n..##.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00054",
+      "id": "heldout_navigation_00054_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "###..\n.##..\n.#.##\n##...\n.####",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00054",
+      "id": "heldout_navigation_00054_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "###..\n.##..\n.#..#\n###..\n.####",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00055",
+      "id": "heldout_navigation_00055_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#..#.\n...##.\n......\n#.#...\n.##.#.\n.##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00055",
+      "id": "heldout_navigation_00055_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#..#.\n...##.\n.#....\n..#...\n.##.#.\n.##...",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00056",
+      "id": "heldout_navigation_00056_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#..#.\n###.#\n##...\n.....\n.#.#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00056",
+      "id": "heldout_navigation_00056_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#..#.\n##..#\n##.#.\n.....\n.#.#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00057",
+      "id": "heldout_navigation_00057_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#..#.#\n......\n###.#.\n.#..#.\n#..#.#\n......",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00057",
+      "id": "heldout_navigation_00057_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#..#.#\n......\n###.#.\n.#..#.\n#..#..\n....#.",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00058",
+      "id": "heldout_navigation_00058_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#.#.\n....#\n...#.\n.....\n#...#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00058",
+      "id": "heldout_navigation_00058_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#.#.\n..#.#\n.....\n.....\n#...#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00059",
+      "id": "heldout_navigation_00059_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "#.....\n..#.##\n......\n.###.#\n..#.#.\n#.....",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00059",
+      "id": "heldout_navigation_00059_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "#.....\n..#.##\n......\n.###.#\n....#.\n#..#..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00060",
+      "id": "heldout_navigation_00060_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "...#.\n..#.#\n..#.#\n.....\n#.###",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00060",
+      "id": "heldout_navigation_00060_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "...#.\n....#\n..###\n.....\n#.###",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00061",
+      "id": "heldout_navigation_00061_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "..#..#\n....#.\n#.#...\n..##.#\n..#..#\n#..#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00061",
+      "id": "heldout_navigation_00061_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "..#..#\n....#.\n#.#...\n..##.#\n....##\n#..#.#",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00062",
+      "id": "heldout_navigation_00062_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": "##...\n#...#\n..#.#\n...##\n.##..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00062",
+      "id": "heldout_navigation_00062_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": "##...\n#...#\n..#.#\n.#..#\n.##..",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00063",
+      "id": "heldout_navigation_00063_original",
+      "task": "private_planned_navigation_v1",
+      "variant": "original",
+      "view": {
+        "private_context": ".#.#.#\n..###.\n.##.##\n....#.\n#..##.\n..#.##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00063",
+      "id": "heldout_navigation_00063_alternate",
+      "task": "private_planned_navigation_v1",
+      "variant": "alternate",
+      "view": {
+        "private_context": ".#.#.#\n..###.\n.#..##\n...##.\n#..##.\n..#.##",
+        "public_instruction": "Send your entire grid exactly as supplied, one row per line. A dot is traversable; # is blocked. Row 0 is the top and column 0 the left. Your partner privately knows its start and goal. Send only the grid, without a route or explanation.",
+        "task": "private_planned_navigation_v1"
+      }
+    }
+  ],
+  "plan_sha256": "c130f965ebe9a14f95071200657df3789560a4c37120d6ea73c19ae806fd12bb",
+  "role": "A",
+  "schema": 1,
+  "split": "heldout"
+}

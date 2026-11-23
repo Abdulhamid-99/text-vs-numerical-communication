@@ -1,0 +1,301 @@
+{
+  "budget_rule": "Atomic one-packet admission, full application bytes; oversize means zero sent bits and no message; equality admitted",
+  "code_sha256": {
+    "src/budgetfair/__init__.py": "69aba03733dc98c6b7f96d763f800ee9945ce94a00d9f631f5891d42ad370fd7",
+    "src/budgetfair/agents/__init__.py": "471c13a2a8a01dba639fd8e707480641dbe865fdcc0f2c903be1bcd84a85f2a6",
+    "src/budgetfair/agents/base.py": "795c3e38c4912f9ea7affd763b7e76a3212a93d425021c3b2990e86378b77daf",
+    "src/budgetfair/agents/knowledge_holder.py": "dbd95a9f8d2a13d35bee190b985b3a50ce221c9d7e27c14de82889d52aeb92f7",
+    "src/budgetfair/agents/navigator.py": "c863059551c65818b004a6de35d0a5f5fb39486203c1b060dd608c51faefc4ec",
+    "src/budgetfair/agents/vector_knowledge_holder.py": "069c34fcc4ca3e4d1f6981fcf7fe753fbbe2d205372d4a4b6a1a207f1fffb74c",
+    "src/budgetfair/budget/__init__.py": "8192f74858c62173a63a06c4779d8b195bf393fb06482bda550c80921ab259dc",
+    "src/budgetfair/budget/controller.py": "d6185a492b9b9006d18e5be1c57e166d20215eb57a772c278e0fec29bbe38fed",
+    "src/budgetfair/comm/__init__.py": "85dec95cbe759da14dd19e06fd7937dccadb0cb1f4dfbd951c13ee5078b896d4",
+    "src/budgetfair/comm/base.py": "662d88349cf135aef66372be567702ba9313cf0f4e541bd84e86a82b6e72708f",
+    "src/budgetfair/comm/pca_packet.py": "fad20ec6b17c6632e35cb1b92087d5724729ad9293d4060bdb0d5c84344830cf",
+    "src/budgetfair/comm/projection.py": "0dce7e832162153c6a544884f2122ea2b1d0fb56d66bf152a52d7019ae5bbbc9",
+    "src/budgetfair/comm/tensor_packet.py": "3403418768cd8ed2953a0b94655a19b61c0f21bae10806d2d61fac93ca705043",
+    "src/budgetfair/comm/text_channel.py": "336c6ca8a8cdcea17f81b7b117c8708328bca889c12935df32ecfe9035bc573e",
+    "src/budgetfair/comm/vector_channel.py": "729b3f370dee49278bcaa7a8ebe67d80bdfeec05718b12b3b2f326b15560fbe8",
+    "src/budgetfair/configuration.py": "91df0914d90825cd5942e1f06168adf6b4b9265417b8f1fb45565dcecf405fda",
+    "src/budgetfair/eval/__init__.py": "ecc6988afbec70fff39367ec48e0c625a5d99352c0ecb83e0009200e1e92dad4",
+    "src/budgetfair/eval/metrics.py": "812a6f26b19b350e730b7f10501d96f4b0e168b6387edbeae1ffc573903c67fa",
+    "src/budgetfair/eval/stats.py": "6288ee466efa54157a4a88f7e931cfb98d7d8cb3a4e86ea2a13a81e6ae7a5bb9",
+    "src/budgetfair/logging_utils/__init__.py": "1a98d7c71ad3df2f9abc3a5ceb1f8a5d1823f188029df190b1ec98414cc39289",
+    "src/budgetfair/logging_utils/logger.py": "4cf41a651280bc691fb00d0b6df7d29d65923cabeb854ec7c3a1bab78bde5e52",
+    "src/budgetfair/model/__init__.py": "d1021710cf58418ff9f94d42477560e3a738c73e816d0aa2ccb6ad3591ed0119",
+    "src/budgetfair/model/client.py": "7467f7e0d1c8522fab0eab3cad5b0924ee283611daa07f56f0658c19b75a4f03",
+    "src/budgetfair/model/pca_transport.py": "fb0aa9ac2086b80a5faca23a58986ebac2d43c37b8730027449d25ab84ddaacd",
+    "src/budgetfair/model/span_transport.py": "e95f7a89bf19689f16e53b2534229aa11074c388b5d4888b4d8fbc3f7278f393",
+    "src/budgetfair/network/__init__.py": "e126e3166c1d8414f8bb9fc85e84259224ffa5f564648ea8057c05a001de905a",
+    "src/budgetfair/network/simulator.py": "b1a3598bfe81a467c2a57f4829ae9f2e309064ca998bdea86dc7587742733f95",
+    "src/budgetfair/run_state.py": "e5f5da991a307d8965febb5a18c3c17dffe73d18959fa10282d09ed6a0c7c498",
+    "src/budgetfair/runner.py": "112f24c1f02fd01aef8f923b5e7b2af936a08b8cedeae0c6e7965405dd57a484",
+    "src/budgetfair/tasks/__init__.py": "388c684c9d201281b757631fc0b46c3c8f743ddafe8c8505f9f02568741ca743",
+    "src/budgetfair/tasks/base.py": "f8adea92cb491c33fc581393ca84fe87354d8f85f420206a0c1bc47f9f87d2ce",
+    "src/budgetfair/tasks/coop_navigation.py": "d4cae9ea886875ea91ead6e450ac8188ae798fce19457be5ecd73be8817ba18d",
+    "src/budgetfair/tasks/manifest.py": "be270af0e0cc3ea1d57a2ab1c151fbf8df1c45c73a0cd5c38f2d3b1fde6ec7b8",
+    "src/budgetfair/tasks/multidoc_qa.py": "a94b0d010332563906bf2b6a8b4a7c80bb1fa4ff3b3c736df1ffb9ebeb4dae39",
+    "src/budgetfair/tasks/secret_passing.py": "8b2c5f9064e9993e74fd5520133eb8ce6588912e15c3087ec6d71a02d35e302b",
+    "thesis_study/analyze_study.py": "8246aecfd8b6d13a8b106c426e6f7f2ae7dc9303a77dd290a9ec916d85f6a026",
+    "thesis_study/build_development_data.py": "16ab3fb05a689a39de5ce02814e775ba079531745ca5af89fea96212800b98b5",
+    "thesis_study/calibrate_probe.py": "471e6f146d77566afb3303a1fb935c684b73503c19997fa48081d0c0e02acd14",
+    "thesis_study/common.py": "5ec8e4e9f39bd9a92c81bf9417e0512526cfa2a7392ad85bfd353d76bcc79e04",
+    "thesis_study/execute_study.py": "ed70b01f100f319152f304f679fd5dc6e84e31ad60f4c4e01be6c0effbecdf89",
+    "thesis_study/finalize_statistics.py": "1d82bd5bcec139aefe49458482dff19d9a69dfa41f590964faf02b3645668522",
+    "thesis_study/navigation_agent.py": "87f8404992d5762872ea1211a9a57fe7a325c2d46439cfec00af4379e183a706",
+    "thesis_study/paired_analysis.py": "a205f5c2f0982d99722f5f80847c7a56113ba9d862e0dc168a81dee7f810dfe7",
+    "thesis_study/prepare_study.py": "c745ab9ada1cc55302e5dfdc9df550589d3053119c3dcb29d702d33270bbd9e4",
+    "thesis_study/private_tasks.py": "1d8ded24c7169916939fe1e89ccb5dc5d47c72bd75721254f7e57bfe974ecf83",
+    "thesis_study/probe_navigation_format.py": "03f87d9e88acff85ddbea2b505d7aa440d12cc382e9216510857dc0f86285f4f",
+    "thesis_study/probe_tasks.py": "b9477cfe1c031c6f0752df5bda09fcc4e57d09aff3f9980d9f93c0040017c135",
+    "thesis_study/protocol_contracts.py": "cb7e43674dfe10016cb949af09a7ae54d5d19534514f8e2695e2373971d3e628",
+    "thesis_study/study_worker.py": "99671f5d485b0c240b4975f644e7e464c3f2c63c3f06971236d46f4d3012e9bb",
+    "thesis_study/task_prompts.py": "f6d91eb8d34075cd0b446fbf68c956055e32ee4df544e483d0eb22a9e599a4d8"
+  },
+  "conditions": {
+    "pca": [
+      "pca_generated",
+      "pca_oracle",
+      "pca_swapped",
+      "pca_mean"
+    ],
+    "raw": [
+      "raw_generated",
+      "raw_oracle",
+      "raw_swapped",
+      "raw_zero",
+      "no_comm"
+    ],
+    "text": [
+      "text_generated",
+      "text_oracle",
+      "text_swapped"
+    ]
+  },
+  "development_data_manifest_sha256": "0ad19e45485c95982d3d235d4c6637419dfcce9ddc9b4de9175c7d41312d9a5a",
+  "exclusion_lineage_sha256": "ec13a632020ea6080aa93fc3e56b91159814dc3330d3e0bcbddb8771669efa92",
+  "failure_rule": "Technical/model runtime exceptions abort and leave unsealed stage. Completed sender output outside 1..128 payload tokens is an explicit source_contract_failure, never silently truncated; affected delivery uses observed no-message output and reports flag.",
+  "families_per_task": 64,
+  "frozen_utc": "2026-09-12T20:43:00.639420+00:00",
+  "heldout_created": false,
+  "heldout_tuning": "Prohibited; any implementation failure preserves evidence and requires explicit deviation and fresh heldout families",
+  "image_id": "sha256:10f23619ca7bb37fa211ce4502fa38a39207481729c9420c858bc4fd3161368d",
+  "latency_scope": "Measured synchronized model/encoding seconds; simulated serialization/propagation only. No measured network or deployment p95 claim.",
+  "loss_draw_definition": "Take the first 53 most significant SHA256 bits of UTF-8(loss_seed + '|' + family_id), then divide by 2**53.",
+  "loss_draw_rule": "sha256_first53_utf8_seed_pipe_family_div_2pow53",
+  "loss_rates": [
+    0.0,
+    0.05,
+    0.1
+  ],
+  "loss_rule": "One paired SHA256-seeded Bernoulli mask per family, shared across models/channels; 5/10 percent nested thresholds; sent lost packets still charged",
+  "models": {
+    "llama": {
+      "allowed_device_placements": [
+        "cuda:0"
+      ],
+      "config": {
+        "generation": {
+          "do_sample": false,
+          "max_new_tokens": 192,
+          "temperature": 0.0,
+          "top_p": 1.0
+        },
+        "model": {
+          "device": "cuda:0",
+          "max_context_len": 8192,
+          "name": "meta-llama/Llama-3.1-8B-Instruct",
+          "quantization": "int8",
+          "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+          "torch_dtype": "bfloat16"
+        },
+        "tokenizer": {
+          "name": "meta-llama/Llama-3.1-8B-Instruct",
+          "revision": "0e9e39f249a16976918f6564b8830bc894c89659"
+        }
+      },
+      "development_manifest_sha256": "24907bbc2377c6423df695a6f7e51d2af5ef817de907f9fb0f23430da1acbca2",
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 192,
+        "temperature": 0.0,
+        "top_p": 1.0
+      },
+      "layer": 0,
+      "pca_codec": "int8",
+      "pca_development_manifest_sha256": "7a72181584a49ce9978548440873dd30c8710aaa55675177a315fae1643d6bf2",
+      "pca_rank": 512,
+      "raw_codec": "int4",
+      "tasks": {
+        "private_multidocument_qa_v1": {
+          "baseline_bits": 496808,
+          "baseline_development_bits": [
+            427040,
+            509120,
+            624032,
+            427040
+          ],
+          "baseline_rule": "Floor of mean complete raw-int4 generated-payload bits on selected development families; common to all channels",
+          "basis_file": "llama_private_multidocument_qa_v1_basis.npz",
+          "basis_sha256": "5661463793fcae9ef14104c5a2848fbad6833b66a2bebdd2a78c157fc038a54d",
+          "descriptor_file": "llama_private_multidocument_qa_v1_descriptor.json",
+          "descriptor_sha256": "a78c6753917684611369e71a349a0fff79bd7f71024db244b269c5ff86f447ce",
+          "low_budget_bits": 124202,
+          "shared_setup_bytes": 8407384
+        },
+        "private_planned_navigation_v1": {
+          "baseline_bits": 250568,
+          "baseline_development_bits": [
+            197216,
+            246464,
+            230048,
+            328544
+          ],
+          "baseline_rule": "Floor of mean complete raw-int4 generated-payload bits on selected development families; common to all channels",
+          "basis_file": "llama_private_planned_navigation_v1_basis.npz",
+          "basis_sha256": "c1908847cf3a98ad6c59cb39b597726029e531495014d3e7192ece0ea548739e",
+          "descriptor_file": "llama_private_planned_navigation_v1_descriptor.json",
+          "descriptor_sha256": "7f2fb5f31202bc96367e993b537cfbb4f7400ed6f8bd56125e7342ab9e12a8ea",
+          "low_budget_bits": 62642,
+          "shared_setup_bytes": 8407642
+        }
+      }
+    },
+    "qwen": {
+      "allowed_device_placements": [
+        "cuda:0"
+      ],
+      "config": {
+        "generation": {
+          "do_sample": false,
+          "max_new_tokens": 192,
+          "temperature": 0.0,
+          "top_p": 1.0
+        },
+        "model": {
+          "device": "cuda:0",
+          "max_context_len": 8192,
+          "name": "Qwen/Qwen2.5-7B-Instruct",
+          "quantization": "int8",
+          "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+          "torch_dtype": "bfloat16"
+        },
+        "tokenizer": {
+          "name": "Qwen/Qwen2.5-7B-Instruct",
+          "revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+        }
+      },
+      "development_manifest_sha256": "287efe50ef04cee093732df85d23e951db061faead285d6c328cb5ad81eed37e",
+      "generation": {
+        "do_sample": false,
+        "max_new_tokens": 192,
+        "temperature": 0.0,
+        "top_p": 1.0
+      },
+      "layer": 0,
+      "pca_codec": "int4",
+      "pca_development_manifest_sha256": "4cbf14d74f8a6ee19cc741fcc334fa98580a8f1d7714403d38faba7ed7bd8c13",
+      "pca_rank": 512,
+      "raw_codec": "int4",
+      "tasks": {
+        "private_multidocument_qa_v1": {
+          "baseline_bits": 434856,
+          "baseline_development_bits": [
+            373792,
+            445632,
+            546208,
+            373792
+          ],
+          "baseline_rule": "Floor of mean complete raw-int4 generated-payload bits on selected development families; common to all channels",
+          "basis_file": "qwen_private_multidocument_qa_v1_basis.npz",
+          "basis_sha256": "66cf30337e497e74ec40378da8e749b8286ab33dc9870848e2bfeb1148119f0a",
+          "descriptor_file": "qwen_private_multidocument_qa_v1_descriptor.json",
+          "descriptor_sha256": "c070c4e4d59fb8330e3a2bf3ed2d92791b549e669d49535a8eaa461312e1e4fd",
+          "low_budget_bits": 108714,
+          "shared_setup_bytes": 7356759
+        },
+        "private_planned_navigation_v1": {
+          "baseline_bits": 215744,
+          "baseline_development_bits": [
+            172640,
+            215744,
+            201376,
+            273216
+          ],
+          "baseline_rule": "Floor of mean complete raw-int4 generated-payload bits on selected development families; common to all channels",
+          "basis_file": "qwen_private_planned_navigation_v1_basis.npz",
+          "basis_sha256": "2a340d48663e904ddbf98d89abcf1a0d4d8bcd52d166860f697a0f39a4a5a63c",
+          "descriptor_file": "qwen_private_planned_navigation_v1_descriptor.json",
+          "descriptor_sha256": "c7e9688d2cc4a9ef1f473749229d098cacc51894e8b4248005ff0133062a7dec",
+          "low_budget_bits": 53936,
+          "shared_setup_bytes": 7357017
+        }
+      }
+    }
+  },
+  "navigation_agent_version": "predicted_map_bfs_v1_preheldout",
+  "network_bandwidth_bits_per_second": [
+    10000,
+    100000,
+    1000000
+  ],
+  "network_latency_ms": [
+    0,
+    50,
+    100
+  ],
+  "primary_regimes": [
+    "high",
+    "low"
+  ],
+  "prior_heldout_datasets": [
+    {
+      "exclusion_count": 1213,
+      "exclusions_sha256": "4a499f7ccda389e1500acb6cbb7acb3d18c0fbb152a7c70e60a0479606b14075",
+      "families_sha256": "215621fa926a77d18bf85126bdd74b6c4ca9a78a95625f5851731c827d6c089a",
+      "family_count": 128,
+      "family_fingerprints_sha256": "a7714bdc965142c8924c59d48cf35e96dbd244c6ce51b0706c75919761df81ad",
+      "lineage_sha256": "f0deff8f9edf546bd6e14d6e226e89a5e1c18a494ef61de5d657f010fa850a06",
+      "manifest_sha256": "81786af5d3208aaa84bc6f877f2cbdd6c9699941c674791b18fac136565d8728",
+      "source_plan_sha256": "29d3d28f3c74d90e4be9a14b5ef38256df6a9a06a57ed24a386bc73856ea94c8"
+    },
+    {
+      "exclusion_count": 1213,
+      "exclusions_sha256": "b42591cf94390d6db3e506ec7544b95bb0a1a8aa0bd801c67baed46901285302",
+      "families_sha256": "e594b9b68c143b50ebc0555698654e78772e95edbe7a811985a81124268cf969",
+      "family_count": 128,
+      "family_fingerprints_sha256": "b719c10669096d3984e00f5a8f3eeabaad6e3437d9ac6532768e6775e9d75b88",
+      "lineage_sha256": "28393716b000193cddf17c0fa554857fa38a9e9f5717706e9495bc657d144bc4",
+      "manifest_sha256": "8799cabce90c0f30c5b2286bdc734d7062a4a4e718ce7603c079033be333f7ff",
+      "source_plan_sha256": "15fadec9e6f2d50f9c3d04c50cde80453ea49e89de92e58f52ff7984928f0209"
+    }
+  ],
+  "prompt_version": "task_prompts_v4_predicted_map_planner_sender_shape",
+  "replay_rule": "Actual greedy receiver calls evaluated once per unique condition. Budget/loss policies deterministically reuse the exact delivered-condition or no_comm record ID. Derived rows are not extra generations, experiments, or independent observations.",
+  "schema": 1,
+  "scope": "Synthetic private two-document joins and tool-assisted nonadaptive cooperative grids; B's LLM reconstructs a map and a public deterministic BFS plans only on that predicted map. Environment scoring uses the true private map separately. Same-checkpoint pairs.",
+  "scorer_version": "private_task_semantic_v3_strict_subset_preheldout",
+  "statistics": "Family is unit; Wilson95 marginal intervals; paired bootstrap differences; 16 primary exact McNemar comparisons with global Holm. Secondary causal/loss/sweep analysis descriptive. No a priori power claim.",
+  "status": "frozen",
+  "sweep_budgets_bits": [
+    0,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576
+  ],
+  "tasks": [
+    "private_multidocument_qa_v1",
+    "private_planned_navigation_v1"
+  ]
+}

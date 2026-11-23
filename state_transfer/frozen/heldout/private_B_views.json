@@ -1,0 +1,1286 @@
+{
+  "items": [
+    {
+      "family_id": "heldout_qa_00000",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "VURR=PTIZFLZNTLXTHINF\nQZJG=KTQWXUEKSNTMDTKH\nDYDF=STSAQBJURGENTFGQ\nCUAY=GJQPTAMUNLUJRPNE",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject CGYL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00001",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "KHQS=KZHBPKGNDUVQWDSJ\nXFAI=QMUBMZRRPCDGDHCR\nEMRN=YHXLGESYMIEOGWSR\nAJUA=AGAHLETQACQRVRNE\nIDNM=VQHKUTVLIBSZHRWQ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject QECJ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00002",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "KEGV=TOUWUMSGXJXVQXDG\nUZTF=OYORAQLABNUFRMKL\nABCP=ZBJJTRVSPLACBAFE\nPJJQ=YSMXPHWMPTIUNYZR\nONBU=PKOIMRBKBOFQPORF\nYKTF=NCQQJFHIAEQFZNVO",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject HLYA?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00003",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ORIN=ZEWZAMJCWAHKFSFS\nOWRS=QISIHWPSHVBZXAMA\nCCMS=JQHJDMFNWCZBGTOR\nOZDZ=OJNTIOJTUVTXMBLV",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject ECLS?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00004",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "GRGF=MSYAKGADCDNTSHGE\nPJWP=HGKCVBYZXHOHHSOR\nHFTO=YWPUNHYHZPSJXQCW\nQXCH=SLOWMJCCKYPWBZLZ\nECFN=UENPNQRMQBBVRJNJ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject JYIG?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00005",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ZOOY=YRBMDAPCQCZWWFPC\nGIHK=QMKECTMXCJHRFXRW\nBLKD=JQMZPNEHGZHYTYEV\nCTAY=WNPVDINPNAJZFVPA\nWGZZ=TPRPWSTMJKBLKXLO\nMQJV=MIPCCYYBLDOTLUXK",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject BOFL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00006",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "SNNC=LHRZDJZVUAGPGPQS\nECCP=MVYYCWKBNUGOXACS\nOMII=MAUYGODSMATAYTJJ\nCHFQ=WIGKBIWGNQBBTOYU",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject JGXL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00007",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "CIJP=YVILCAVNVECCYNVR\nJAKG=TSAXCZELFHYBUOFE\nIXFS=RQRPEIUKDPQOAEIX\nMTLI=RJUWGWHIDSNBBQBA\nKPAX=YCLOJUNBTXNHXIFL",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject OYFC?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00008",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "CJUX=UKXVRWLVNOMYFJEI\nGLEO=TAQJNGSXRPXTUYSZ\nEPIV=MXALELNKKXVWQPSZ\nIQBJ=RWYNIQOWXTKZLRSC\nLVUL=BWQVYRUFYXDPMLOD\nGPZO=AHFFUSKUHDXELSWZ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject ZIHK?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00009",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "LGNC=DGWLBBKAISFXNJAU\nSHAQ=WIXETQLXXNITBBAC\nMVNK=CMUSFVCHGLGSJRET\nPIVP=HBILWWOCZOAOXDHV",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject KPDV?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00010",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "RYXP=XLKLBHFOSDDTCMQK\nJSUR=NPUAUBKJULWSHHFL\nSTDP=RZJDIZNNZLUUSESU\nZVTX=WNXQGFLZZCOCVWQV\nEVGE=OINSIBWWWSWOAHNM",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject PPXI?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00011",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "DLJN=OECXWLPNUAYLZPZN\nPKXN=VHPQUVVKMKULILCJ\nJRVL=LMZJCEKVBWYBBAMT\nXHAO=FZMLRTENLWLISOXI\nSAQX=HMREIYILSZINPAGI\nDBHR=OJHKPMALYQNLIDGS",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject ZOKX?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00012",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "HGVL=ASCHPSXOTCOICTOA\nYSTB=NMTYWPCVXHSFLUIR\nGKKP=LKWJWHOWBINTDRAH\nUTNR=SIWKNBAHYUVWDNGK",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject GXFY?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00013",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "XYRV=PFQJYEEOIDMLVAPI\nYIES=TBRYAZNYYVFOQTAH\nBAOS=HHEIYMXIQVVNJXCA\nBFMW=RCNVQMAOZAYXNAGX\nTJTN=CVIAUIUGAEVCNVQZ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject MEQU?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00014",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "CKVG=ENYZXUOEZCPQQRUH\nZBYC=VPQVAYXKICJHFTDW\nZHDW=PHNWXSRUKTKLCHWZ\nIILD=OGZHSMZMLVTFINLY\nGSWY=PIRPYPMTMHZBUTLB\nXKMP=UDXZFPMGPNKZNUWH",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject LCMZ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00015",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "EXZJ=TJJFEZQJAIZTZIED\nKPLR=TWDXDPRFOZEXRNNL\nGSEC=IXTSNIKOLDWCYLSE\nLBTI=FDVOYBYHYXNDSTAZ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject TSFI?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00016",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "XVMG=KEQOXIRFZTRKIBEF\nYRQR=ZIWWEMXVHUKBXMXD\nGSLV=RKNWMLSUCXCXEVNE\nUOMP=MQYSANFDURARWQPV\nHPIN=FWESEOYRXOAWJCNW",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject NAWR?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00017",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "GIRX=MOWHLDCNCHKXOEOV\nZLAZ=COSMCQQVCPWEXAMQ\nRHPK=JUFGCPCKDEFVVPLT\nOTLX=PWINZOFKBQWDDATA\nGEYW=OTXZQBQUEMNCTDJU\nJYHU=RKTCBPZUXNBFMYSW",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject KCUW?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00018",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "GXTQ=ACCHHPOZAPLTEFUE\nNTOI=RYKQUHKTUDQUPDJG\nPKKC=AAUWUUVGOSAZMDML\nTYVU=ZXONDOVVWKDLRRTB",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject NCPU?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00019",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "LMFE=JHMSOCTQASJKFDFC\nAIXS=KIJPOPKLRQSPSBLY\nPGLS=ECVHSGQTTLSDHGVC\nEMNE=SCXPTTJWKISILNOZ\nUKIS=JQYMAMKVOUYPCIJN",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject AMQT?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00020",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "FDNT=YSNLFHETEYGWDVGS\nZHYF=LMBGHEBHMNSQRUUR\nPVSD=DWCCYNTJXSBEFFZN\nNKJB=NMBRATBGDWNJVUTM\nFNOP=JLQJPMAXVWXAZGYX\nDGQQ=BLUHLSKHQKEZDBSC",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject UPYQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00021",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "JRSX=PGKMJWPJEBUAFJOX\nRRKE=XEHIBHJBJVATTMGG\nBOGP=VEBSOFFYLJCYBRLM\nFENX=XIRUZWHZMZBNQMWR",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject VJPH?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00022",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "NFMR=YDGZGNBYSRIHXFRP\nPBEU=SRZROGNRDLNTPPZS\nSJDD=JZSKRFHKCBLLQVBC\nAEWZ=FPEIAOKJYBHIZKCY\nVMPT=LNUKABELXWAQKMMQ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject HYME?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00023",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "IQIO=GWEOHVIJKEBPIYZG\nPHXM=YCRXCBZSXGUEAGUT\nFQTB=OISOYDFLJPIDAQLP\nAAWJ=JPCQFMKORUVOLUGQ\nNAIB=DDAXKEPASYOBGXNQ\nBXCF=HVABOMPGJRYDXUZE",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject INSA?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00024",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "FZIQ=AVIFKGNEFVMRVKWJ\nYTPR=QXOUBQEYSLRIQUVU\nXUJM=OLEQXLQSVRTDHERR\nRWPB=TOESDFLMMTMXXTEY",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject KDEO?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00025",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ZTXB=YRLXWQXGXHPBDJDG\nXEVQ=LWHSPBQSNOOHAEDZ\nDWMO=GUHZSCPLRTLRNQWX\nTUSE=KYNYTCVZSYLLWSFJ\nZMGH=CLUUSNTQUYCFYPTK",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject PSRG?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00026",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "LMFR=CHPSQIRUBXMCWLUZ\nMGIX=JSRETMMCGZZIVQZM\nWZRB=RPRRIFMBHAIRHNTM\nNEFK=DGZDBMHNQLKVTXOS\nIYEG=RDVWOJJIRCPKZGAF\nHFSO=ASAGTITTWEXZEDAB",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject BNCK?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00027",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "OSDT=AVXQDVEJJKFPIZEI\nJJYF=ESWKWDCZWMZIUDSE\nSYUB=HLXTUWBCAQXJIZSL\nRQGR=OUYHQHZPAZMGMXUN",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject LYUS?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00028",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "UQOB=YMEOVWNHUKYJBXBZ\nULFM=BBVVXSFZHKGKFYUF\nPXNO=QARSWDTEJXRYNMDO\nFETU=YVRRZSAQXJBGRJMH\nSMSJ=LOHSECKSJRSOZMRS",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject BIMX?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00029",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "DYOH=UQBTLCBAQLJEBKCU\nQEZO=CSFFYJWITONCFEZB\nRIEL=XFJHRIQCBDJHOSDC\nYYPI=IHJDQJHXHHQWYIIE\nFCDG=WUBJRNTKKNWXMIZG\nTGHM=XXRNZSMGEBUYHOVF",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject MORO?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00030",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ATXQ=KDRGLDZOROVFSCBO\nGTUT=ZBBESGWKOENAAURO\nURJY=HJCBYDMZFPJNIBJF\nOPRC=RMGYUJHTQMRCWGAU",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject ZFYO?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00031",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "LGCE=JFUHSBWUFGSTVEKV\nVHJA=QQIQYLEQSGHUWDYP\nLWIO=SOGAICUJTWZDBMOC\nKPFF=ZBIWQBYDKWQFSAKL\nSPMR=YBKCXAZHEQRIRTZB",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject MGYC?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00032",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "YQPW=UQNJWOTCFPKCHDED\nHGAJ=TCBZEUWKUSCROHPP\nSUFY=IAENUWFXJZLDRPHZ\nYXTZ=XQZHBRLUCOGMTOQF\nLOGU=SUYRRWKHZTCJCZSP\nAQIV=HJOEDKKKQQFCXITL",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject JBHZ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00033",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "WZUQ=WGBLCWVHEEDOZHHZ\nTAQK=AEUAKQPADDKTLDBW\nTHKQ=SFEBPQLIYHTHPMCE\nCMST=QRURDLSIBBESBTYQ",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject RCFQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00034",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "YPCM=PPAYRKBZCZCCFMND\nJHHB=TJLACVRFMZQBXXEJ\nKIIG=IDYFKSVBPUEJAGPN\nIBQZ=UPAFZDDYHOVFBDQH\nZDSG=UJOBSYPWPGWHCDEC",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject FYEX?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00035",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ZIXD=JTWOASELDSBUMLZE\nCYTZ=EXDXUMMEPKTAPGJA\nBXEN=UAKGEIQUFAVSGZOI\nUIHN=ETQQDFGEJOITOAPM\nJBMW=TCMCELAZDCCZNJXZ\nZGZZ=XFLZTRLHSVCYTKMO",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject RXOH?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00036",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "SRHL=GUWWNSUGCGPWURVV\nASZD=HNDSKJKIRXJKQYKU\nPNPN=NWVYJOFBQMNORDOR\nYYSS=ZECXMKZAYXDYQKRW",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject ZDWD?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00037",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "TWKV=VKTPCWLGKHZJQVSX\nXIGL=ACQVINKOXWBWLMZI\nAMDM=FIJTUPGUXKZDYCTL\nPWHB=GNMSFQNBVGKQDVFH\nBYYY=MOOINALFBCUHFCFN",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject AEAQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00038",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "NYCR=XKFUSAVEFAKKSTOX\nMUJK=THGZUKTLOKBNEVST\nPAGP=XJYLWJQATNOJBACN\nEKMJ=DHONDHPEMMTVTXQH\nIAIJ=JDXVQATXWRQIJTDL\nJJUJ=MQRBSLRTOYPDNYMY",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject NAJH?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00039",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "DLZP=JHRVWIHNJGXLYGLM\nCWXC=MIUGAUNWZVQUKNCB\nCFOV=ECRRLRGCUCZAZGTZ\nKYVB=QEIGAXPKNGBXHHRI",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject VXVL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00040",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "HFDB=XNKYCEGMKARDIFXS\nVYTT=YDFSFBOLQMJJJIDA\nBQCD=SHMESNJWNVWAYIKS\nYKGN=ERHBSNDZEQNZOKBF\nNCND=DJQPPEZFYCEQKIAE",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject NQNQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00041",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ZANB=DNVNLNKEFVWYHWLE\nGMHE=JTVEPJVVUDEDDTOV\nTNTS=TCKJGWIKRUQNMIUX\nXSQC=GRWWRNYOHEXCTYFY\nODQF=PMBWUPXWWRMTHXTO\nJZAV=HRYUGSNAPHNTLTKC",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject FNGZ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00042",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "HEAV=WCNBUKRJLPNIPEHL\nGJBN=TSEQZOFTWVTIFKUG\nIQOI=IVUGVUDOJDSGQCYH\nCFWM=KHRSEBPHKXTEVVRL",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject OOQQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00043",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "AKPN=IZQQZIJHZWVXDDDV\nPTBQ=EJZCZEYIHIVDPDOO\nISVP=GSMONPTGOWMVUGYA\nLUQB=VDYOGGCLHRLOGOUL\nUHGQ=BXIPAHYOHXZLHUPU",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject XKZJ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00044",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "PXGS=JIGIKWVGPOKMSXCS\nKEDJ=CUPGOYVSMCQALUSG\nYSWA=DTFAJHKXWJPVAXFM\nIGYO=PIDUHHKWSNQUZOLX\nOLAH=HSZGDOQKWXZSQLPH\nDNEZ=CHMOLCKANXQWUTBN",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject RCBL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00045",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "FEOW=UXTBWKLFFOVBDKFH\nNDDO=FGFDIOBJIZYIGLUC\nBEDS=FXVFTGOFBTVYPWMZ\nIFQA=KIILQUHIOIIPFTOE",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject KJPJ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00046",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "YXSO=XGVTPPJVIBDRXSPV\nIWWQ=SHHTKTZLWNOJCPNB\nSVZK=BZQUXTFDFLZNAQSY\nNKFI=TVNIBMCIPGMOPXBD\nCBTI=LGWTRQWCGAYMKDAI",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject GBOQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00047",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "ZDHQ=NECKLTJLJOZUTDHD\nDGLD=XKLEGXLUYSERWAGF\nATEZ=MIXQQKFYCGTRFCNO\nDZDA=XCYGBHCTLSGKSWVF\nANYS=OWRQUTKBAECEVAVJ\nHBTA=BJVCAKMIYTVZYWBF",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject LKGS?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00048",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "AHWO=FFBTNOMBMBWETNJW\nZBFG=QLNHNPQHNZBOGJYR\nMFKJ=WGFYEDWLJMZEVKEW\nPRCL=IXXZPTBYHLBADSKB",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject TRMX?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00049",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "GTQO=JKXFBSEEZFCGVWWQ\nWHQA=EWYIAAXIQTAXZHFW\nCRIW=BEPWYIAWEYMYVKHE\nMKZW=VCVOAENPJEMRLTHS\nZLNW=GJUGCEVSILMXDSBR",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject QUHX?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00050",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "YSKO=HVRGYQMKKOYGYWGQ\nSPCS=SHIRZIYTZQVEADGD\nDZOW=SHVOWVRLHPTHTCZG\nEIBJ=TZBDONCTZSPGGLAN\nEZFX=KEOEZPGNZQUTAMDH\nNILA=BUQZUDTSCWKQXQVB",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject QCNQ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00051",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "RMSO=YGEULWVNUGWLSZSK\nWTKL=HHNICCNYHHNSCYEB\nGROP=BCWANQZDMSQLQQRQ\nDREO=EFUUSWDIVGWVGFJD",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject TCDU?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00052",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "XLVQ=SOIZNRFVQBEYXEUB\nBULU=GSSSTCGPIDESATQP\nCZRM=ASDRKVVLWNFGYOZZ\nCSDZ=RYKHQEKTTHIOMQDQ\nTLTQ=BEFAIELMLMYCLAPG",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject DMJH?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00053",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "YTWO=RKTYPNKEVZFKBKBO\nVRKF=SOAXUMTORCLTLKWE\nALUX=NKWQNSAMQSWDPIRD\nJXET=DPAMXQOYVDFPRIIY\nIBJN=TZYRGEGNNOQIKKNA\nOXUA=ZQMXIMTVMAXYBNQP",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject NEHW?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00054",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "NNXK=PWVCCHQVGUHDZUUF\nZAHO=WBTILAPXTBDIWZEK\nNHHH=OFGVWSNJMNYZWSVJ\nVWLX=YKVTOTNOJIDPRTGI",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject VGDS?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00055",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "APME=JNAERPHQWOZBACSG\nTTPO=NGLHSAWLFQRWXWEI\nZCKQ=FZJETORZRLFGHIGB\nJYID=LNHPUQOCJCUJOKEE\nJHFT=KGANPXYLCTMZUKCB",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject HVWL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00056",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "HJNF=SPLQTRZMBXLDILNJ\nNAAN=DDICAYBCHBUTAVRP\nJQVQ=SXODYZLPIUOKXDHD\nICAB=SZGKIVLQOUYWQCWI\nWNFD=RPAOUYVXIWTAMSAQ\nDJCF=EMRYHHLZTDYJSIKH",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject PRUJ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00057",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "RRTV=HSBDVAUJPQORUVWG\nJXUW=UCETDBDJVHGPTIEF\nGLKF=ZPJASAEXFISSTSRF\nEFVH=GUNKDAMNAGBBTJYW",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject RKCL?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00058",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "SXZE=UUTVVZXKUDPSUPHV\nRSRQ=YBZGLTSRLIKXSYLF\nWRBE=ZCQPMHQQYWJBAWSJ\nOHCA=INBNOFUDJEUFJFWV\nSWKX=FDMOPNKBGBXUPNEY",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject GCOB?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00059",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "UIXO=DHXTXDPARCEDGAIS\nPHAS=DHYWLIUBOLOACDND\nHZYM=MQBTIHSQKMMMPIID\nYAUU=EBTLAOFDHMFLFPHK\nSDNR=ECQXPASGLYXVNFSP\nIVNK=NNQRPQXUISGHWQOT",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject MSCZ?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00060",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "SFFK=TFAFBQXXNRHFVRDM\nLRGP=OOIDTSQDUTNNGYXR\nQREL=OXZXHIENRHDAJGTN\nWZLF=ZBYQXSVOYPMPKPNC",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject CSWS?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00061",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "BNLI=NFFQJEKPLBZIPCQG\nZLEG=QGWNXULKDWRGSZRJ\nPWOT=PARGLGLBZCCOVGPR\nTQDN=LEFYHGKAKVMSXQQP\nVGDR=CRELVXSKAPQKMREX",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject NMHV?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00062",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "YWON=OIAEVAVFGNMZHRBE\nVOHI=NCZEASMYQRUIDXRP\nTNYU=TPEPEMIEDJAVITFZ\nMBBJ=VLOSYYUYSFPOHUSN\nQYDA=SZNQHCXOYBZBDSXM\nRYSJ=MCRFNNCXLNKJXZZF",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject CGPT?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_qa_00063",
+      "task": "private_multidocument_qa_v1",
+      "view": {
+        "private_context": "MWKE=YQGCLKKDKNZLGUAC\nJGWU=RSSJMJTGLBNDOUJY\nIZYL=QYZOXSVNXBOVNNZW\nWOCX=SCPDBYEMUMZWVHTN",
+        "public_instruction": "Combine the received SUBJECT>RELAY directory with your private RELAY=CODE registry. Find the queried subject's relay, then its code. Return only the complete unchanged 16-letter code. If the directory is absent or does not determine the subject's relay, return UNKNOWN. Do not guess.",
+        "query": "What is the code for subject WOCH?",
+        "task": "private_multidocument_qa_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00000",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,2\nGoal: 3,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00001",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 1,3\nGoal: 0,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00002",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,1\nGoal: 4,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00003",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,2\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00004",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,2\nGoal: 0,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00005",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 2,3\nGoal: 0,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00006",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 3,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00007",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,4\nGoal: 2,5",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00008",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,1\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00009",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,2\nGoal: 2,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00010",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 0,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00011",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 1,1\nGoal: 5,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00012",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 0,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00013",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 2,2\nGoal: 1,5",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00014",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,1\nGoal: 1,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00015",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,3\nGoal: 0,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00016",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,2\nGoal: 0,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00017",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 2,2\nGoal: 4,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00018",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,1\nGoal: 1,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00019",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,1\nGoal: 1,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00020",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,1\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00021",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,1\nGoal: 2,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00022",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,2\nGoal: 4,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00023",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 1,3\nGoal: 5,5",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00024",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,2\nGoal: 4,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00025",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,4\nGoal: 2,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00026",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 3,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00027",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,1\nGoal: 5,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00028",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,2\nGoal: 0,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00029",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,4\nGoal: 3,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00030",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 4,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00031",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,4\nGoal: 2,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00032",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,1\nGoal: 3,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00033",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 1,4\nGoal: 4,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00034",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 3,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00035",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,3\nGoal: 1,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00036",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,1\nGoal: 1,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00037",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,3\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00038",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,2\nGoal: 1,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00039",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 1,3\nGoal: 2,5",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00040",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,3\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00041",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,4\nGoal: 2,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00042",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,3\nGoal: 4,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00043",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,4\nGoal: 0,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00044",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,1\nGoal: 4,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00045",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 1,1\nGoal: 3,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00046",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 1,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00047",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,2\nGoal: 2,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00048",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,2\nGoal: 1,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00049",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 2,3\nGoal: 0,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00050",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,1\nGoal: 4,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00051",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 2,3\nGoal: 0,1",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00052",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,2\nGoal: 0,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00053",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,2\nGoal: 1,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00054",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 2,2\nGoal: 3,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00055",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 3,1\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00056",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 3,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00057",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,4\nGoal: 1,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00058",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 4,2",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00059",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,3\nGoal: 0,5",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00060",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 1,3\nGoal: 0,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00061",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 4,3\nGoal: 0,3",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00062",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 5 rows, 5 columns.\nStart: 3,2\nGoal: 0,4",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    },
+    {
+      "family_id": "heldout_navigation_00063",
+      "task": "private_planned_navigation_v1",
+      "view": {
+        "private_context": "Grid: 6 rows, 6 columns.\nStart: 2,3\nGoal: 0,0",
+        "public_instruction": "Use the received grid: . is traversable and # is blocked; row 0 is top, column 0 is left. Plan unit moves N,E,S,W from your private start to goal. Return only JSON {\"start\":[row,column],\"steps\":[\"N\",\"E\"]}, with at most 50 moves. Any executable route ending at the goal within 50 moves is valid; revisits are allowed. If the map is absent, return UNKNOWN. Do not invent a map.",
+        "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+        "task": "private_planned_navigation_v1"
+      }
+    }
+  ],
+  "role": "B",
+  "schema": 1
+}

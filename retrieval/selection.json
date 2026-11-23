@@ -1,0 +1,177 @@
+{
+  "32": {
+    "numeric_key": "pca_r32_b4",
+    "numeric": {
+      "family": "numeric",
+      "config": {
+        "basis": "pca",
+        "rank": 32,
+        "bits": 4
+      },
+      "bytes_mean": 28.0,
+      "bytes_max": 28,
+      "setup_bytes": 50696,
+      "metrics": [
+        0.08980582524271845,
+        0.17131299121590404,
+        0.22909027568294785
+      ]
+    },
+    "text_key": "text_keywords_tokens_32_hybrid",
+    "text": {
+      "family": "text",
+      "method": "keywords",
+      "wire": "tokens",
+      "decoder": "hybrid",
+      "budget": 32,
+      "bytes_mean": 31.218446601941746,
+      "bytes_max": 32,
+      "setup_bytes": 534600,
+      "metrics": [
+        0.3737864077669903,
+        0.5099350824472185,
+        0.5883703899871809
+      ]
+    }
+  },
+  "64": {
+    "numeric_key": "raw_r384_b1",
+    "numeric": {
+      "family": "numeric",
+      "config": {
+        "basis": "raw",
+        "rank": 384,
+        "bits": 1
+      },
+      "bytes_mean": 56.0,
+      "bytes_max": 56,
+      "setup_bytes": 0,
+      "metrics": [
+        0.4393203883495146,
+        0.5919132377870242,
+        0.6650118198007042
+      ]
+    },
+    "text_key": "text_lead_keywords_tokens_64_hybrid",
+    "text": {
+      "family": "text",
+      "method": "lead_keywords",
+      "wire": "tokens",
+      "decoder": "hybrid",
+      "budget": 64,
+      "bytes_mean": 63.35436893203884,
+      "bytes_max": 64,
+      "setup_bytes": 534600,
+      "metrics": [
+        0.4344660194174757,
+        0.576805940822931,
+        0.6481845782973651
+      ]
+    }
+  },
+  "128": {
+    "numeric_key": "raw_r384_b1",
+    "numeric": {
+      "family": "numeric",
+      "config": {
+        "basis": "raw",
+        "rank": 384,
+        "bits": 1
+      },
+      "bytes_mean": 56.0,
+      "bytes_max": 56,
+      "setup_bytes": 0,
+      "metrics": [
+        0.4393203883495146,
+        0.5919132377870242,
+        0.6650118198007042
+      ]
+    },
+    "text_key": "text_lead_keywords_tokens_128_hybrid",
+    "text": {
+      "family": "text",
+      "method": "lead_keywords",
+      "wire": "tokens",
+      "decoder": "hybrid",
+      "budget": 128,
+      "bytes_mean": 127.75728155339806,
+      "bytes_max": 128,
+      "setup_bytes": 534600,
+      "metrics": [
+        0.4587378640776699,
+        0.6162544305748191,
+        0.6862575405559754
+      ]
+    }
+  },
+  "256": {
+    "numeric_key": "raw_r384_b4",
+    "numeric": {
+      "family": "numeric",
+      "config": {
+        "basis": "raw",
+        "rank": 384,
+        "bits": 4
+      },
+      "bytes_mean": 204.0,
+      "bytes_max": 204,
+      "setup_bytes": 0,
+      "metrics": [
+        0.5024271844660194,
+        0.6437374788102944,
+        0.7131708061451553
+      ]
+    },
+    "text_key": "text_lead_keywords_zlib_256_hybrid",
+    "text": {
+      "family": "text",
+      "method": "lead_keywords",
+      "wire": "zlib",
+      "decoder": "hybrid",
+      "budget": 256,
+      "bytes_mean": 252.64320388349515,
+      "bytes_max": 256,
+      "setup_bytes": 534600,
+      "metrics": [
+        0.44660194174757284,
+        0.6119086145785178,
+        0.6848079037132311
+      ]
+    }
+  },
+  "512": {
+    "numeric_key": "raw_r384_b4",
+    "numeric": {
+      "family": "numeric",
+      "config": {
+        "basis": "raw",
+        "rank": 384,
+        "bits": 4
+      },
+      "bytes_mean": 204.0,
+      "bytes_max": 204,
+      "setup_bytes": 0,
+      "metrics": [
+        0.5024271844660194,
+        0.6437374788102944,
+        0.7131708061451553
+      ]
+    },
+    "text_key": "text_prefix_tokens_512_dense",
+    "text": {
+      "family": "text",
+      "method": "prefix",
+      "wire": "tokens",
+      "decoder": "dense",
+      "budget": 512,
+      "bytes_mean": 428.3980582524272,
+      "bytes_max": 512,
+      "setup_bytes": 0,
+      "metrics": [
+        0.5024271844660194,
+        0.6386856603482818,
+        0.7101353357594236
+      ]
+    }
+  }
+}

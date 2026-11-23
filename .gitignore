@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+/.work/
+/.cache/
+/runs/
+/work/

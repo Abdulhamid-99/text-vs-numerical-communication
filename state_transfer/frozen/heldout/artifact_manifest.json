@@ -1,0 +1,25 @@
+{
+  "files": {
+    "A/input.json": {
+      "bytes": 153799,
+      "sha256": "e470c785ba8a81a8577ef3e4b426fe5cda6f510206cc576a816918c53f62e561"
+    },
+    "private_B_views.json": {
+      "bytes": 93211,
+      "sha256": "a628a5c70e441835502cfbd9f39ebb445806982673ab5fc3c68d4baa27a39bc7"
+    },
+    "private_families.json": {
+      "bytes": 437674,
+      "sha256": "294727edf65868175e48ac607fbc40d4a86c7f49ab9de76df3d812b11dc7b9c8"
+    },
+    "private_lineage.json": {
+      "bytes": 88624,
+      "sha256": "6d4efb36276af0ed61597a66d23981fdd1df5e08f015576935a9219518110006"
+    },
+    "run_status.json": {
+      "bytes": 261,
+      "sha256": "50780b22391e5ce33679cc60a36402c4737ca4759c5217c9b89857f3dbb7b60e"
+    }
+  },
+  "schema": 1
+}

@@ -9,6 +9,8 @@ The [development history](history/README.md) traces the May 2026 pilot through t
 
 ## Reproduce the results
 
+The [experiment records release](https://github.com/Abdulhamid-99/text-vs-numerical-communication/releases/tag/experiment-records-v1) contains all 2,816 nonempty state-transfer packets and two extracts from the ArguAna model-call logs. [Download the ZIP](https://github.com/Abdulhamid-99/text-vs-numerical-communication/releases/download/experiment-records-v1/experiment-records.zip) to check the original packet bytes with the [offline replay](state_replay/README.md).
+
 For the fastest independent check, create a Python 3.13 environment and install the packages below. The verification itself runs offline on a CPU.
 
 ```sh

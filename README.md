@@ -5,6 +5,8 @@ Department of Computer Science, Islamic University of Madinah, Saudi Arabia
 
 This repository accompanies our study of what two agents can communicate under a shared message budget. In the first experiment, a sender observes private information and sends generated text or a packet of model states to a second language model. In the second, a remote receiver uses a text message or a quantized query vector to rank documents. These tasks have different receivers and are evaluated separately.
 
+The [development history](history/README.md) traces the May 2026 pilot through the September state-transfer work, the October retrieval experiments and the November reproducibility release.
+
 ## Reproduce the results
 
 For the fastest independent check, create a Python 3.13 environment and install the packages below. The verification itself runs offline on a CPU.

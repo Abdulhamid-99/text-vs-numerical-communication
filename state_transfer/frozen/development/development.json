@@ -1,0 +1,1927 @@
+{
+  "families": [
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 4,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "MVUN>UVRW\nXPLP>GDRX\nGYVH>XBHK\nIDUN>SVDG",
+          "b_private_context": "XBHK=FTNKCBWKGRBQIVGF\nGDRX=SBEQEOKPOCQVGPFG\nSVDG=AQGBWEKHYHUZFRVY\nUVRW=LQTPEPADUUQAEOWF",
+          "evaluator": {
+            "directory": [
+              [
+                "MVUN",
+                "UVRW"
+              ],
+              [
+                "XPLP",
+                "GDRX"
+              ],
+              [
+                "GYVH",
+                "XBHK"
+              ],
+              [
+                "IDUN",
+                "SVDG"
+              ]
+            ],
+            "queried_subject": "IDUN",
+            "registry": [
+              [
+                "XBHK",
+                "FTNKCBWKGRBQIVGF"
+              ],
+              [
+                "GDRX",
+                "SBEQEOKPOCQVGPFG"
+              ],
+              [
+                "SVDG",
+                "AQGBWEKHYHUZFRVY"
+              ],
+              [
+                "UVRW",
+                "LQTPEPADUUQAEOWF"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00000",
+          "query": "What is the code for subject IDUN?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "MVUN>UVRW\nXPLP>SVDG\nGYVH>XBHK\nIDUN>GDRX",
+          "b_private_context": "XBHK=FTNKCBWKGRBQIVGF\nGDRX=SBEQEOKPOCQVGPFG\nSVDG=AQGBWEKHYHUZFRVY\nUVRW=LQTPEPADUUQAEOWF",
+          "evaluator": {
+            "directory": [
+              [
+                "MVUN",
+                "UVRW"
+              ],
+              [
+                "XPLP",
+                "SVDG"
+              ],
+              [
+                "GYVH",
+                "XBHK"
+              ],
+              [
+                "IDUN",
+                "GDRX"
+              ]
+            ],
+            "queried_subject": "IDUN",
+            "registry": [
+              [
+                "XBHK",
+                "FTNKCBWKGRBQIVGF"
+              ],
+              [
+                "GDRX",
+                "SBEQEOKPOCQVGPFG"
+              ],
+              [
+                "SVDG",
+                "AQGBWEKHYHUZFRVY"
+              ],
+              [
+                "UVRW",
+                "LQTPEPADUUQAEOWF"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00000",
+          "query": "What is the code for subject IDUN?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "AQGBWEKHYHUZFRVY",
+        "FTNKCBWKGRBQIVGF",
+        "GDRX",
+        "GYVH",
+        "IDUN",
+        "LQTPEPADUUQAEOWF",
+        "MVUN",
+        "SBEQEOKPOCQVGPFG",
+        "SVDG",
+        "UVRW",
+        "XBHK",
+        "XPLP"
+      ],
+      "family_id": "development_qa_00000",
+      "private_value_inventory": [
+        "AQGBWEKHYHUZFRVY",
+        "FTNKCBWKGRBQIVGF",
+        "GDRX",
+        "GYVH",
+        "IDUN",
+        "LQTPEPADUUQAEOWF",
+        "MVUN",
+        "SBEQEOKPOCQVGPFG",
+        "SVDG",
+        "UVRW",
+        "XBHK",
+        "XPLP"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 5,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "MCWA>EPWL\nTIRR>ROLT\nHJTN>PSDN\nDAQV>LDNG\nDWCR>MCQY",
+          "b_private_context": "MCQY=OGCQDBWXNDDUBYPH\nPSDN=XLXGMFTAXKAPAKMI\nEPWL=MJDRADAWOGOIMNKB\nLDNG=SPPNIKXTMCCAPVIJ\nROLT=ETUQUTCDHMNCTMJS",
+          "evaluator": {
+            "directory": [
+              [
+                "MCWA",
+                "EPWL"
+              ],
+              [
+                "TIRR",
+                "ROLT"
+              ],
+              [
+                "HJTN",
+                "PSDN"
+              ],
+              [
+                "DAQV",
+                "LDNG"
+              ],
+              [
+                "DWCR",
+                "MCQY"
+              ]
+            ],
+            "queried_subject": "HJTN",
+            "registry": [
+              [
+                "MCQY",
+                "OGCQDBWXNDDUBYPH"
+              ],
+              [
+                "PSDN",
+                "XLXGMFTAXKAPAKMI"
+              ],
+              [
+                "EPWL",
+                "MJDRADAWOGOIMNKB"
+              ],
+              [
+                "LDNG",
+                "SPPNIKXTMCCAPVIJ"
+              ],
+              [
+                "ROLT",
+                "ETUQUTCDHMNCTMJS"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00001",
+          "query": "What is the code for subject HJTN?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "MCWA>EPWL\nTIRR>PSDN\nHJTN>ROLT\nDAQV>LDNG\nDWCR>MCQY",
+          "b_private_context": "MCQY=OGCQDBWXNDDUBYPH\nPSDN=XLXGMFTAXKAPAKMI\nEPWL=MJDRADAWOGOIMNKB\nLDNG=SPPNIKXTMCCAPVIJ\nROLT=ETUQUTCDHMNCTMJS",
+          "evaluator": {
+            "directory": [
+              [
+                "MCWA",
+                "EPWL"
+              ],
+              [
+                "TIRR",
+                "PSDN"
+              ],
+              [
+                "HJTN",
+                "ROLT"
+              ],
+              [
+                "DAQV",
+                "LDNG"
+              ],
+              [
+                "DWCR",
+                "MCQY"
+              ]
+            ],
+            "queried_subject": "HJTN",
+            "registry": [
+              [
+                "MCQY",
+                "OGCQDBWXNDDUBYPH"
+              ],
+              [
+                "PSDN",
+                "XLXGMFTAXKAPAKMI"
+              ],
+              [
+                "EPWL",
+                "MJDRADAWOGOIMNKB"
+              ],
+              [
+                "LDNG",
+                "SPPNIKXTMCCAPVIJ"
+              ],
+              [
+                "ROLT",
+                "ETUQUTCDHMNCTMJS"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00001",
+          "query": "What is the code for subject HJTN?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "DAQV",
+        "DWCR",
+        "EPWL",
+        "ETUQUTCDHMNCTMJS",
+        "HJTN",
+        "LDNG",
+        "MCQY",
+        "MCWA",
+        "MJDRADAWOGOIMNKB",
+        "OGCQDBWXNDDUBYPH",
+        "PSDN",
+        "ROLT",
+        "SPPNIKXTMCCAPVIJ",
+        "TIRR",
+        "XLXGMFTAXKAPAKMI"
+      ],
+      "family_id": "development_qa_00001",
+      "private_value_inventory": [
+        "DAQV",
+        "DWCR",
+        "EPWL",
+        "ETUQUTCDHMNCTMJS",
+        "HJTN",
+        "LDNG",
+        "MCQY",
+        "MCWA",
+        "MJDRADAWOGOIMNKB",
+        "OGCQDBWXNDDUBYPH",
+        "PSDN",
+        "ROLT",
+        "SPPNIKXTMCCAPVIJ",
+        "TIRR",
+        "XLXGMFTAXKAPAKMI"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 6,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "DCGO>LZQX\nJKPF>YPTW\nCMHS>MNRC\nBZPR>BSNF\nMSIK>BECB\nZCVF>MOST",
+          "b_private_context": "BECB=LYWJJJMLNEAHHRWI\nMOST=WXSIHJZSWYFHWVTS\nMNRC=ETXTHQDYMXEZJGPY\nLZQX=XRHETEYLRXWWECHC\nBSNF=HEIYMQFBTSZCUCRL\nYPTW=MSUTTSLQDJEZTICV",
+          "evaluator": {
+            "directory": [
+              [
+                "DCGO",
+                "LZQX"
+              ],
+              [
+                "JKPF",
+                "YPTW"
+              ],
+              [
+                "CMHS",
+                "MNRC"
+              ],
+              [
+                "BZPR",
+                "BSNF"
+              ],
+              [
+                "MSIK",
+                "BECB"
+              ],
+              [
+                "ZCVF",
+                "MOST"
+              ]
+            ],
+            "queried_subject": "DCGO",
+            "registry": [
+              [
+                "BECB",
+                "LYWJJJMLNEAHHRWI"
+              ],
+              [
+                "MOST",
+                "WXSIHJZSWYFHWVTS"
+              ],
+              [
+                "MNRC",
+                "ETXTHQDYMXEZJGPY"
+              ],
+              [
+                "LZQX",
+                "XRHETEYLRXWWECHC"
+              ],
+              [
+                "BSNF",
+                "HEIYMQFBTSZCUCRL"
+              ],
+              [
+                "YPTW",
+                "MSUTTSLQDJEZTICV"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00002",
+          "query": "What is the code for subject DCGO?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "DCGO>YPTW\nJKPF>LZQX\nCMHS>MNRC\nBZPR>BSNF\nMSIK>BECB\nZCVF>MOST",
+          "b_private_context": "BECB=LYWJJJMLNEAHHRWI\nMOST=WXSIHJZSWYFHWVTS\nMNRC=ETXTHQDYMXEZJGPY\nLZQX=XRHETEYLRXWWECHC\nBSNF=HEIYMQFBTSZCUCRL\nYPTW=MSUTTSLQDJEZTICV",
+          "evaluator": {
+            "directory": [
+              [
+                "DCGO",
+                "YPTW"
+              ],
+              [
+                "JKPF",
+                "LZQX"
+              ],
+              [
+                "CMHS",
+                "MNRC"
+              ],
+              [
+                "BZPR",
+                "BSNF"
+              ],
+              [
+                "MSIK",
+                "BECB"
+              ],
+              [
+                "ZCVF",
+                "MOST"
+              ]
+            ],
+            "queried_subject": "DCGO",
+            "registry": [
+              [
+                "BECB",
+                "LYWJJJMLNEAHHRWI"
+              ],
+              [
+                "MOST",
+                "WXSIHJZSWYFHWVTS"
+              ],
+              [
+                "MNRC",
+                "ETXTHQDYMXEZJGPY"
+              ],
+              [
+                "LZQX",
+                "XRHETEYLRXWWECHC"
+              ],
+              [
+                "BSNF",
+                "HEIYMQFBTSZCUCRL"
+              ],
+              [
+                "YPTW",
+                "MSUTTSLQDJEZTICV"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00002",
+          "query": "What is the code for subject DCGO?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "BECB",
+        "BSNF",
+        "BZPR",
+        "CMHS",
+        "DCGO",
+        "ETXTHQDYMXEZJGPY",
+        "HEIYMQFBTSZCUCRL",
+        "JKPF",
+        "LYWJJJMLNEAHHRWI",
+        "LZQX",
+        "MNRC",
+        "MOST",
+        "MSIK",
+        "MSUTTSLQDJEZTICV",
+        "WXSIHJZSWYFHWVTS",
+        "XRHETEYLRXWWECHC",
+        "YPTW",
+        "ZCVF"
+      ],
+      "family_id": "development_qa_00002",
+      "private_value_inventory": [
+        "BECB",
+        "BSNF",
+        "BZPR",
+        "CMHS",
+        "DCGO",
+        "ETXTHQDYMXEZJGPY",
+        "HEIYMQFBTSZCUCRL",
+        "JKPF",
+        "LYWJJJMLNEAHHRWI",
+        "LZQX",
+        "MNRC",
+        "MOST",
+        "MSIK",
+        "MSUTTSLQDJEZTICV",
+        "WXSIHJZSWYFHWVTS",
+        "XRHETEYLRXWWECHC",
+        "YPTW",
+        "ZCVF"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 4,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "JHZS>TICP\nDRZZ>YLUA\nBPRU>AZBH\nOLLG>PLRQ",
+          "b_private_context": "TICP=NWTWZLHGQACSAHLF\nAZBH=HBUHPASOBGUDIZNN\nPLRQ=COMZQVAKSNVHKYVA\nYLUA=FTMWNRLHEAELYHQE",
+          "evaluator": {
+            "directory": [
+              [
+                "JHZS",
+                "TICP"
+              ],
+              [
+                "DRZZ",
+                "YLUA"
+              ],
+              [
+                "BPRU",
+                "AZBH"
+              ],
+              [
+                "OLLG",
+                "PLRQ"
+              ]
+            ],
+            "queried_subject": "JHZS",
+            "registry": [
+              [
+                "TICP",
+                "NWTWZLHGQACSAHLF"
+              ],
+              [
+                "AZBH",
+                "HBUHPASOBGUDIZNN"
+              ],
+              [
+                "PLRQ",
+                "COMZQVAKSNVHKYVA"
+              ],
+              [
+                "YLUA",
+                "FTMWNRLHEAELYHQE"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00003",
+          "query": "What is the code for subject JHZS?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "JHZS>AZBH\nDRZZ>YLUA\nBPRU>TICP\nOLLG>PLRQ",
+          "b_private_context": "TICP=NWTWZLHGQACSAHLF\nAZBH=HBUHPASOBGUDIZNN\nPLRQ=COMZQVAKSNVHKYVA\nYLUA=FTMWNRLHEAELYHQE",
+          "evaluator": {
+            "directory": [
+              [
+                "JHZS",
+                "AZBH"
+              ],
+              [
+                "DRZZ",
+                "YLUA"
+              ],
+              [
+                "BPRU",
+                "TICP"
+              ],
+              [
+                "OLLG",
+                "PLRQ"
+              ]
+            ],
+            "queried_subject": "JHZS",
+            "registry": [
+              [
+                "TICP",
+                "NWTWZLHGQACSAHLF"
+              ],
+              [
+                "AZBH",
+                "HBUHPASOBGUDIZNN"
+              ],
+              [
+                "PLRQ",
+                "COMZQVAKSNVHKYVA"
+              ],
+              [
+                "YLUA",
+                "FTMWNRLHEAELYHQE"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00003",
+          "query": "What is the code for subject JHZS?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "AZBH",
+        "BPRU",
+        "COMZQVAKSNVHKYVA",
+        "DRZZ",
+        "FTMWNRLHEAELYHQE",
+        "HBUHPASOBGUDIZNN",
+        "JHZS",
+        "NWTWZLHGQACSAHLF",
+        "OLLG",
+        "PLRQ",
+        "TICP",
+        "YLUA"
+      ],
+      "family_id": "development_qa_00003",
+      "private_value_inventory": [
+        "AZBH",
+        "BPRU",
+        "COMZQVAKSNVHKYVA",
+        "DRZZ",
+        "FTMWNRLHEAELYHQE",
+        "HBUHPASOBGUDIZNN",
+        "JHZS",
+        "NWTWZLHGQACSAHLF",
+        "OLLG",
+        "PLRQ",
+        "TICP",
+        "YLUA"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 5,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "YDFT>SVYZ\nSTEL>QHRY\nUCED>FSEG\nJVEN>VSJP\nDBBV>GEDO",
+          "b_private_context": "GEDO=TSAPNXIYMTNXAWDH\nQHRY=TQDXKRNJHOVIUONX\nSVYZ=HSUPJRJVRPSSYNPB\nFSEG=GZLFAICBZSZTTPVE\nVSJP=VUPALFJHAKKRILTM",
+          "evaluator": {
+            "directory": [
+              [
+                "YDFT",
+                "SVYZ"
+              ],
+              [
+                "STEL",
+                "QHRY"
+              ],
+              [
+                "UCED",
+                "FSEG"
+              ],
+              [
+                "JVEN",
+                "VSJP"
+              ],
+              [
+                "DBBV",
+                "GEDO"
+              ]
+            ],
+            "queried_subject": "UCED",
+            "registry": [
+              [
+                "GEDO",
+                "TSAPNXIYMTNXAWDH"
+              ],
+              [
+                "QHRY",
+                "TQDXKRNJHOVIUONX"
+              ],
+              [
+                "SVYZ",
+                "HSUPJRJVRPSSYNPB"
+              ],
+              [
+                "FSEG",
+                "GZLFAICBZSZTTPVE"
+              ],
+              [
+                "VSJP",
+                "VUPALFJHAKKRILTM"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00004",
+          "query": "What is the code for subject UCED?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "YDFT>SVYZ\nSTEL>FSEG\nUCED>QHRY\nJVEN>VSJP\nDBBV>GEDO",
+          "b_private_context": "GEDO=TSAPNXIYMTNXAWDH\nQHRY=TQDXKRNJHOVIUONX\nSVYZ=HSUPJRJVRPSSYNPB\nFSEG=GZLFAICBZSZTTPVE\nVSJP=VUPALFJHAKKRILTM",
+          "evaluator": {
+            "directory": [
+              [
+                "YDFT",
+                "SVYZ"
+              ],
+              [
+                "STEL",
+                "FSEG"
+              ],
+              [
+                "UCED",
+                "QHRY"
+              ],
+              [
+                "JVEN",
+                "VSJP"
+              ],
+              [
+                "DBBV",
+                "GEDO"
+              ]
+            ],
+            "queried_subject": "UCED",
+            "registry": [
+              [
+                "GEDO",
+                "TSAPNXIYMTNXAWDH"
+              ],
+              [
+                "QHRY",
+                "TQDXKRNJHOVIUONX"
+              ],
+              [
+                "SVYZ",
+                "HSUPJRJVRPSSYNPB"
+              ],
+              [
+                "FSEG",
+                "GZLFAICBZSZTTPVE"
+              ],
+              [
+                "VSJP",
+                "VUPALFJHAKKRILTM"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00004",
+          "query": "What is the code for subject UCED?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "DBBV",
+        "FSEG",
+        "GEDO",
+        "GZLFAICBZSZTTPVE",
+        "HSUPJRJVRPSSYNPB",
+        "JVEN",
+        "QHRY",
+        "STEL",
+        "SVYZ",
+        "TQDXKRNJHOVIUONX",
+        "TSAPNXIYMTNXAWDH",
+        "UCED",
+        "VSJP",
+        "VUPALFJHAKKRILTM",
+        "YDFT"
+      ],
+      "family_id": "development_qa_00004",
+      "private_value_inventory": [
+        "DBBV",
+        "FSEG",
+        "GEDO",
+        "GZLFAICBZSZTTPVE",
+        "HSUPJRJVRPSSYNPB",
+        "JVEN",
+        "QHRY",
+        "STEL",
+        "SVYZ",
+        "TQDXKRNJHOVIUONX",
+        "TSAPNXIYMTNXAWDH",
+        "UCED",
+        "VSJP",
+        "VUPALFJHAKKRILTM",
+        "YDFT"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 6,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "YYCK>ZTWO\nJWHV>SGML\nVJSY>UQXC\nDSNL>CQBH\nTRXL>SQLH\nMAAB>GKNT",
+          "b_private_context": "UQXC=KSUVYXKUGYQHKKSU\nCQBH=VWSAGIUBWXYZKZMN\nSQLH=BWXVZKYRUTNMVSDL\nGKNT=XYWPGPDCZUFMGKZG\nZTWO=MINKITCVKYIECVWR\nSGML=YJNFSCESVJXAJAHG",
+          "evaluator": {
+            "directory": [
+              [
+                "YYCK",
+                "ZTWO"
+              ],
+              [
+                "JWHV",
+                "SGML"
+              ],
+              [
+                "VJSY",
+                "UQXC"
+              ],
+              [
+                "DSNL",
+                "CQBH"
+              ],
+              [
+                "TRXL",
+                "SQLH"
+              ],
+              [
+                "MAAB",
+                "GKNT"
+              ]
+            ],
+            "queried_subject": "MAAB",
+            "registry": [
+              [
+                "UQXC",
+                "KSUVYXKUGYQHKKSU"
+              ],
+              [
+                "CQBH",
+                "VWSAGIUBWXYZKZMN"
+              ],
+              [
+                "SQLH",
+                "BWXVZKYRUTNMVSDL"
+              ],
+              [
+                "GKNT",
+                "XYWPGPDCZUFMGKZG"
+              ],
+              [
+                "ZTWO",
+                "MINKITCVKYIECVWR"
+              ],
+              [
+                "SGML",
+                "YJNFSCESVJXAJAHG"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00005",
+          "query": "What is the code for subject MAAB?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "YYCK>ZTWO\nJWHV>SGML\nVJSY>UQXC\nDSNL>GKNT\nTRXL>SQLH\nMAAB>CQBH",
+          "b_private_context": "UQXC=KSUVYXKUGYQHKKSU\nCQBH=VWSAGIUBWXYZKZMN\nSQLH=BWXVZKYRUTNMVSDL\nGKNT=XYWPGPDCZUFMGKZG\nZTWO=MINKITCVKYIECVWR\nSGML=YJNFSCESVJXAJAHG",
+          "evaluator": {
+            "directory": [
+              [
+                "YYCK",
+                "ZTWO"
+              ],
+              [
+                "JWHV",
+                "SGML"
+              ],
+              [
+                "VJSY",
+                "UQXC"
+              ],
+              [
+                "DSNL",
+                "GKNT"
+              ],
+              [
+                "TRXL",
+                "SQLH"
+              ],
+              [
+                "MAAB",
+                "CQBH"
+              ]
+            ],
+            "queried_subject": "MAAB",
+            "registry": [
+              [
+                "UQXC",
+                "KSUVYXKUGYQHKKSU"
+              ],
+              [
+                "CQBH",
+                "VWSAGIUBWXYZKZMN"
+              ],
+              [
+                "SQLH",
+                "BWXVZKYRUTNMVSDL"
+              ],
+              [
+                "GKNT",
+                "XYWPGPDCZUFMGKZG"
+              ],
+              [
+                "ZTWO",
+                "MINKITCVKYIECVWR"
+              ],
+              [
+                "SGML",
+                "YJNFSCESVJXAJAHG"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00005",
+          "query": "What is the code for subject MAAB?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "BWXVZKYRUTNMVSDL",
+        "CQBH",
+        "DSNL",
+        "GKNT",
+        "JWHV",
+        "KSUVYXKUGYQHKKSU",
+        "MAAB",
+        "MINKITCVKYIECVWR",
+        "SGML",
+        "SQLH",
+        "TRXL",
+        "UQXC",
+        "VJSY",
+        "VWSAGIUBWXYZKZMN",
+        "XYWPGPDCZUFMGKZG",
+        "YJNFSCESVJXAJAHG",
+        "YYCK",
+        "ZTWO"
+      ],
+      "family_id": "development_qa_00005",
+      "private_value_inventory": [
+        "BWXVZKYRUTNMVSDL",
+        "CQBH",
+        "DSNL",
+        "GKNT",
+        "JWHV",
+        "KSUVYXKUGYQHKKSU",
+        "MAAB",
+        "MINKITCVKYIECVWR",
+        "SGML",
+        "SQLH",
+        "TRXL",
+        "UQXC",
+        "VJSY",
+        "VWSAGIUBWXYZKZMN",
+        "XYWPGPDCZUFMGKZG",
+        "YJNFSCESVJXAJAHG",
+        "YYCK",
+        "ZTWO"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 4,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "YABY>WSWR\nBRTJ>BRHY\nVSLJ>HFZY\nPNRO>AZAC",
+          "b_private_context": "WSWR=ICHEDSHOZBNTRFGA\nHFZY=UHZHJQMQWUKWBFZF\nBRHY=XYJXBLXEDWXTBSMF\nAZAC=LXOAEVLFGETMDFXH",
+          "evaluator": {
+            "directory": [
+              [
+                "YABY",
+                "WSWR"
+              ],
+              [
+                "BRTJ",
+                "BRHY"
+              ],
+              [
+                "VSLJ",
+                "HFZY"
+              ],
+              [
+                "PNRO",
+                "AZAC"
+              ]
+            ],
+            "queried_subject": "YABY",
+            "registry": [
+              [
+                "WSWR",
+                "ICHEDSHOZBNTRFGA"
+              ],
+              [
+                "HFZY",
+                "UHZHJQMQWUKWBFZF"
+              ],
+              [
+                "BRHY",
+                "XYJXBLXEDWXTBSMF"
+              ],
+              [
+                "AZAC",
+                "LXOAEVLFGETMDFXH"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00006",
+          "query": "What is the code for subject YABY?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "YABY>HFZY\nBRTJ>BRHY\nVSLJ>WSWR\nPNRO>AZAC",
+          "b_private_context": "WSWR=ICHEDSHOZBNTRFGA\nHFZY=UHZHJQMQWUKWBFZF\nBRHY=XYJXBLXEDWXTBSMF\nAZAC=LXOAEVLFGETMDFXH",
+          "evaluator": {
+            "directory": [
+              [
+                "YABY",
+                "HFZY"
+              ],
+              [
+                "BRTJ",
+                "BRHY"
+              ],
+              [
+                "VSLJ",
+                "WSWR"
+              ],
+              [
+                "PNRO",
+                "AZAC"
+              ]
+            ],
+            "queried_subject": "YABY",
+            "registry": [
+              [
+                "WSWR",
+                "ICHEDSHOZBNTRFGA"
+              ],
+              [
+                "HFZY",
+                "UHZHJQMQWUKWBFZF"
+              ],
+              [
+                "BRHY",
+                "XYJXBLXEDWXTBSMF"
+              ],
+              [
+                "AZAC",
+                "LXOAEVLFGETMDFXH"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00006",
+          "query": "What is the code for subject YABY?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "AZAC",
+        "BRHY",
+        "BRTJ",
+        "HFZY",
+        "ICHEDSHOZBNTRFGA",
+        "LXOAEVLFGETMDFXH",
+        "PNRO",
+        "UHZHJQMQWUKWBFZF",
+        "VSLJ",
+        "WSWR",
+        "XYJXBLXEDWXTBSMF",
+        "YABY"
+      ],
+      "family_id": "development_qa_00006",
+      "private_value_inventory": [
+        "AZAC",
+        "BRHY",
+        "BRTJ",
+        "HFZY",
+        "ICHEDSHOZBNTRFGA",
+        "LXOAEVLFGETMDFXH",
+        "PNRO",
+        "UHZHJQMQWUKWBFZF",
+        "VSLJ",
+        "WSWR",
+        "XYJXBLXEDWXTBSMF",
+        "YABY"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "swap queried and distractor relay assignments; same B view",
+        "documents": 2,
+        "join_hops": 2,
+        "rows": 5,
+        "seed_is_not_exported": true
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "JSEV>IBOW\nLNHL>ISRM\nSSYH>HAAH\nFRGZ>JOJF\nKVAP>TFSP",
+          "b_private_context": "HAAH=QGYOFQRJPUTQHAMV\nJOJF=JCIPMDRTPMDXSNKQ\nIBOW=EDLAXWUXVGOJTUUM\nTFSP=XMRXOPERMNYGPCOI\nISRM=YUZCWNUXYZGLMAJQ",
+          "evaluator": {
+            "directory": [
+              [
+                "JSEV",
+                "IBOW"
+              ],
+              [
+                "LNHL",
+                "ISRM"
+              ],
+              [
+                "SSYH",
+                "HAAH"
+              ],
+              [
+                "FRGZ",
+                "JOJF"
+              ],
+              [
+                "KVAP",
+                "TFSP"
+              ]
+            ],
+            "queried_subject": "LNHL",
+            "registry": [
+              [
+                "HAAH",
+                "QGYOFQRJPUTQHAMV"
+              ],
+              [
+                "JOJF",
+                "JCIPMDRTPMDXSNKQ"
+              ],
+              [
+                "IBOW",
+                "EDLAXWUXVGOJTUUM"
+              ],
+              [
+                "TFSP",
+                "XMRXOPERMNYGPCOI"
+              ],
+              [
+                "ISRM",
+                "YUZCWNUXYZGLMAJQ"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00007",
+          "query": "What is the code for subject LNHL?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "JSEV>IBOW\nLNHL>HAAH\nSSYH>ISRM\nFRGZ>JOJF\nKVAP>TFSP",
+          "b_private_context": "HAAH=QGYOFQRJPUTQHAMV\nJOJF=JCIPMDRTPMDXSNKQ\nIBOW=EDLAXWUXVGOJTUUM\nTFSP=XMRXOPERMNYGPCOI\nISRM=YUZCWNUXYZGLMAJQ",
+          "evaluator": {
+            "directory": [
+              [
+                "JSEV",
+                "IBOW"
+              ],
+              [
+                "LNHL",
+                "HAAH"
+              ],
+              [
+                "SSYH",
+                "ISRM"
+              ],
+              [
+                "FRGZ",
+                "JOJF"
+              ],
+              [
+                "KVAP",
+                "TFSP"
+              ]
+            ],
+            "queried_subject": "LNHL",
+            "registry": [
+              [
+                "HAAH",
+                "QGYOFQRJPUTQHAMV"
+              ],
+              [
+                "JOJF",
+                "JCIPMDRTPMDXSNKQ"
+              ],
+              [
+                "IBOW",
+                "EDLAXWUXVGOJTUUM"
+              ],
+              [
+                "TFSP",
+                "XMRXOPERMNYGPCOI"
+              ],
+              [
+                "ISRM",
+                "YUZCWNUXYZGLMAJQ"
+              ]
+            ]
+          },
+          "family_id": "development_qa_00007",
+          "query": "What is the code for subject LNHL?",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_multidocument_qa_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "EDLAXWUXVGOJTUUM",
+        "FRGZ",
+        "HAAH",
+        "IBOW",
+        "ISRM",
+        "JCIPMDRTPMDXSNKQ",
+        "JOJF",
+        "JSEV",
+        "KVAP",
+        "LNHL",
+        "QGYOFQRJPUTQHAMV",
+        "SSYH",
+        "TFSP",
+        "XMRXOPERMNYGPCOI",
+        "YUZCWNUXYZGLMAJQ"
+      ],
+      "family_id": "development_qa_00007",
+      "private_value_inventory": [
+        "EDLAXWUXVGOJTUUM",
+        "FRGZ",
+        "HAAH",
+        "IBOW",
+        "ISRM",
+        "JCIPMDRTPMDXSNKQ",
+        "JOJF",
+        "JSEV",
+        "KVAP",
+        "LNHL",
+        "QGYOFQRJPUTQHAMV",
+        "SSYH",
+        "TFSP",
+        "XMRXOPERMNYGPCOI",
+        "YUZCWNUXYZGLMAJQ"
+      ],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_multidocument_qa_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 5,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 5,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": ".....\n#.##.\n.#...\n.....\n..#..",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 1,1\nGoal: 2,4",
+          "evaluator": {
+            "goal": [
+              2,
+              4
+            ],
+            "grid": [
+              ".....",
+              "#.##.",
+              ".#...",
+              ".....",
+              "..#.."
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              1
+            ]
+          },
+          "family_id": "development_navigation_00000",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": ".#...\n#.##.\n.....\n.....\n..#..",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 1,1\nGoal: 2,4",
+          "evaluator": {
+            "goal": [
+              2,
+              4
+            ],
+            "grid": [
+              ".#...",
+              "#.##.",
+              ".....",
+              ".....",
+              "..#.."
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              1
+            ]
+          },
+          "family_id": "development_navigation_00000",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:5cfc032f335951074211e919696886254e4bcec01cbc341ed4ae68affd0e9e0c",
+        "nav_map_sha256:62b13dd3681747136def5807124040dca4ec745dff1f5184d61672671066dbb6",
+        "nav_instance_sha256:09e60270ecf91b5fc07ab141bc50edcbce7ec9d5aa2b23cd3209fecb06e38605",
+        "nav_instance_sha256:a9fa7b73adf5e33b26cc9a6bf5dd541777b7df02924c894ea344df61fbb9fd7a"
+      ],
+      "family_id": "development_navigation_00000",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 1,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 6,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": ".#..##\n...#.#\n.###.#\n.#....\n....#.\n..##.#",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 1,4\nGoal: 5,1",
+          "evaluator": {
+            "goal": [
+              5,
+              1
+            ],
+            "grid": [
+              ".#..##",
+              "...#.#",
+              ".###.#",
+              ".#....",
+              "....#.",
+              "..##.#"
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              4
+            ]
+          },
+          "family_id": "development_navigation_00001",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": ".#..##\n.....#\n.#####\n.#....\n....#.\n..##.#",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 1,4\nGoal: 5,1",
+          "evaluator": {
+            "goal": [
+              5,
+              1
+            ],
+            "grid": [
+              ".#..##",
+              ".....#",
+              ".#####",
+              ".#....",
+              "....#.",
+              "..##.#"
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              4
+            ]
+          },
+          "family_id": "development_navigation_00001",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:1fd85148631a361040cf8ad369934434e30ff1092bf8d8d2a94409fb8b45622c",
+        "nav_map_sha256:99a3d915c003821a64198b8ee9e2370980e3ab2c2bd7bc77cbd04e6f443e6bdc",
+        "nav_instance_sha256:706911291cfd035b0d61306d228431c4dc070233846121857ec9ec20ca093d3a",
+        "nav_instance_sha256:b9c4285621060ed6bac1d2194987c4bbc8d9d6d296c327399041a1a300b7623b"
+      ],
+      "family_id": "development_navigation_00001",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 1,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 5,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "#.#.#\n#....\n#.##.\n..#.#\n.....",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 3,3\nGoal: 2,1",
+          "evaluator": {
+            "goal": [
+              2,
+              1
+            ],
+            "grid": [
+              "#.#.#",
+              "#....",
+              "#.##.",
+              "..#.#",
+              "....."
+            ],
+            "max_steps": 50,
+            "start": [
+              3,
+              3
+            ]
+          },
+          "family_id": "development_navigation_00002",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "#.#.#\n#....\n#.##.\n..#..\n...#.",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 3,3\nGoal: 2,1",
+          "evaluator": {
+            "goal": [
+              2,
+              1
+            ],
+            "grid": [
+              "#.#.#",
+              "#....",
+              "#.##.",
+              "..#..",
+              "...#."
+            ],
+            "max_steps": 50,
+            "start": [
+              3,
+              3
+            ]
+          },
+          "family_id": "development_navigation_00002",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:af837377364d255197bacda47f34c627fce5705e468c89fa283aee2584a2a7b3",
+        "nav_map_sha256:62c4d8daa7191ccc753cd17ea9c21b849e1afc781ffd55151f9abf2260018fae",
+        "nav_instance_sha256:34e46f3cce3461ea2317ff6e83fa4070453f8073513f6d7f3749dc8d9c16b56a",
+        "nav_instance_sha256:9a131a76b475ac0eb502c1ed94a3b39197f4822d92670cfa92f14d02fd8d8702"
+      ],
+      "family_id": "development_navigation_00002",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 3,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 6,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "....#.\n.####.\n#..#..\n..#.#.\n..#...\n..#...",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 2,4\nGoal: 4,3",
+          "evaluator": {
+            "goal": [
+              4,
+              3
+            ],
+            "grid": [
+              "....#.",
+              ".####.",
+              "#..#..",
+              "..#.#.",
+              "..#...",
+              "..#..."
+            ],
+            "max_steps": 50,
+            "start": [
+              2,
+              4
+            ]
+          },
+          "family_id": "development_navigation_00003",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "....#.\n.####.\n#..#.#\n..#...\n..#...\n..#...",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 2,4\nGoal: 4,3",
+          "evaluator": {
+            "goal": [
+              4,
+              3
+            ],
+            "grid": [
+              "....#.",
+              ".####.",
+              "#..#.#",
+              "..#...",
+              "..#...",
+              "..#..."
+            ],
+            "max_steps": 50,
+            "start": [
+              2,
+              4
+            ]
+          },
+          "family_id": "development_navigation_00003",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:89717e48e4d114d429633d58ac8dd7c4c6d1ecb367cd159e29da9de6dc57ab59",
+        "nav_map_sha256:a88baaab504df0a8eb2043285cf3e9325826997387374f92cc4a4ede84f2cf45",
+        "nav_instance_sha256:a730a9687c2daaa7c38f5dd29779fd66bcef52e57664901c3f612a790658a295",
+        "nav_instance_sha256:e9b4eb8aa50378beb012249781a9166c8d6c22b61a5367ae678b362108ac6228"
+      ],
+      "family_id": "development_navigation_00003",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 3,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 5,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "..###\n##.##\n#...#\n..#..\n..#..",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 3,4",
+          "evaluator": {
+            "goal": [
+              3,
+              4
+            ],
+            "grid": [
+              "..###",
+              "##.##",
+              "#...#",
+              "..#..",
+              "..#.."
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              2
+            ]
+          },
+          "family_id": "development_navigation_00004",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "..###\n##..#\n#.#.#\n..#..\n..#..",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 3,4",
+          "evaluator": {
+            "goal": [
+              3,
+              4
+            ],
+            "grid": [
+              "..###",
+              "##..#",
+              "#.#.#",
+              "..#..",
+              "..#.."
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              2
+            ]
+          },
+          "family_id": "development_navigation_00004",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:81449d6237d9e2221c56706f93470d33937505138e01190f6b47be25c6686300",
+        "nav_map_sha256:6940a78bfbe43424ad3b7abcba78bc5dac801c978b30c385b62448e7147fb70c",
+        "nav_instance_sha256:1e13602763ad544e8f47ef84dbbaa76251bb6338cee71bfddff60446a35db7a5",
+        "nav_instance_sha256:2d2c04898ac562da83f5456224bf5bb6b6be3f40d27b546686e754ac6d8c4f2e"
+      ],
+      "family_id": "development_navigation_00004",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 2,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 6,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": ".....#\n.#...#\n..##.#\n.##..#\n..#.#.\n##.#.#",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 4,3\nGoal: 0,2",
+          "evaluator": {
+            "goal": [
+              0,
+              2
+            ],
+            "grid": [
+              ".....#",
+              ".#...#",
+              "..##.#",
+              ".##..#",
+              "..#.#.",
+              "##.#.#"
+            ],
+            "max_steps": 50,
+            "start": [
+              4,
+              3
+            ]
+          },
+          "family_id": "development_navigation_00005",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": ".....#\n.#...#\n..##.#\n.###.#\n..#...\n##.#.#",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 4,3\nGoal: 0,2",
+          "evaluator": {
+            "goal": [
+              0,
+              2
+            ],
+            "grid": [
+              ".....#",
+              ".#...#",
+              "..##.#",
+              ".###.#",
+              "..#...",
+              "##.#.#"
+            ],
+            "max_steps": 50,
+            "start": [
+              4,
+              3
+            ]
+          },
+          "family_id": "development_navigation_00005",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:8a7ad92e27543287aaae1e0b9cddc16dc1dbca5643cfa5159314d91f7412d710",
+        "nav_map_sha256:0de90362b81058add8d903b6b96a151cf37704f5e3b1a52ea7b75b496f014a69",
+        "nav_instance_sha256:798676bf2fe480c20ecbe03a727f9b14e319e0dbbf1c8a166584c957be88c325",
+        "nav_instance_sha256:e2f19d760c7ad771021d9457c1131198506d22d1fbe0e27537985b0509076e46"
+      ],
+      "family_id": "development_navigation_00005",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 2,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 5,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "#.###\n...##\n..#.#\n#.###\n...#.",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 4,2",
+          "evaluator": {
+            "goal": [
+              4,
+              2
+            ],
+            "grid": [
+              "#.###",
+              "...##",
+              "..#.#",
+              "#.###",
+              "...#."
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              2
+            ]
+          },
+          "family_id": "development_navigation_00006",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "#.###\n.#.##\n....#\n#.###\n...#.",
+          "b_private_context": "Grid: 5 rows, 5 columns.\nStart: 1,2\nGoal: 4,2",
+          "evaluator": {
+            "goal": [
+              4,
+              2
+            ],
+            "grid": [
+              "#.###",
+              ".#.##",
+              "....#",
+              "#.###",
+              "...#."
+            ],
+            "max_steps": 50,
+            "start": [
+              1,
+              2
+            ]
+          },
+          "family_id": "development_navigation_00006",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:d57f1821b5abb44b507d80431bf0d27af3b94412a0676530efdefa4410aae6d0",
+        "nav_map_sha256:621caaeb9e2126d4a1eb77850a9c92ce97153e65d65c4e3f90adbce1c32bdf5b",
+        "nav_instance_sha256:a3ec44d2def35a8da8e2b84319a6fdf7f43d04ea7021a88afb1bf9de837d9a6b",
+        "nav_instance_sha256:47f88807befc72cfe3a8a67460c4e9051c4fa1c36cf00a3461fb6786d3d14529"
+      ],
+      "family_id": "development_navigation_00006",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    },
+    {
+      "design": {
+        "counterpart": "two critical cells swap; identical B view and disjoint executable first actions",
+        "generation_attempts": 2,
+        "mode": "nonadaptive_planned_route",
+        "seed_is_not_exported": true,
+        "size": 6,
+        "topology": "random 65-percent-open proposal conditioned on paired reachability"
+      },
+      "episodes": {
+        "alternate": {
+          "a_private_context": "..#.##\n#...##\n#.#.#.\n...#..\n.#.###\n..#...",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 4,2\nGoal: 5,0",
+          "evaluator": {
+            "goal": [
+              5,
+              0
+            ],
+            "grid": [
+              "..#.##",
+              "#...##",
+              "#.#.#.",
+              "...#..",
+              ".#.###",
+              "..#..."
+            ],
+            "max_steps": 50,
+            "start": [
+              4,
+              2
+            ]
+          },
+          "family_id": "development_navigation_00007",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "alternate"
+        },
+        "original": {
+          "a_private_context": "..#.##\n#...##\n#.#.#.\n..##..\n.#.###\n......",
+          "b_private_context": "Grid: 6 rows, 6 columns.\nStart: 4,2\nGoal: 5,0",
+          "evaluator": {
+            "goal": [
+              5,
+              0
+            ],
+            "grid": [
+              "..#.##",
+              "#...##",
+              "#.#.#.",
+              "..##..",
+              ".#.###",
+              "......"
+            ],
+            "max_steps": 50,
+            "start": [
+              4,
+              2
+            ]
+          },
+          "family_id": "development_navigation_00007",
+          "query": "Return a complete executable route from start to goal, using at most 50 moves.",
+          "schema_version": 1,
+          "split": "development",
+          "task": "private_planned_navigation_v1",
+          "variant": "original"
+        }
+      },
+      "exclusion_inventory": [
+        "nav_map_sha256:d76bad9fcda5aa93aa110e7065343885eda94727bf7d11c5884bbb0380b37938",
+        "nav_map_sha256:ac5d58d5e6ff35ad4d2fdaa2c1a2ffa56e0dfffcbe53c3c9fd985ba333b86de2",
+        "nav_instance_sha256:84da6dbdd3cf24d85493903aea1bc6dcc6fd7f4479527caf99118435436d9faa",
+        "nav_instance_sha256:08149d2a97f18833b623fa648a3fd376850aef614eb51bddf0e0ca3b618e8922"
+      ],
+      "family_id": "development_navigation_00007",
+      "private_value_inventory": [],
+      "schema_version": 1,
+      "split": "development",
+      "task": "private_planned_navigation_v1"
+    }
+  ],
+  "split": "development"
+}

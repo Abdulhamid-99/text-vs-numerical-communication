@@ -1,0 +1,11 @@
+{
+  "error": null,
+  "finished_utc": "2026-09-12T16:50:51.640824+00:00",
+  "n_completed": 80,
+  "n_requested": 80,
+  "phase": "development_data",
+  "schema": 1,
+  "stage": "finished",
+  "started_utc": "2026-09-12T16:50:51.237134+00:00",
+  "status": "completed"
+}

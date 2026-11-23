@@ -40,7 +40,7 @@ python -B state_study.py smoke --cache CACHE --image paper-state-repro:cu130 --o
 
 This uses Qwen on the first frozen QA family. The sender generates a message, re-encodes its ordered states and produces a PCA packet. A separate, offline receiver container sees its own private view and that packet. The host checks the packet digest, byte count and single span injection, then grades the answer against the hidden world. Read `smoke_result.json` for both the transport outcome and the task score. A completed transfer can yield an incorrect answer. The smoke validates small checkpoint files and checks that all Qwen shards are present. Use `verify-cache` for full weight hashes.
 
-The original-image release check reproduced the recorded first QA case exactly. Qwen generated 39 UTF-8 bytes (27 tokens). The PCA packet contained 7,084 bytes and had SHA-256 `5036ab3ee552dfa4271425cb3e838562b192c9d0250f88cd9bd1a5012ec23ef7`. The receiver consumed the packet once and produced the correct 16-letter answer in 10 tokens.
+The release check reproduced the recorded first QA case with both the original image and an independently built image from this Dockerfile. Qwen generated 39 UTF-8 bytes (27 tokens). The PCA packet contained 7,084 bytes and had SHA-256 `5036ab3ee552dfa4271425cb3e838562b192c9d0250f88cd9bd1a5012ec23ef7`. Each receiver consumed the packet once and produced the correct 16-letter answer in 10 tokens.
 
 ## Full held-out experiment
 
@@ -56,4 +56,35 @@ To regrade an existing complete run without performing new model inference, use 
 python -B state_study.py analyze --plan OUTPUT/plan/protocol.json --data OUTPUT/data --study OUTPUT/study --output OUTPUT/reanalysis
 ```
 
+The release check rescored the full recorded run in the historical image. It graded all 3,072 saved receiver records and finalized the 16 contrasts. The ten analysis files and two statistics files, including all per-family grades, budget replays and paired statistics, matched the original results byte for byte. Run status timestamps and their file manifests belong to each execution.
+
 For the eight supplementary budget and fidelity tables, follow the [S2 analysis instructions](diagnostics/README.md).
+
+## Optional PCA refit
+
+The fitted bases in the held-out experiment keep the comparison fixed across runs. To rerun the earlier calibration as a separate exercise, the original synthetic calibration/development inputs and model configs are included. The full input check above verifies the split boundary and the recorded development manifest. Run the following in a POSIX shell from `state_transfer/`, setting `cache` and `out` to absolute paths on the host. Give each exercise a fresh output directory.
+
+```sh
+cache=/absolute/path/to/model-hub
+out=/absolute/path/to/new-calibration-run
+mkdir "$out"
+for label in qwen llama; do
+  run_probe() {
+    docker run --rm --network none --gpus device=0 --read-only --tmpfs /tmp:rw,size=2g \
+      -e HF_HUB_CACHE=/modelhub -e HF_HOME=/tmp/hf -e HF_HUB_OFFLINE=1 -e TRANSFORMERS_OFFLINE=1 \
+      -e OMP_NUM_THREADS=4 -e MKL_NUM_THREADS=4 -e OPENBLAS_NUM_THREADS=4 \
+      --mount "type=bind,source=$cache,target=/modelhub,readonly" \
+      --mount "type=bind,source=$PWD/frozen/development,target=/data,readonly" \
+      --mount "type=bind,source=$PWD/frozen/configs,target=/configs,readonly" \
+      --mount "type=bind,source=$out,target=/out" \
+      paper-state-repro:cu130 "$@"
+  }
+  run_probe /code/thesis_study/probe_tasks.py --model "$label" --layer 0 --count 4 \
+    --data /data --config "/configs/$label.json" --output "/out/$label-probe" || exit 1
+  run_probe /code/thesis_study/calibrate_probe.py --model "$label" --rank 512 \
+    --data /data --config "/configs/$label.json" --source-probe "/out/$label-probe" \
+    --output "/out/$label-calibration" || exit 1
+done
+```
+
+This mounts the development split only. The separate held-out runner continues to use the four published bases. Variations in linear-algebra libraries can affect the low-order numerical bits of regenerated PCA assets. The release check used the original fitted bases for inference and recomputed their calibration/fidelity summaries.

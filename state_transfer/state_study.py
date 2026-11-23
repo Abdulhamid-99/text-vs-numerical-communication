@@ -17,7 +17,8 @@ DATA_HASH = "609feb781e7be46d26db8bd742e6f1a777a0338138c359cce522c03b0e4bd42f"
 sys.dont_write_bytecode = True
 sys.path[:0] = [str(RUNTIME / "thesis_study"), str(RUNTIME / "src")]
 
-from common import read_json, write_json, sha, seal
+from common import read_json, write_json, sha, seal, verify_seal
+from private_tasks import validate_split_isolation
 from prepare_study import validate_heldout_data
 from protocol_contracts import validate_protocol
 
@@ -27,6 +28,16 @@ def verify():
         raise ValueError("The supplied original protocol or data manifest differs")
     plan = validate_protocol(PLAN, code_root=RUNTIME)
     families, _ = validate_heldout_data(PLAN, DATA, plan)
+    development = ROOT / "frozen" / "development"
+    verify_seal(development)
+    if sha(development / "artifact_manifest.json") != plan["development_data_manifest_sha256"]:
+        raise ValueError("Original calibration/development files differ from the frozen protocol")
+    calibration = read_json(development / "calibration.json")["families"]
+    tuning = read_json(development / "development.json")["families"]
+    validate_split_isolation(calibration + tuning + families)
+    for label, settings in plan["models"].items():
+        if read_json(ROOT / "frozen" / "configs" / (label + ".json")) != settings["config"]:
+            raise ValueError(f"Calibration checkpoint settings differ for {label}")
     return plan, families
 
 

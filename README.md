@@ -37,7 +37,7 @@ The state-transfer results cover 64 paired families for each of two tasks, teste
 
 On 23 November 2026, the fixed 64-byte comparison was run again from the original benchmark inputs and the pinned BGE checkpoint. The new runs covered 989 ArguAna queries, 103 BRIGHT Biology queries and 300 SciFact queries. Across the two channels, all 2,784 transmitted packets and all 2,784 top-ten rankings matched the archived outputs. The 343-candidate ArguAna development search was not repeated in this check.
 
-For state transfer, the CPU replay rescored all 3,072 saved receiver answers and reproduced the 180 budget-sweep cells. A separate two-container check regenerated one Qwen QA example with the original image. The sender produced 39 bytes of text and a 7,084-byte PCA packet. Its digest and the receiver's answer matched the original run. The full 3,584 model generations were not repeated for this version.
+For state transfer, the CPU replay rescored all 3,072 saved receiver answers and reproduced the 180 budget-sweep cells. One Qwen QA example was also run with separate sender and receiver containers, first with the archived image and again with the image rebuilt from the Dockerfile in this repository. Both produced the same 39 bytes of sender text, the same 7,084-byte PCA packet and the same correct receiver answer as the original run. The full 3,584 model generations were not repeated for this version.
 
 ## Experiment inputs
 
